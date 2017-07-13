@@ -5,18 +5,15 @@ import matplotlib.pyplot as plt
 import matplotlib.axes as axes
 import numpy as np
 
-#TODO zero out graphs better
-#TODO plot 0.1 and 0.2L for big multilayer curve
-
 # Preliminary stuff
 # Display of temp range on plots. These limits are null if there is more than one column unless otherwise specified
 use_temp_limits = True
 low_temp = 100
-high_temp = 375
+high_temp = 600
 single_molecule_name = 'HOAC'
 # any vertical dotted lines go here
-dotted_lines = [204.7, 161, 395, 428]
-# dotted_lines = [204.7, 161, 260, 395, 428]
+# dotted_lines = [204.7, 161, 395, 428]
+dotted_lines = [204.7, 161, 260, 395, 428]
 
 # dict_values = dict({'HOAC':'61.297', 'CO':})
 
@@ -61,7 +58,7 @@ def single_slope_subtract(file_read, num_points_to_average_beg=50,num_points_to_
     # caveat...only works with monitoring a single mass-- update 7/13/17 appears to have fixed this...
     # y_prime = pd.DataFrame(slope.values * file_read.index.values, columns=file_read.columns)
 
-    y_prime = pd.DataFrame(np.matmul(file_read.index.values[:, np.newaxis],np.transpose(slope.values[:, np.newaxis])),
+    y_prime = pd.DataFrame(np.matmul(file_read.index.values[:, np.newaxis], np.transpose(slope.values[:, np.newaxis])),
                            columns=file_read.columns)
 
     y_prime.index = file_read.index
@@ -134,9 +131,10 @@ for file in file_path1:
     new_file_read = single_slope_subtract(file_read)
     # baseline subtraction
     new_file_read = new_file_read - new_file_read.min()
-    # a second slope subtraction
-    new_file_read = single_slope_subtract(new_file_read,num_points_to_average_beg=20,num_points_to_average_end=20)
+    # # a second slope subtraction
+    # new_file_read = single_slope_subtract(new_file_read,num_points_to_average_beg=20,num_points_to_average_end=20)
 
+    # PLOTTING
     # only for 1 column
     if file_read.columns.__len__() is 1:
     # plot the data
@@ -146,6 +144,17 @@ for file in file_path1:
 
     # for multiple columns
     else:
+        ax = plt.figure(123, figsize=(15, 7))
+        # MASS 61 IS USED SPECIFICALLY FOR HOAC!!!!!!!!
+        try:
+            plt.plot(new_file_read.filter(regex='61'), label=filename)
+
+            plt.ylabel('QMS signal (a.u.)')
+            plt.xlabel('Temperature (K)')
+            plt.title(single_molecule_name + '/Ni(110) TPD')
+        except ZeroDivisionError:
+            print('ZeroDivisionError: integer division or modulo by zero')
+            print('Mass 61 not found in ' + filename)
         # ax = plt.figure(123, figsize=(15, 7))
         new_file_read.plot(figsize=(15, 7))
         # plt.plot(new_file_read)
@@ -161,6 +170,7 @@ for file in file_path1:
     plt.ylabel('QMS signal (a.u.)')
     plt.xlabel('Temperature (K)')
     if file_read.columns.__len__() is not 1:
+        plt.title(filename)
         plt.legend(bbox_to_anchor=(1, 0.5), loc='center', ncol=1)
     else:
         plt.title(single_molecule_name + '/Ni(110) TPD')
