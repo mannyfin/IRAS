@@ -3,6 +3,9 @@ from tkinter import filedialog
 import pandas as pd
 import matplotlib.pyplot as plt
 
+#TODO zero out graphs better
+#TODO plot 0.1 and 0.2L for big multilayer curve
+
 
 def rename_to_text(file_path):
     import os
@@ -124,7 +127,7 @@ for file in file_path1:
     # ax.hold()
 
     # any vertical dotted line values go here
-    dotted_lines = [202, 161, 260, 395, 428]
+    dotted_lines = [204.7, 161, 260, 395, 428]
     for x_val in dotted_lines:
         plt.axvline(x=x_val, ymin=0, ymax=1, color='k',  linestyle='--')
 
