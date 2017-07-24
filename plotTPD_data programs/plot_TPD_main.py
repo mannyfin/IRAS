@@ -5,9 +5,18 @@ import matplotlib.pyplot as plt
 import matplotlib.axes as axes
 import numpy as np
 
+# TODO see below
+"""
+1. areas don't get bigger than monolayer for the cracks
+2. plot uptake of HOAC 
+3. plot uptake of H2 and CO vs uptake of HOAC (combine 1 and 2)
+
+"""
+
+
 # Preliminary stuff
 # Display of temp range on plots. These limits are null if there is more than one column unless otherwise specified
-use_temp_limits = True
+use_temp_limits = False
 low_temp = 100
 high_temp = 600
 single_molecule_name = 'HOAC'
@@ -86,7 +95,8 @@ def read_files(file):
     # rename columns
     file_read.columns = column_names
     # drop the time column and mse=8
-    file_read = file_read.drop([column_names[0], column_names[-1]], axis=1)
+    # file_read = file_read.drop([column_names[0], column_names[-1]], axis=1)
+    file_read = file_read.drop([column_names[0]], axis=1)
     temp = file_read[file_read != 0]
     temp = temp.dropna(axis=0)
 
@@ -147,7 +157,10 @@ for file in file_path1:
         ax = plt.figure(123, figsize=(15, 7))
         # MASS 61 IS USED SPECIFICALLY FOR HOAC!!!!!!!!
         try:
-            plt.plot(new_file_read.filter(regex='61'), label=filename)
+            fig1 = plt.figure(1, figsize=(15, 7))
+            ax1 = fig1.add_subplot(111)
+            # ax1.plot(new_file_read.filter(regex='61'), label=filename)
+            ax1.plot(new_file_read.filter(regex='60'), label=filename)
 
             plt.ylabel('QMS signal (a.u.)')
             plt.xlabel('Temperature (K)')
@@ -155,6 +168,54 @@ for file in file_path1:
         except ZeroDivisionError:
             print('ZeroDivisionError: integer division or modulo by zero')
             print('Mass 61 not found in ' + filename)
+        try:
+            fig2 = plt.figure(2, figsize=(15, 7))
+            ax2 = fig2.add_subplot(111)
+            # ax2.plot(new_file_read.filter(regex='1.5'), label=filename)
+            ax2.plot(new_file_read.filter(regex='1.9'), label=filename)
+
+            plt.ylabel('QMS signal (a.u.)')
+            plt.xlabel('Temperature (K)')
+            plt.title('H2/Ni(110) TPD')
+        except ZeroDivisionError:
+            print('ZeroDivisionError: integer division or modulo by zero')
+            print('Mass 61 not found in ' + filename)
+        try:
+            fig3 = plt.figure(3, figsize=(15, 7))
+            ax3 = fig3.add_subplot(111)
+            # ax3.plot(new_file_read.filter(regex='17.9'), label=filename)
+            ax3.plot(new_file_read.filter(regex='17.5'), label=filename)
+
+            plt.ylabel('QMS signal (a.u.)')
+            plt.xlabel('Temperature (K)')
+            plt.title('H2O/Ni(110) TPD')
+        except ZeroDivisionError:
+            print('ZeroDivisionError: integer division or modulo by zero')
+            print('Mass 18 not found in ' + filename)
+        try:
+            fig4 = plt.figure(4, figsize=(15, 7))
+            ax4 = fig4.add_subplot(111)
+            # ax4.plot(new_file_read.filter(regex='28'), label=filename)
+            ax4.plot(new_file_read.filter(regex='27.7'), label=filename)
+
+            plt.ylabel('QMS signal (a.u.)')
+            plt.xlabel('Temperature (K)')
+            plt.title('CO/Ni(110) TPD')
+        except ZeroDivisionError:
+            print('ZeroDivisionError: integer division or modulo by zero')
+            print('Mass 28 not found in ' + filename)
+        try:
+            fig5 = plt.figure(5, figsize=(15, 7))
+            ax5 = fig5.add_subplot(111)
+            # ax5.plot(new_file_read.filter(regex='44'), label=filename)
+            ax5.plot(new_file_read.filter(regex='43.7'), label=filename)
+
+            plt.ylabel('QMS signal (a.u.)')
+            plt.xlabel('Temperature (K)')
+            plt.title('CO2/Ni(110) TPD')
+        except ZeroDivisionError:
+            print('ZeroDivisionError: integer division or modulo by zero')
+            print('Mass 44 not found in ' + filename)
         # ax = plt.figure(123, figsize=(15, 7))
         new_file_read.plot(figsize=(15, 7))
         # plt.plot(new_file_read)
