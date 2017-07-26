@@ -31,8 +31,8 @@ dotted_lines = [204.7, 161, 260, 395, 428]
 
 dict_values = dict({'HOAC': 61.297,
                     'CO': 28.1,
-                    'H2':1.5,
-                    'H2O':17.9,
+                    'H2': 1.5,
+                    'H2O': 17.9,
                     'CO2': 44.7})
 # dict_values = dict({'HOAC': 60.,
 #                     'CO': 27.7,
@@ -123,12 +123,16 @@ def plot_same_masses(dict__values, file_name, new__file__read):
             plt.title(key + '/Ni(110) TPD')
             # iterate i to change the figure number for the different mass
 
+            new__file__read.rename(columns={new__file__read.filter(regex=str(value)).columns[0]: key}, inplace=True)
+            plt.legend()
 
         except ZeroDivisionError:
             if ax.has_data() is False:
                 plt.close(fig)
             # print('ZeroDivisionError: integer division or modulo by zero')
             print('Mass: ' + key + ' not found in ' + file_name)
+
+    return new__file__read
 
 def read_files(file):
     file_path, filename = rename_to_text(file)
