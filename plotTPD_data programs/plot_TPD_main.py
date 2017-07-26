@@ -29,20 +29,20 @@ single_molecule_name = 'HOAC'
 dotted_lines = [204.7, 161, 260, 395, 428]
 
 
-# dict_values = dict({'HOAC': 61.297,
-#                     'CO': 28.2,
-#                     'H2':1.5,
-#                     'H2O':17.9,
-#                     'CO2': 44.7})
-dict_values = dict({'HOAC': 60.,
-                    'CO': 27.7,
-                    'H2':1.942,
-                    'H2O':17.57,
-                    'CO2': 43.7,
-                    'CH2': 13.6,
-                    '29': 28.8,
-                    'EtOH': 30.7,
-                    'CH4': 14.6})
+dict_values = dict({'HOAC': 61.297,
+                    'CO': 28.1,
+                    'H2':1.5,
+                    'H2O':17.9,
+                    'CO2': 44.7})
+# dict_values = dict({'HOAC': 60.,
+#                     'CO': 27.7,
+#                     'H2':1.942,
+#                     'H2O':17.57,
+#                     'CO2': 43.7,
+#                     'CH2': 13.6,
+#                     '29': 28.8,
+#                     'EtOH': 30.7,
+#                     'CH4': 14.6})
 
 
 def rename_to_text(file_path):
@@ -109,22 +109,26 @@ def plot_same_masses(dict__values, file_name, new__file__read):
     :param new__file__read: dataframe of the data in the file
     :return: outputs a plot
     """
-    i = 1
+    i = 0
     for key, value in dict__values.items():
 
         try:
+            i += 1
+            mass_data = new__file__read.filter(regex=str(value))
             fig = plt.figure(i, figsize=(15, 7))
             ax = fig.add_subplot(111)
-            ax.plot(new__file__read.filter(regex=str(value)), label=file_name)
+            ax.plot(mass_data, label=file_name)
             plt.ylabel('QMS signal (a.u.)')
             plt.xlabel('Temperature (K)')
             plt.title(key + '/Ni(110) TPD')
             # iterate i to change the figure number for the different mass
-            i += 1
+
 
         except ZeroDivisionError:
-            print('ZeroDivisionError: integer division or modulo by zero')
-            print('Mass' + key + 'not found in ' + file_name)
+            if ax.has_data() is False:
+                plt.close(fig)
+            # print('ZeroDivisionError: integer division or modulo by zero')
+            print('Mass: ' + key + ' not found in ' + file_name)
 
 def read_files(file):
     file_path, filename = rename_to_text(file)
@@ -160,8 +164,9 @@ root = tk.Tk()
 root.withdraw()
 file_path1 = filedialog.askopenfilenames(filetypes=(('All files', '*.*'), ('Text files', '*.txt')),
                                          title='Select Input File(s)')
-
+fignum = 1+len(dict_values.keys())
 for file in file_path1:
+
 
     file_read, filename = read_files(file=file)
 
@@ -184,37 +189,43 @@ for file in file_path1:
     new_file_read = single_slope_subtract(file_read)
     # baseline subtraction
     new_file_read = new_file_read - new_file_read.min()
-    # # a second slope subtraction
+    # # a second slope subtraction -- TODO fix algo here because it can lead to curves < 0
     # new_file_read = single_slope_subtract(new_file_read,num_points_to_average_beg=20,num_points_to_average_end=20)
 
     # PLOTTING
 
-    plot_same_masses(dict__values=dict_values,file_name=filename, new__file__read=new_file_read)
+    plot_same_masses(dict__values=dict_values, file_name=filename, new__file__read=new_file_read)
 
+    # # plot whole file
     # new_file_read.plot(figsize=(15, 7))
     # plt.plot(new_file_read)
     # plt.legend()
-    # set y lower limit = 0
+    # # set y lower limit = 0
     # axes.Axes.set_ylim(plt.gca(), bottom=0, auto=True)
 
     if use_temp_limits is True:
         axes.Axes.set_xlim(plt.gca(), left=low_temp, right=high_temp)
 
     # file_read.plot()
-
+    # all_axes = plt.figure(fignum)
+    fig = plt.figure(fignum, figsize=(15, 7))
+    all_axes = fig.add_subplot(111)
+    new_file_read.plot(ax=all_axes,figsize=(15, 7), title=filename)
     plt.ylabel('QMS signal (a.u.)')
     plt.xlabel('Temperature (K)')
-    if file_read.columns.__len__() is not 1:
-        plt.title(filename)
-        plt.legend(bbox_to_anchor=(1, 0.5), loc='center', ncol=1)
-    else:
-        plt.title(single_molecule_name + '/Ni(110) TPD')
+    plt.title(filename)
+    # if file_read.columns.__len__() is not 1:
+    #     plt.title(filename)
+    #     plt.legend(bbox_to_anchor=(1, 0.5), loc='center', ncol=1)
+    # else:
+    #     plt.title(single_molecule_name + '/Ni(110) TPD')
     # plt.legend(bbox_to_anchor=(1, 0.5), loc='center', ncol=1)
 
     # any vertical dotted line values go here
     for x_val in dotted_lines:
         plt.axvline(x=x_val, ymin=0, ymax=1, color='k',  linestyle='--')
 
+    fignum += 1
 plt.show()
 print('hi')
 print('hi')
