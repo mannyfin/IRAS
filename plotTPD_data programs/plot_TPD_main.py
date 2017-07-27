@@ -4,6 +4,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.axes as axes
 import numpy as np
+# import scipy.integrate
+from scipy import integrate
+import re
 
 # TODO see below
 """
@@ -28,12 +31,14 @@ single_molecule_name = 'HOAC'
 # dotted_lines = [204.7, 161, 395, 428]
 dotted_lines = [204.7, 161, 260, 395, 428]
 
-
+# names of molecules and their mass from the QMS goes here.
+# HREELS Chamber, PPPL
 dict_values = dict({'HOAC': 61.297,
                     'CO': 28.1,
                     'H2': 1.5,
                     'H2O': 17.9,
                     'CO2': 44.7})
+# IR Chamber
 # dict_values = dict({'HOAC': 60.,
 #                     'CO': 27.7,
 #                     'H2':1.942,
@@ -43,6 +48,16 @@ dict_values = dict({'HOAC': 61.297,
 #                     '29': 28.8,
 #                     'EtOH': 30.7,
 #                     'CH4': 14.6})
+
+# integrating temp values. Put the temperature range in starting from low to high
+temp_values = dict({'HOAC': (140, 220),
+                    'CO': (320, 450),
+                    'H2': (250, 450),
+                    'H2O': (250, 450),
+                    'CO2': (250, 450),
+                    })
+# will append the langmuirs to this list
+langmuir = []
 
 
 def rename_to_text(file_path):
@@ -124,20 +139,84 @@ def plot_same_masses(dict__values, file_name, new__file__read):
             # iterate i to change the figure number for the different mass
 
             new__file__read.rename(columns={new__file__read.filter(regex=str(value)).columns[0]: key}, inplace=True)
+            mass_data.columns = [key]
             plt.legend()
+
+            integrate_area = uptake_area(mass_data, key, temp_ranges=temp_values)
+            print(str(integrate_area)+' area for ' + key)
+        # TODO
+        #     add these areas to a list or ordered dictionary
 
         except ZeroDivisionError:
             if ax.has_data() is False:
                 plt.close(fig)
             # print('ZeroDivisionError: integer division or modulo by zero')
             print('Mass: ' + key + ' not found in ' + file_name)
+    #         TODO
+    #         if the mass is not in the file, we still need to add an empty element to the area for that particular mass
+    #         this way when another file is read that contains the mass, the order is not lost
+    #         add these areas to a list or ordered dictionary
+
 
     return new__file__read
+
+
+def uptake_area(mass_data, key, temp_ranges):
+    # test = mass_data
+    # blah = key
+    # asdf = temp_ranges
+
+
+    lower_index1 = str(temp_ranges[key][0])
+    upper_index1 = str(temp_ranges[key][1])
+    mass_data = mass_data.query('index >' + lower_index1 + ' & index < ' + upper_index1)
+
+    area_under_curve = integrate.trapz(mass_data, x=mass_data.index, axis=0)[0]
+
+    return area_under_curve
+
+
+def langmuir_determination(filename):
+    """
+    lets look at the naming conventions for the files
+    example: '6_6_2017_AA_0.015 L.txt'
+    or 'HOAc_6E-09_150 s _718_high_point_density.txt'
+    In the first case, the dose is in the name, in the second case, we have to calculate the dose
+    assuming background is zero torr...so this is the dosing pressure...
+
+    For reference: 1 Langmuir(L) = 1e-6 torr * seconds and is a unit of exposure
+    :param filename: Name of the experiment file. We assume the name of the file has the info to calculate the exposure
+    :return: langmuir: the exposure for the experiment
+    """
+    try:
+        if 'L' in filename:
+            idx1 = filename[::-1].find('_')
+            idx2 = filename[::-1].find('L')
+
+            # files =filename[-idx1:-idx2]
+            langmuir = float(''.join(i for i in filename[-idx1:-idx2] if i.isdigit() or i == '.'))
+            print(str(langmuir))
+
+        else:
+            # please make sure your file has the name written right...
+            underscore = [m.start() for m in re.finditer('_', filename)]
+            dose = float(filename[underscore[0] + 1: underscore[1]])
+            time_s = float(re.sub('\D', '', filename[underscore[1] + 1: underscore[2]]))
+            langmuir = dose*time_s/(1e-6)
+            print(str(langmuir))
+    except ValueError:
+
+        print("uh oh, I can't figure out how many langmuir this file is.")
+
+    return langmuir
+
 
 def read_files(file):
     file_path, filename = rename_to_text(file)
     print(file_path)
 
+    # find the exposure (L)
+    langmuir.append(langmuir_determination(filename=filename))
     # read file
     file_read = pd.read_csv(file_path, sep='\t', header=3)
 
@@ -161,7 +240,14 @@ def read_files(file):
     # set the index to be temperature
     file_read = file_read.set_index(file_read.keys()[0])
 
+    # TODO append some dictionary to a df every iteration for the uptake curve
+    # pseudo code...
+    # pd.DataFrame(molecule_area[i], index=langmuir) and append all of them
+
     return file_read, filename
+
+
+
 
 # Main begins
 root = tk.Tk()
