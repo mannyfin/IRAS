@@ -144,7 +144,7 @@ def plot_same_masses(dict__values, file_name, new__file__read):
 
             integrate_area = uptake_area(mass_data, key, temp_ranges=temp_values)
             print(str(integrate_area)+' area for ' + key)
-        # TODO
+        # TODO add these areas to a list or ordered dictionary
         #     add these areas to a list or ordered dictionary
 
         except ZeroDivisionError:
