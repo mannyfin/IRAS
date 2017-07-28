@@ -126,7 +126,7 @@ def plot_same_masses(dict__values, file_name, new__file__read):
     """
     i = 0
     for key, value in dict__values.items():
-
+        area_dict= {}
         try:
             i += 1
             mass_data = new__file__read.filter(regex=str(value))
@@ -152,13 +152,16 @@ def plot_same_masses(dict__values, file_name, new__file__read):
                 plt.close(fig)
             # print('ZeroDivisionError: integer division or modulo by zero')
             print('Mass: ' + key + ' not found in ' + file_name)
+            integrate_area = -1
     #         TODO
     #         if the mass is not in the file, we still need to add an empty element to the area for that particular mass
     #         this way when another file is read that contains the mass, the order is not lost
     #         add these areas to a list or ordered dictionary
 
+    #     now add this area to the dictionary
+        area_dict[key] =integrate_area
 
-    return new__file__read
+    return new__file__read, area_dict
 
 
 def uptake_area(mass_data, key, temp_ranges):
@@ -205,8 +208,9 @@ def langmuir_determination(filename):
             langmuir = dose*time_s/(1e-6)
             print(str(langmuir))
     except ValueError:
-
+        langmuir = 0
         print("uh oh, I can't figure out how many langmuir this file is.")
+        print("Setting langmuir to zero")
 
     return langmuir
 
@@ -245,8 +249,6 @@ def read_files(file):
     # pd.DataFrame(molecule_area[i], index=langmuir) and append all of them
 
     return file_read, filename
-
-
 
 
 # Main begins
