@@ -38,21 +38,29 @@ dotted_lines = [204.7, 161, 260, 395, 428]
 
 # names of molecules and their mass from the QMS goes here.
 # HREELS Chamber, PPPL
+<<<<<<< HEAD
 dict_values = dict({'HOAC': 61.297,
                     'CO': 28.2,
                     'H2': 1.5,
                     'H2O': 17.9,
                     'CO2': 44.7})
+=======
+# dict_values = dict({'HOAC': 61.297,
+#                     'CO': 28.2,
+#                     'H2': 1.5,
+#                     'H2O': 17.9,
+#                     'CO2': 44.7})
+>>>>>>> 5743ad30f557f30e6c074300407182af4bb767b4
 # IR Chamber
-# dict_values = dict({'HOAC': 60.,
-#                     'CO': 27.7,
-#                     'H2':1.942,
-#                     'H2O':17.57,
-#                     'CO2': 43.7,
-#                     'CH2': 13.6,
-#                     '29': 28.8,
-#                     'EtOH': 30.7,
-#                     'CH4': 14.6})
+dict_values = dict({'HOAC': 60.,
+                    'CO': 27.7,
+                    'H2':1.942,
+                    'H2O':17.57,
+                    'CO2': 43.7,
+                    'CH2': 13.6,
+                    '29': 28.8,
+                    'EtOH': 30.7,
+                    'CH4': 14.6})
 
 # integrating temp values. Put the temperature range in starting from low to high
 temp_values = dict({'HOAC': (140, 220),
@@ -131,7 +139,7 @@ def plot_same_masses(dict__values, file_name, new__file__read):
     """
     i = 0
     for key, value in dict__values.items():
-
+        area_dict= {}
         try:
             i += 1
             mass_data = new__file__read.filter(regex=str(value))
@@ -148,7 +156,7 @@ def plot_same_masses(dict__values, file_name, new__file__read):
             mass_data.columns = [key]
             plt.legend()
 
-            integrate_area = uptake_area(mass_data, key, temp_ranges=temp_values)
+            # integrate_area = uptake_area(mass_data, key, temp_ranges=temp_values)
             print(str(integrate_area)+' area for ' + key)
         # TODO add these areas to a list or ordered dictionary
         #     add these areas to a list or ordered dictionary
@@ -158,13 +166,16 @@ def plot_same_masses(dict__values, file_name, new__file__read):
                 plt.close(fig)
             # print('ZeroDivisionError: integer division or modulo by zero')
             print('Mass: ' + key + ' not found in ' + file_name)
+            integrate_area = -1
     #         TODO
     #         if the mass is not in the file, we still need to add an empty element to the area for that particular mass
     #         this way when another file is read that contains the mass, the order is not lost
     #         add these areas to a list or ordered dictionary
 
+    #     now add this area to the dictionary
+        area_dict[key] =integrate_area
 
-    return new__file__read
+    return new__file__read, area_dict
 
 
 def uptake_area(mass_data, key, temp_ranges):
@@ -211,8 +222,9 @@ def langmuir_determination(filename):
             langmuir = dose*time_s/(1e-6)
             print(str(langmuir))
     except ValueError:
-
+        langmuir = 0
         print("uh oh, I can't figure out how many langmuir this file is.")
+        print("Setting langmuir to zero")
 
     return langmuir
 
@@ -223,7 +235,10 @@ def read_files(file):
 
     # find the exposure (L)
     # langmuir.append(langmuir_determination(filename=filename))
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5743ad30f557f30e6c074300407182af4bb767b4
     # read file
     file_read = pd.read_csv(file_path, sep='\t', header=3)
 
@@ -252,8 +267,6 @@ def read_files(file):
     # pd.DataFrame(molecule_area[i], index=langmuir) and append all of them
 
     return file_read, filename
-
-
 
 
 # Main begins
