@@ -2,6 +2,7 @@ import tkinter as tk
 from tkinter import filedialog
 import pandas as pd
 import matplotlib.pyplot as plt
+import matplotlib as mlib
 import matplotlib.axes as axes
 import numpy as np
 # import scipy.integrate
@@ -21,6 +22,10 @@ scipy.integrate.trapz(new_file_read,x=new_file_read.index, axis=0)
 """
 
 
+
+mlib.rcParams.update({'font.size': 22})
+
+
 # Preliminary stuff
 # Display of temp range on plots. These limits are null if there is more than one column unless otherwise specified
 use_temp_limits = True
@@ -34,7 +39,7 @@ dotted_lines = [204.7, 161, 260, 395, 428]
 # names of molecules and their mass from the QMS goes here.
 # HREELS Chamber, PPPL
 dict_values = dict({'HOAC': 61.297,
-                    'CO': 28.1,
+                    'CO': 28.2,
                     'H2': 1.5,
                     'H2O': 17.9,
                     'CO2': 44.7})
@@ -132,10 +137,11 @@ def plot_same_masses(dict__values, file_name, new__file__read):
             mass_data = new__file__read.filter(regex=str(value))
             fig = plt.figure(i, figsize=(15, 7))
             ax = fig.add_subplot(111)
-            ax.plot(mass_data, label=file_name)
+            ax.plot(mass_data, label=file_name, linewidth=2.5)
             plt.ylabel('QMS signal (a.u.)')
             plt.xlabel('Temperature (K)')
             plt.title(key + '/Ni(110) TPD')
+            plt.minorticks_on()
             # iterate i to change the figure number for the different mass
 
             new__file__read.rename(columns={new__file__read.filter(regex=str(value)).columns[0]: key}, inplace=True)
@@ -216,7 +222,8 @@ def read_files(file):
     print(file_path)
 
     # find the exposure (L)
-    langmuir.append(langmuir_determination(filename=filename))
+    # langmuir.append(langmuir_determination(filename=filename))
+
     # read file
     file_read = pd.read_csv(file_path, sep='\t', header=3)
 
@@ -300,10 +307,11 @@ for file in file_path1:
     # all_axes = plt.figure(fignum)
     fig = plt.figure(fignum, figsize=(15, 7))
     all_axes = fig.add_subplot(111)
-    new_file_read.plot(ax=all_axes,figsize=(15, 7), title=filename)
+    new_file_read.plot(ax=all_axes,figsize=(15, 7), title=filename, linewidth=2.5)
     plt.ylabel('QMS signal (a.u.)')
     plt.xlabel('Temperature (K)')
     plt.title(filename)
+    plt.minorticks_on()
     # if file_read.columns.__len__() is not 1:
     #     plt.title(filename)
     #     plt.legend(bbox_to_anchor=(1, 0.5), loc='center', ncol=1)
