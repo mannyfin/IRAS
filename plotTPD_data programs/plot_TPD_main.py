@@ -38,19 +38,13 @@ dotted_lines = [204.7, 161, 260, 395, 428]
 
 # names of molecules and their mass from the QMS goes here.
 # HREELS Chamber, PPPL
-<<<<<<< HEAD
+
 dict_values = dict({'HOAC': 61.297,
                     'CO': 28.2,
                     'H2': 1.5,
                     'H2O': 17.9,
                     'CO2': 44.7})
-=======
-# dict_values = dict({'HOAC': 61.297,
-#                     'CO': 28.2,
-#                     'H2': 1.5,
-#                     'H2O': 17.9,
-#                     'CO2': 44.7})
->>>>>>> 5743ad30f557f30e6c074300407182af4bb767b4
+
 # IR Chamber
 dict_values = dict({'HOAC': 60.,
                     'CO': 27.7,
