@@ -229,10 +229,7 @@ def read_files(file):
 
     # find the exposure (L)
     # langmuir.append(langmuir_determination(filename=filename))
-<<<<<<< HEAD
 
-=======
->>>>>>> 5743ad30f557f30e6c074300407182af4bb767b4
     # read file
     file_read = pd.read_csv(file_path, sep='\t', header=3)
 
