@@ -44,17 +44,17 @@ dict_values = dict({'HOAC': 61.297,
                     'H2': 1.5,
                     'H2O': 17.9,
                     'CO2': 44.7})
-
-# IR Chamber
-dict_values = dict({'HOAC': 60.,
-                    'CO': 27.7,
-                    'H2':1.942,
-                    'H2O':17.57,
-                    'CO2': 43.7,
-                    'CH2': 13.6,
-                    '29': 28.8,
-                    'EtOH': 30.7,
-                    'CH4': 14.6})
+#
+# # IR Chamber
+# dict_values = dict({'HOAC': 60.,
+#                     'CO': 27.7,
+#                     'H2':1.942,
+#                     'H2O':17.57,
+#                     'CO2': 43.7,
+#                     'CH2': 13.6,
+#                     '29': 28.8,
+#                     'EtOH': 30.7,
+#                     'CH4': 14.6})
 
 # integrating temp values. Put the temperature range in starting from low to high
 temp_values = dict({'HOAC': (140, 220),
@@ -150,7 +150,7 @@ def plot_same_masses(dict__values, file_name, new__file__read):
             mass_data.columns = [key]
             plt.legend()
 
-            # integrate_area = uptake_area(mass_data, key, temp_ranges=temp_values)
+            integrate_area = uptake_area(mass_data, key, temp_ranges=temp_values)
             print(str(integrate_area)+' area for ' + key)
         # TODO add these areas to a list or ordered dictionary
         #     add these areas to a list or ordered dictionary
