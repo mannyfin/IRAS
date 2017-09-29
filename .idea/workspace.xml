@@ -2,9 +2,227 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7934e857-690a-48c6-9432-6dbff041ce63" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/IRAS.iml" afterPath="$PROJECT_DIR$/.idea/IRAS.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plotTPD_data programs/init_info.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/108-24-7-IR_HOAc_anhydride.jdx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/64-19-7-IR_HOAc.jdx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HOAc Papers/Formic Acid HREELS Ni(110).pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HOAc Papers/Formic Acid on Cu(110).pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HOAc Papers/Formic Acid on Transition Metal Surfaces - Review.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HOAc Papers/Formic Acid on clean and O covered Pt(111).pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HOAc Papers/Formic acid Ni(110).pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HOAc Papers/Formic acid on Ni(110) Madix.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HOAc Papers/Formic acid on clean and water covered Pt(111).pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HOAc Papers/HOAc Pd(111) Lambert.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HOAc Papers/HOAc and acetaldehyde on Cu(110).pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HOAc Papers/HOAc monomer, dimer and anhydride on Ni(111).pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HOAc Papers/HOAc on Au-Pd(111).pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HOAc Papers/HOAc on Ni(110) Madix.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HOAc Papers/HOAc on Pd(110).pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HOAc Papers/HOAc on Rh(110).pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HOAc Papers/HOAc on clean and O covered Pd(100).pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HOAc Papers/Promoters and Poisons.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HOAc TPD PPPL/6_6_2017_AA_0 L.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HOAc TPD PPPL/6_6_2017_AA_0.01 L.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HOAc TPD PPPL/6_6_2017_AA_0.015 L.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HOAc TPD PPPL/6_6_2017_AA_0.02 L.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HOAc TPD PPPL/6_6_2017_AA_0.022 L.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HOAc TPD PPPL/AA _0 L.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HOAc TPD PPPL/AA _0_01 L.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HOAc TPD PPPL/AA _0_01 L_high_point_density.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HOAc TPD PPPL/AA _0_02 L.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HOAc TPD PPPL/AA _0_025 L.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HOAc TPD PPPL/AA _0_03 L.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HOAc TPD PPPL/AA _0_04 L.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HOAc TPD PPPL/AA _0_1 L.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HOAc TPD PPPL/AA _0_2 L.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HOAc curve - full scale.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HOAc curve - zoom 1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HOAc curve - zoom 2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HOAc curve - zoom 3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HOAc curve - zoom 4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HOAc curve - zoom 5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/IRAS/IRASmain.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/IRAS/figure_1.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Ni(110) 1e-9Torr60s -200K.0/Ni(110) 1e-9Torr15s 210K.0.dpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Ni(110) 1e-9Torr60s -200K.0/Ni(110) 1e-9Torr15s 352K.0.dpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Ni(110) 1e-9Torr60s -200K.0/Ni(110) 1e-9Torr15s 452K.0.dpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Ni(110) 1e-9Torr60s -200K.0/Ni(110) 1e-9Torr30s -196K.0.dpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Ni(110) 1e-9Torr60s -200K.0/Ni(110) 1e-9Torr30s -350K.0.dpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Ni(110) 1e-9Torr60s -200K.0/Ni(110) 1e-9Torr30s -450K.0.dpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Ni(110) 1e-9Torr60s -200K.0/Ni(110) 1e-9Torr60s -200K.0.dpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Ni(110) 1e-9Torr60s -200K.0/Ni(110) 1e-9Torr60s -350K.0.dpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Ni(110) 1e-9Torr60s -200K.0/Ni(110) 1e-9Torr60s -450K.0.dpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Ni(110) 1e-9Torr60s -200K.0/Ni(110) 1e-9Torr60s -550K.0.dpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SnNi HOAc TPD/HOAc_1e-9_15s_SnNi.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SnNi HOAc TPD/HOAc_1e-9_30s_SnNi.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SnNi HOAc TPD/HOAc_2e-9_30s_SnNi.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/acetic acid IRAS/150K dose acetic acid-4-8torr 1 min-200K-2.0.dpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/acetic acid IRAS/150K dose acetic acid-4-8torr 1 min-200K.0.dpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/acetic acid IRAS/150K dose acetic acid-4-8torr 1 min-230K.0.dpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/acetic acid IRAS/150K dose acetic acid-4-8torr 1 min-280K.0.dpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/acetic acid IRAS/150K dose acetic acid-4-8torr 1 min-350K.0.dpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/acetic acid IRAS/150K dose acetic acid-4-8torr 1 min-400K.0.dpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/acetic acid IRAS/150K dose acetic acid-4-8torr 1 min-450K.0.dpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/acetic acid IRAS/150K dose acetic acid-4-8torr 1 min-450K.1.dpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/acetic acid IRAS/150K dose acetic acid-4-8torr 1 min-510K.0.dpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/acetic acid IRAS/150K dose acetic acid-4-8torr 1 min-560K.0.dpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/acetic acid IRAS/150K dose acetic acid-4-8torr 1 min-650K.0.dpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/acetic acid IRAS/150K dose acetic acid-4-8torr 1 min-825K.0.dpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/acetic acid IRAS/150K dose acetic acid-4-8torr 1 min-950K.0.dpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/acetic acid IRAS/150K dose formic acid-4-8torr 1 min-0.0.dpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/acetic acid IRAS/150K dose formic acid-4-8torr 1 min-140K.0.dpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/acetic acid IRAS/150K dose formic acid-4-8torr 1 min-170K.0.dpt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/acetic acid export.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/6_6_2017_AA_0 L.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/6_6_2017_AA_0.01 L.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/6_6_2017_AA_0.015 L.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/6_6_2017_AA_0.02 L.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/6_6_2017_AA_0.022 L.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/AES after all TPD.ASN" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/AES after anneal.ASN" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/CO2uptake.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/COuptake.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/Figure_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/H2Ouptake.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/H2uptake.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/HOAC zoom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/HOAc 1e-9_15sec_alpha_only.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/HOAc 2_5e-9_15sec.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/HOAc 2_5e-9_15sec_zoom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/HOAc 8_4e-9_15sec.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/HOAc 8_4e-9_15sec_zoom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/HOAc 8_4e-9_15sec_zoom2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/HOAc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/HOAc_0L_724_2 masses.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/HOAc_1.01E-08_15 s_724_2 masses.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/HOAc_1.04E-08_15 s_724.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/HOAc_1.3E-08_15s_724_2 masses.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/HOAc_1.5E-09_15 s_724.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/HOAc_1.8E-09_15 s_724.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/HOAc_1E-09_15 s_724.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/HOAc_2.5E-09_15 s_724.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/HOAc_3.2E-09_15 s_724.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/HOAc_3.5E-09_15 s_724.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/HOAc_3.6E-09_15 s_724.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/HOAc_3.73E-09_15s_724_2 masses.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/HOAc_3.86E-09_15s_724_2 masses.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/HOAc_4.9E-09_15 s_724.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/HOAc_4E-07_15 s_724.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/HOAc_6.3E-09_15 s_724.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/HOAc_6.8E-08_15s_724_2 masses.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/HOAc_7.6E-09_15 s_724.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/HOAc_8.4E-09_15 s_724.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/HOAc_9.1E-09_15 s_724_0.12 L.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/HOAc_9.1E-09_15 s_724_repeat.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/HOAc_9.3E-09_15 s_724_2 masses.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/HOAc_9.6E-09_15 s_724.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/figdata/HOAc_1.5E-09_15 s_724.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/figdata/HOAc_1.8E-09_15 s_724.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/figdata/HOAc_1E-09_15 s_724.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/figdata/HOAc_2.5E-09_15 s_724.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/figdata/HOAc_3.2E-09_15 s_724.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/figdata/HOAc_3.5E-09_15 s_724.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/figdata/HOAc_3.6E-09_15 s_724.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/figdata/HOAc_4.9E-09_15 s_724.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/figdata/HOAc_6.3E-09_15 s_724.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/figdata/HOAc_7.6E-09_15 s_724.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/figdata/HOAc_9.1E-09_15 s_724_0.12 L.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/figs/8-6-2017_figs/1e-915s.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/figs/8-6-2017_figs/1e-930s.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/figs/8-6-2017_figs/CO2uptake.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/figs/8-6-2017_figs/COuptake.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/figs/8-6-2017_figs/H2 uptake.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/figs/8-6-2017_figs/H2Ouptake.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/figs/8-6-2017_figs/HOAc uptake.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/figs/8-6-2017_figs/HOAc_uptake2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/figs/8-6-2017_figs/HOAc_uptake_big.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/figs/8-6-2017_figs/HOAc_zoom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/figs/8-6-2017_figs/high_HOAc coverage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/figs/8-6-2017_figs/intermediate_HOAc coverage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/figs/8-6-2017_figs/low_HOAc coverage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/figs/CO2uptake.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/figs/COuptake.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/figs/Figure_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/figs/H2Ouptake.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/figs/H2uptake.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/figs/HOAC zoom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/figs/HOAc 1e-9_15sec_alpha_only.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/figs/HOAc 2_5e-9_15sec.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/figs/HOAc 2_5e-9_15sec_zoom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/figs/HOAc 8_4e-9_15sec.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/figs/HOAc 8_4e-9_15sec_zoom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/figs/HOAc 8_4e-9_15sec_zoom2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/724_data_only/figs/HOAc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/AA _0 L.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/AA _0.01 L.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/AA _0.01 L_high_point_density.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/AA _0.02 L.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/AA _0.025 L.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/AA _0.03 L.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/AA _0.04 L.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/AA _0.1 L.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/AA _0.2 L.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/HOAc_0 L_high_point_density.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/HOAc_0L_724_2 masses.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/HOAc_1.01E-08_15 s_724_2 masses.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/HOAc_1.04E-08_15 s_724.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/HOAc_1.3E-08_15s_724_2 masses.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/HOAc_1.5E-09_15 s_724.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/HOAc_1.8E-09_15 s_724.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/HOAc_1E-09_15 s_724.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/HOAc_2-09_150 s _718_high_point_density.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/HOAc_2.5E-09_15 s_724.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/HOAc_2E-09_150 s _718_USB fix.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/HOAc_2E-09_300s _718.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/HOAc_2E-09_45 s_10 K TPD_719.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/HOAc_3.2E-09_15 s_724.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/HOAc_3.5E-08_120 s_high point density.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/HOAc_3.5E-08_30 s_high point density.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/HOAc_3.5E-08_60 s_and mass 31.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/HOAc_3.5E-08_60 s_high point density.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/HOAc_3.5E-09_15 s_724.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/HOAc_3.6E-09_15 s_724.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/HOAc_3.73E-09_15s_724_2 masses.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/HOAc_3.86E-09_15s_724_2 masses.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/HOAc_4.9E-09_15 s_724.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/HOAc_4E-07_15 s_724.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/HOAc_4E-09_40 s_10 K TPD_719.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/HOAc_5E-09_150 s _718.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/HOAc_5E-09_150 s_high point density_719.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/HOAc_5E-09_75 s_anneal to 170 K_719.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/HOAc_5E-09_75 s_anneal to 210 K_719.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/HOAc_5E-09_75 s_anneal to 320 K_719.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/HOAc_5E-09_75 s_anneal to 500 K_719.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/HOAc_5E-09_75 s_anneal to 800 K_719.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/HOAc_5E-09_75 s_high point density_719.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/HOAc_6.3E-09_15 s_724.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/HOAc_6.8E-08_15s_724_2 masses.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/HOAc_6E-09_150 s _718_high_point_density.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/HOAc_7.5E-09_150 s _718.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/HOAc_7.6E-09_15 s_724.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/HOAc_7E-09_40 s_10 K TPD_719.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/HOAc_8.4E-09_15 s_724.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/HOAc_9.1E-09_15 s_724_0.12 L.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/HOAc_9.1E-09_15 s_724_repeat.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/HOAc_9.3E-09_15 s_724_2 masses.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/HOAc_9.6E-09_15 s_724.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/RE__IRRAS_data_0726/1E-09_15_s_HOAc.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/RE__IRRAS_data_0726/1e-9Torr 30sec AcOH Ni.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/RE__IRRAS_data_0726/1e-9Torr 60sec AcOH Ni.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/all/RE__IRRAS_data_0726/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/HOAC_Ni(110)_PPPL.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/HOAC_Ni(110)_PPPL_0_01L.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/HOAC_Ni(110)_PPPL_0_01L_zoom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/HOAC_Ni(110)_PPPL_0_1L.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/HOAC_Ni(110)_PPPL_0_1L_zoom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/HOAC_Ni(110)_PPPL_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/HOAC_Ni(110)_PPPL__multiL.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/HOAC_Ni(110)_PPPL_multilayer.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/HOAC_Ni(111)_PPPL_multilayer.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/mulitlayer acetic acid.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/no_acetic_anhydride_zoom.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plotTPD_data programs/plot_TPD_main.py" afterPath="$PROJECT_DIR$/plotTPD_data programs/plot_TPD_main.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,35 +231,68 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/IRAS$plot_TPD_main.coverage" NAME="plot_TPD_main Coverage Results" MODIFIED="1506678249792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/plotTPD_data programs" />
+  </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="plot_TPD_main.py" pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="plot_TPD_main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/plotTPD_data programs/plot_TPD_main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="81">
+              <caret line="354" column="0" lean-forward="false" selection-start-line="354" selection-start-column="0" selection-end-line="354" selection-end-column="0" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
+                <element signature="e#3229#4925#0" expanded="false" />
+                <element signature="e#7451#8165#0" expanded="false" />
+                <element signature="e#9724#10477#0" expanded="false" />
+                <element signature="e#10505#11832#0" expanded="false" />
+                <element signature="e#14226#14268#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="init_info.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plotTPD_data programs/init_info.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="391">
+              <caret line="57" column="22" lean-forward="false" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
+              <folding>
+                <element signature="e#248#283#0" expanded="false" />
+                <element signature="e#1285#1309#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>plot_same</find>
+      <find>re</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/plotTPD_data programs/main.py" />
+        <option value="$PROJECT_DIR$/plotTPD_data programs/init_info.py" />
+        <option value="$PROJECT_DIR$/plotTPD_data programs/plot_TPD_main.py" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -49,9 +300,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="2552" />
-    <option name="y" value="188" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="198" />
+    <option name="y" value="35" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -70,36 +321,24 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IRAS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IRAS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IRAS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IRAS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plotTPD_data programs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="IRAS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IRAS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IRAS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IRAS" type="462c0819:PsiDirectoryNode" />
+              <item name="plotTPD_data programs" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -118,7 +357,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.plot_TPD_main">
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -215,9 +462,6 @@
       <module name="IRAS" />
       <method />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
       <command value="run" />
       <scripts />
@@ -262,6 +506,29 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
+    <configuration name="plot_TPD_main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/plotTPD_data programs" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="IRAS" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/plotTPD_data programs/plot_TPD_main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Python.plot_TPD_main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -277,46 +544,61 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2552" y="188" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1526232" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23671874" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4953125" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="processedProjectFiles" value="true" />
+    <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="16" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+    <entry file="file://$PROJECT_DIR$/plotTPD_data programs/plot_TPD_main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+            <element signature="e#3229#4925#0" expanded="false" />
+            <element signature="e#7451#8165#0" expanded="false" />
+            <element signature="e#9724#10477#0" expanded="false" />
+            <element signature="e#10505#11832#0" expanded="false" />
+            <element signature="e#14226#14268#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -326,15 +608,52 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
+            <element signature="e#3229#4925#0" expanded="false" />
+            <element signature="e#7451#8165#0" expanded="false" />
+            <element signature="e#9724#10477#0" expanded="false" />
+            <element signature="e#10505#11832#0" expanded="false" />
+            <element signature="e#14226#14268#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="-999">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="148" column="30" lean-forward="true" selection-start-line="148" selection-start-column="30" selection-end-line="148" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plotTPD_data programs/init_info.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="57" column="22" lean-forward="false" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
+          <folding>
+            <element signature="e#248#283#0" expanded="false" />
+            <element signature="e#1285#1309#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plotTPD_data programs/plot_TPD_main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="354" column="0" lean-forward="false" selection-start-line="354" selection-start-column="0" selection-end-line="354" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+            <element signature="e#3229#4925#0" expanded="false" />
+            <element signature="e#7451#8165#0" expanded="false" />
+            <element signature="e#9724#10477#0" expanded="false" />
+            <element signature="e#10505#11832#0" expanded="false" />
+            <element signature="e#14226#14268#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
