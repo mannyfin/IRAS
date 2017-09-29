@@ -28,70 +28,11 @@ label each curve
 # sns.set_style("ticks", {"xtick.minor.size": 8, "ytick.minor.size": 8})
 mpl.rcParams.update({'font.size': 16})
 
-"""
-# Preliminary stuff
-# Display of temp range on plots. These limits are null if there is more than one column unless otherwise specified
-use_temp_limits = False
-low_temp = 110
-high_temp = 800
-single_molecule_name = 'Furfural'
-surface = 'Pt(100)'
-# keep area dict empty
-area_dict = {}
-# any vertical dotted lines go here
-# dotted_lines = [204.7, 161, 395, 428]
-# dotted_lines = [204.7, 161, 260, 395, 428]
-
-# names of molecules and their mass from the QMS goes here.
-# HREELS Chamber, PPPL
-
-# dict_values = dict({'HOAC': 61.297,
-#                     'CO': 28.2,
-#                     'H2': 1.5,
-#                     'H2O': 17.9,
-#                     'CO2': 44.7})
-
-# IR Chamber
-
-#dict_values = dict({'HOAC': 60.08,
-                    # 'CO': 27.7,
-                    # 'H2':1.87,
-                    # 'H2O':17.5,
-                    # 'CO2': 43.,
-                    # 'CH2': 14.6,
-                    # 'ethane': 26.77,
-                    # 'EtOH': 30.75,
-                    # 'ketene': 13.,
-                    # '43': 42.6})
-#furfural
-dict_values = dict({'H2': 1.8,
-                    'H20': 17.6,
-                    'CO':27.8,
-                    '39':39.,
-                    'propylene': 41.,
-                    'furan': 68.6,
-                    'Mefuran': 82.8,
-                    'furfural': 97.08})
-
-# dict_values = dict(())
-# integrating temp values. Put the temperature range in starting from low to high
-# temp_values = dict({'HOAC': (140, 220),
-#                     'CO': (320, 450),
-#                     'H2': (200, 410),
-#                     'H2O': (250, 450),
-#                     'CO2': (250, 450),
-#                     })
-
-# to calculate areas under peaks put in the temp range value
-temp_values = dict({'H2': (250,750),
-
-                    'CO': (330,520),
-                    'furfural': (150,250)})
-"""
-# will append the langmuirs to this list
+# TODO will append the langmuirs to this list
 langmuir = []
 # keep area dict empty
 area_dict = defaultdict(list)
+filename_list = []
 
 def rename_to_text(file_path):
     """
@@ -271,13 +212,15 @@ def langmuir_determination(filename):
 
     return langmuir
 
+
+# def area_table_fig(area_dictionary=area_dict, file_list=filename_list):
 def area_table_fig(area_dictionary=area_dict):
     """
     Makes a nice looking figure of the areas
     :param area_dictionary: area dictionary calculated by integrating the areas under the curve
     :return:
     """
-    # fig, ax = plt.subplots(num='Area Table', figsize=(15, 7))
+    # fig, ax = plt.subplots(num='Area Table', figsize=(20, 7))
     fig, ax = plt.subplots(num='Area Table')
 
     # hide axes
@@ -285,13 +228,18 @@ def area_table_fig(area_dictionary=area_dict):
     ax.axis('off')
     ax.axis('tight')
 
-    df = pd.DataFrame(area_dictionary)
+    # df_areadata = pd.DataFrame.from_dict(area_dictionary)
+    df = pd.DataFrame.from_dict(area_dictionary)
 
-    ax.table(cellText=df.values, colLabels=df.columns, loc='center')
-    #TODO fix small font size in table
-    # tabla = plt.table(cellText=df.values, colLabels=df.columns, loc='center')
+    # df_filelist = pd.DataFrame(file_list, columns=['File'])
+
+    # df = df_filelist.join(df_areadata)
+
+    ax.table(cellText=df.values, colLabels=df.columns, cellLoc='center', loc='center')
+
+    # tabla = plt.table(cellText=df.values, colLabels=df.columns, cellLoc='center', loc='center', bbox=[0, 0, 1,1])
     # tabla.auto_set_font_size(False)
-    # tabla.set_fontsize(30)
+    # tabla.set_fontsize(14)
 
     # fig.tight_layout()
     # we dont want to show the plots till the end
@@ -347,6 +295,7 @@ root.withdraw()
 file_path1 = filedialog.askopenfilenames(filetypes=(('All files', '*.*'), ('Text files', '*.txt')),
                                          title='Select Input File(s)')
 # fignum = 1+len(dict_values.keys())
+
 for file in file_path1:
 
 
@@ -370,8 +319,9 @@ for file in file_path1:
     # PLOTTING
     # remove .txt from filename
     filename = re.sub('.txt', '', filename)
+    filename_list.append(filename)
     areas = plot_same_masses(dict__values=dict_values, file_name=filename, new__file__read=new_file_read, area_dict=area_dict)
-    area_table_fig(areas)
+    # area_table_fig(areas)
     # # plot whole file
     # new_file_read.plot(figsize=(15, 7))
     # plt.plot(new_file_read)
@@ -407,6 +357,10 @@ for file in file_path1:
     #     plt.axvline(x=x_val, ymin=0, ymax=1, color='k',  linestyle='--')
 
     # fignum += 1
+
+# area_table_fig(areas, filename_list)
+area_table_fig(areas)
+
 plt.show()
-# print('hi')
+print('hi')
 # print('hi')
