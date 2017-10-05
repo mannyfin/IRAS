@@ -34,14 +34,22 @@ surface = 'Pt(100)'
                     # 'ketene': 13.,
                     # '43': 42.6})
 #furfural
-dict_values = dict({'H2': 1.8,
-                    'H2O': 17.6,
-                    'CO':27.8,
+dict_values = dict({'H2': 1.994,
+                    'H2O': 17.7,
+                    'CO':27.9,
                     '39':39.,
                     'Propylene': 41.,
                     'Furan': 68.6,
                     'Mefuran': 82.8,
-                    'Furfural': 97.08})
+                    'Furfural': 97.08,
+                    'GUA' : 125.5,
+                    'anisole': 109.5,
+                    'catechol' : 111.4,
+                    'benzene': 78.8,
+                    'phenol': 95.0,
+                    'eth':26.9,
+                    'formaldehyde':28.93,
+                    'methanol/ethanol': 30.9})
 
 # dict_values = dict(())
 # integrating temp values. Put the temperature range in starting from low to high
@@ -54,5 +62,5 @@ dict_values = dict({'H2': 1.8,
 
 # to calculate areas under peaks put in the temp range value
 temp_values = dict({'H2': (250,750),
-                    'CO': (330,520),
+                    'CO': (330,535),
                     'Furfural': (150,250)})

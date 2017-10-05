@@ -10,7 +10,7 @@ from scipy import integrate
 import re
 from init_info import *
 from collections import defaultdict
-# import seaborn as sns
+import seaborn as sns
 # TODO see below
 """
 1. areas don't get bigger than monolayer for the cracks
@@ -22,11 +22,13 @@ label each curve
 """
 
 
-# sns.set()
-# sns.set_context("poster")
+sns.set()
+sns.set_context("poster")
 # sns.set_style("dark")
 # sns.set_style("ticks", {"xtick.minor.size": 8, "ytick.minor.size": 8})
 mpl.rcParams.update({'font.size': 16})
+current_palette = sns.color_palette()
+sns.palplot(sns.color_palette("hls", 8))
 
 # TODO will append the langmuirs to this list
 langmuir = []
@@ -123,7 +125,7 @@ def plot_same_masses(dict__values, file_name, new__file__read, area_dict):
             # iterate i to change the figure number for the different mass
             # ax.get_xaxis().set_minor_locator(mpl.ticker.AutoMinorLocator())
             # ax.get_yaxis().set_minor_locator(mpl.ticker.AutoMinorLocator())
-            # ax.grid(b=True, which='major', color='k', linewidth=1.0)
+            # ax.grid(b=True, which='major', color='w', linewidth=1.0)
             # ax.grid(b=True, which='minor', color='w', linewidth=0.5)
 
             new__file__read.rename(columns={new__file__read.filter(regex=str(value)).columns[0]: key}, inplace=True)
@@ -131,7 +133,8 @@ def plot_same_masses(dict__values, file_name, new__file__read, area_dict):
             plt.legend()
 
             integrate_area = uptake_area(mass_data, key, temp_ranges=temp_values)
-            print(str(int(integrate_area))+' area for ' + key)
+            # print(str(int(integrate_area))+' area for ' + key)
+            print(str((integrate_area))+' area for ' + key)
         # TODO add these areas to a list or ordered dictionary
         #     add these areas to a list or ordered dictionary
 
@@ -147,7 +150,8 @@ def plot_same_masses(dict__values, file_name, new__file__read, area_dict):
     #         add these areas to a list or ordered dictionary
 
     #     now add this area to the dictionary
-        area_dict[key].append(int(integrate_area))
+        area_dict[key].append(integrate_area)
+        # area_dict[key].append(int(integrate_area))
 
 
     # return new__file__read, area_dict
@@ -166,13 +170,16 @@ def uptake_area(mass_data, key, temp_ranges):
     # blah = key
     # asdf = temp_ranges
 
+    try:
+        lower_index1 = str(temp_ranges[key][0])
+        upper_index1 = str(temp_ranges[key][1])
+        mass_data = mass_data.query('index >' + lower_index1 + ' & index < ' + upper_index1)
+        blah = single_slope_subtract(mass_data, num_points_to_average_beg=2,num_points_to_average_end=2 )
 
-    lower_index1 = str(temp_ranges[key][0])
-    upper_index1 = str(temp_ranges[key][1])
-    mass_data = mass_data.query('index >' + lower_index1 + ' & index < ' + upper_index1)
-    single_slope_subtract(mass_data, num_points_to_average_beg=2,num_points_to_average_end=2 )
-
-    area_under_curve = integrate.trapz(mass_data, x=mass_data.index, axis=0)[0]
+        area_under_curve = integrate.trapz(mass_data, x=mass_data.index, axis=0)[0]
+        area_under_curve/=2253432
+    except KeyError:
+        area_under_curve = -1
 
     return area_under_curve
 
