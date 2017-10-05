@@ -33,23 +33,42 @@ surface = 'Pt(100)'
                     # 'EtOH': 30.75,
                     # 'ketene': 13.,
                     # '43': 42.6})
-#furfural
-dict_values = dict({'H2': 1.994,
-                    'H2O': 17.7,
-                    'CO':27.9,
-                    '39':39.,
-                    'Propylene': 41.,
-                    'Furan': 68.6,
-                    'Mefuran': 82.8,
-                    'Furfural': 97.08,
-                    'GUA' : 125.5,
-                    'anisole': 109.5,
-                    'catechol' : 111.4,
-                    'benzene': 78.8,
-                    'phenol': 95.0,
-                    'eth':26.9,
-                    'formaldehyde':28.93,
-                    'methanol/ethanol': 30.9})
+if single_molecule_name == 'Furfural':
+    #furfural
+    dict_values = dict({'H2': 1.922,
+                        'H2O': 17.627,
+                        'CO':27.844,
+                        '39':39.,
+                        'Propylene': 41.,
+                        'Furan': 68.6,
+                        'Mefuran': 82.8,
+                        'Furfural': 97.08,
+                        'GUA' : 125.5,
+                        'anisole': 109.5,
+                        'catechol' : 111.4,
+                        'benzene': 78.8,
+                        'phenol': 95.0,
+                        'eth':26.9,
+                        'formaldehyde':28.93,
+                        'methanol/ethanol': 30.9})
+elif single_molecule_name == 'Guaiacol':
+    #Guaiacol
+    dict_values = dict({'H2': 1.994,
+                        'H2O': 17.7,
+                        'CO':27.9,
+                        '39':39.,
+                        'Propylene': 41.,
+                        'Furan': 68.6,
+                        'Mefuran': 82.8,
+                        'Furfural': 97.08,
+                        'GUA' : 125.5,
+                        'anisole': 109.5,
+                        'catechol' : 111.4,
+                        'benzene': 78.8,
+                        'phenol': 95.0,
+                        'eth':26.9,
+                        'formaldehyde':28.93,
+                        'methanol/ethanol': 30.9})
 
 # dict_values = dict(())
 # integrating temp values. Put the temperature range in starting from low to high
