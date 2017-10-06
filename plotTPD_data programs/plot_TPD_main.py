@@ -27,8 +27,8 @@ sns.set_context("poster")
 # sns.set_style("dark")
 # sns.set_style("ticks", {"xtick.minor.size": 8, "ytick.minor.size": 8})
 mpl.rcParams.update({'font.size': 16})
-current_palette = sns.color_palette()
-sns.palplot(sns.color_palette("hls", 8))
+current_palette = sns.color_palette("hls", 8)
+# sns.palplot(sns.color_palette("hls", 8))
 
 # TODO will append the langmuirs to this list
 langmuir = []
@@ -302,6 +302,8 @@ root.withdraw()
 file_path1 = filedialog.askopenfilenames(filetypes=(('All files', '*.*'), ('Text files', '*.txt')),
                                          title='Select Input File(s)')
 # fignum = 1+len(dict_values.keys())
+# attempt to order the files
+file_path1 = sorted(file_path1, reverse=True)
 
 for file in file_path1:
 
@@ -321,7 +323,8 @@ for file in file_path1:
     # baseline subtraction
     new_file_read = new_file_read - new_file_read.min()
     # # a second slope subtraction -- TODO fix algo here because it can lead to curves < 0
-    # new_file_read = single_slope_subtract(new_file_read,num_points_to_average_beg=20,num_points_to_average_end=20)
+    new_file_read = single_slope_subtract(new_file_read,num_points_to_average_beg=3,num_points_to_average_end=3)
+    new_file_read = new_file_read - new_file_read.min()
 
     # PLOTTING
     # remove .txt from filename
