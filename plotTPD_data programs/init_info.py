@@ -3,8 +3,8 @@
 # Preliminary stuff
 # Display of temp range on plots. These limits are null if there is more than one column unless otherwise specified
 use_temp_limits = True
-low_temp = 100
-high_temp = 400
+low_temp = 110
+high_temp = 800
 single_molecule_name = 'Furfural'
 surface = 'Pt(100)'
 
@@ -34,14 +34,14 @@ surface = 'Pt(100)'
                     # 'ketene': 13.,
                     # '43': 42.6})
 if single_molecule_name == 'Furfural':
-    #furfural
+    #furfural 'H2': 1.879
     dict_values = dict({'H2': 1.922,
                         'H2O': 17.627,
                         'CO':27.844,
                         '39':39.,
                         'Propylene': 41.,
                         'Furan': 68.6,
-                        'Mefuran': 82.8,
+                        'Me-furan': 82.8,
                         'Furfural': 97.08,
                         'GUA' : 125.5,
                         'anisole': 109.5,

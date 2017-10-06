@@ -27,7 +27,8 @@ sns.set_context("poster")
 # sns.set_style("dark")
 # sns.set_style("ticks", {"xtick.minor.size": 8, "ytick.minor.size": 8})
 mpl.rcParams.update({'font.size': 16})
-current_palette = sns.color_palette("hls", 8)
+# current_palette = sns.color_palette("hls", 10)
+# sns.set_palette(current_palette, n_colors=10)
 # sns.palplot(sns.color_palette("hls", 8))
 
 # TODO will append the langmuirs to this list
@@ -304,6 +305,10 @@ file_path1 = filedialog.askopenfilenames(filetypes=(('All files', '*.*'), ('Text
 # fignum = 1+len(dict_values.keys())
 # attempt to order the files
 file_path1 = sorted(file_path1, reverse=True)
+# set color palette to be len(num_files). 8 refers to the typical number of masses represented on a TPD plot
+current_palette = sns.color_palette("Paired", max(len(file_path1), 8))
+sns.set_palette(current_palette, n_colors= max(len(file_path1), 8))
+# sns.palplot(sns.color_palette())
 
 for file in file_path1:
 
