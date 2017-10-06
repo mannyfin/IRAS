@@ -28,7 +28,7 @@ ref_df = pd.read_csv(file_path1[0], sep='\t', header=None, names=colnames)
 # step 4
 ref_df.set_index('freq', inplace=True)
 # step 5
-ref_df = ref_df.loc[:800]
+ref_df = ref_df.loc[:700]
 # step 6
 refmin = ref_df.idxmin()
 
@@ -45,7 +45,7 @@ for files in file_path2:
     # step 4+
     exp_df.set_index('freq', inplace=True)
     # step 5+
-    exp_df = exp_df.loc[:800]
+    exp_df = exp_df.loc[:700]
     # step 6+
     expmin = exp_df.idxmin()
 
