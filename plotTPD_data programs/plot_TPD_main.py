@@ -120,7 +120,7 @@ def plot_same_masses(dict__values, file_name, new__file__read, area_dict):
             ax.plot(mass_data, label=file_name, linewidth=2.5)
             plt.ylabel('QMS signal (a.u.)')
             plt.xlabel('Temperature (K)')
-            plt.title(key + '/' + surface+' TPD')
+            plt.title(key + '/' + surface + ' TPD')
 
             plt.minorticks_on()
             # iterate i to change the figure number for the different mass
@@ -254,6 +254,7 @@ def area_table_fig(area_dictionary=area_dict):
     # plt.show()
 
 def read_files(file):
+    # TODO Fix search into the dictionary for increased speed
     """
     1. Reads in the files and does quick cleaning
     2. sets the temperature as the index
@@ -266,29 +267,35 @@ def read_files(file):
     print('\n\n')
     # find the exposure (L)
     # langmuir.append(langmuir_determination(filename=filename))
+    try:
+        # read file
+        file_read = pd.read_csv(file_path, sep='\t', header=3)
 
-    # read file
-    file_read = pd.read_csv(file_path, sep='\t', header=3)
-
-    # remove whitespace
-    column_names = [file_read.keys()[i].lstrip() for i in range(0, len(file_read.keys()))]
-    # rename columns
-    file_read.columns = column_names
-    # drop the time column and mse=8
-    # file_read = file_read.drop([column_names[0], column_names[-1]], axis=1)
-    file_read = file_read.drop([column_names[0]], axis=1)
-    temp = file_read[file_read != 0]
-    temp = temp.dropna(axis=0)
+        # remove whitespace
+        column_names = [file_read.keys()[i].lstrip() for i in range(0, len(file_read.keys()))]
+        # rename columns
+        file_read.columns = column_names
+        # drop the time column and mse=8
+        # file_read = file_read.drop([column_names[0], column_names[-1]], axis=1)
+        file_read = file_read.drop([column_names[0]], axis=1)
+        temp = file_read[file_read != 0]
+        temp = temp.dropna(axis=0)
 
 
-    file_read = file_read.dropna(axis=1)
+        file_read = file_read.dropna(axis=1)
 
-    # for the bug in the labview that the temperature cuts out
-    temp = file_read[file_read != 0]
-    file_read = temp.dropna(axis=0)
+        # for the bug in the labview that the temperature cuts out
+        temp = file_read[file_read != 0]
+        file_read = temp.dropna(axis=0)
 
-    # set the index to be temperature
-    file_read = file_read.set_index(file_read.keys()[0])
+        # set the index to be temperature
+        file_read = file_read.set_index(file_read.keys()[0])
+    except IndexError:
+        "except it is a hiden mass spec file!"
+        file_read = pd.read_csv(file_path, header=29)
+        file_read = file_read.dropna(axis=1)
+        file_read.drop(['Time', 'ms'],axis=1, inplace=True)
+        file_read.set_index('Temperature', inplace=True)
 
     # TODO append some dictionary to a df every iteration for the uptake curve
     # pseudo code...
@@ -334,44 +341,28 @@ for file in file_path1:
     # PLOTTING
     # remove .txt from filename
     filename = re.sub('.txt', '', filename)
+    # For Hiden data
+    filename = re.sub('.csv', '', filename)
     filename_list.append(filename)
     areas = plot_same_masses(dict__values=dict_values, file_name=filename, new__file__read=new_file_read, area_dict=area_dict)
-    # area_table_fig(areas)
-    # # plot whole file
-    # new_file_read.plot(figsize=(15, 7))
-    # plt.plot(new_file_read)
-    # plt.legend()
-    # # set y lower limit = 0
-    # axes.Axes.set_ylim(plt.gca(), bottom=0, auto=True)
 
     if use_temp_limits is True:
         axes.Axes.set_xlim(plt.gca(), left=low_temp, right=high_temp)
 
-    # file_read.plot()
-    # all_axes = plt.figure(fignum)
+
     fig = plt.figure(filename, figsize=(15, 7))
     all_axes = fig.add_subplot(111)
-    # new_file_read['H2'] = new_file_read['H2'] / 5
-    # new_file_read.rename(columns={'H2': 'H2/5'}, inplace=True)
     new_file_read.plot(ax=all_axes,figsize=(15, 7), title=filename, linewidth=2.5)
-    # plt.legend(labels=['H2/20', 'm/z = 91', 'm/z = 104', 'm/z = 128', 'm/z = 132', 'm/z = 134', 'm/z = 136', 'm/z = 138'])
-    # plt.legend(labels=['H2/20', 'm/z = 27', 'm/z = 41', 'm/z = 77', 'm/z = 78', 'm/z = 91', 'm/z = 104', 'm/z = 128'])
     plt.ylabel('QMS signal (a.u.)')
     plt.xlabel('Temperature (K)')
     plt.title(filename)
     plt.minorticks_on()
-    # if file_read.columns.__len__() is not 1:
-    #     plt.title(filename)
-    #     plt.legend(bbox_to_anchor=(1, 0.5), loc='center', ncol=1)
-    # else:
-    #     plt.title(single_molecule_name + '/Pt(100) TPD')
-    # plt.legend(bbox_to_anchor=(1, 0.5), loc='center', ncol=1)
+    plt.savefig(filename+'.png')
+    plt.close(fig)
 
     # any vertical dotted line values go here
     # for x_val in dotted_lines:
     #     plt.axvline(x=x_val, ymin=0, ymax=1, color='k',  linestyle='--')
-
-    # fignum += 1
 
 # area_table_fig(areas, filename_list)
 area_table_fig(areas)

@@ -5,106 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7934e857-690a-48c6-9432-6dbff041ce63" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plotTPD_data programs/IR_overlays.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/MB chamber Furfural/Furfural/Furfural TPD on Pt(100)-hex(1).pptx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/MB chamber Furfural/Furfural/Furfural TPD on Pt(100)-hex.pptx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/MB chamber Furfural/Furfural/FurfuralDecomposition(1).pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/MB chamber Furfural/Furfural/FurfuralDecomposition(1).svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/MB chamber Furfural/Furfural/FurfuralDecomposition.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/MB chamber Furfural/Furfural/FurfuralDecomposition.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/MB chamber Furfural/Furfural/FurfuralDecomposition_GSS.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/MB chamber Furfural/Furfural/FurfuralTPD Products(new).xlsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/MB chamber Furfural/Furfural/FurfuralTPDimages/0_15Lfurfural.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/MB chamber Furfural/Furfural/FurfuralTPDimages/0_15Lfurfural.fig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/MB chamber Furfural/Furfural/FurfuralTPDimages/CO.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/MB chamber Furfural/Furfural/FurfuralTPDimages/CO.fig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/MB chamber Furfural/Furfural/FurfuralTPDimages/CO2.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/MB chamber Furfural/Furfural/FurfuralTPDimages/CO2.fig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/MB chamber Furfural/Furfural/FurfuralTPDimages/Fur_39.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/MB chamber Furfural/Furfural/FurfuralTPDimages/Fur_39.fig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/MB chamber Furfural/Furfural/FurfuralTPDimages/Furfural96.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/MB chamber Furfural/Furfural/FurfuralTPDimages/Furfural96.fig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/MB chamber Furfural/Furfural/FurfuralTPDimages/H2.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/MB chamber Furfural/Furfural/FurfuralTPDimages/H2.fig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/MB chamber Furfural/Furfural/FurfuralTPDimages/Propene.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/MB chamber Furfural/Furfural/FurfuralTPDimages/Propene.fig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/MB chamber Furfural/Furfural/FurfuralTPDimages/Water.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/MB chamber Furfural/Furfural/FurfuralTPDimages/Water.fig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/MB chamber Furfural/Furfural/FurfuralTPDimages/furan68.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/MB chamber Furfural/Furfural/FurfuralTPDimages/furan68.fig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/MB chamber Furfural/Furfural/FurfuralTPDimages/furfuralmassionization.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/MB chamber Furfural/Furfural/FurfuralTPDstacked.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/MB chamber Furfural/Furfural/Furfural_onPt(111).pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/MB chamber Furfural/Furfural/furfural_tpd_/furfural_tpd_0_13LView2.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/MB chamber Furfural/Furfural/furfural_tpd_/furfural_tpd_0_14lView2.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/MB chamber Furfural/Furfural/furfural_tpd_/furfural_tpd_0_15lView2.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/MB chamber Furfural/Furfural/furfural_tpd_/furfural_tpd_0_16lView2.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/MB chamber Furfural/Furfural/furfural_tpd_/furfural_tpd_0_1LView2.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/MB chamber Furfural/Furfural/furfural_tpd_/furfural_tpd_0_2lView2.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/MB chamber Furfural/Furfural/furfural_tpd_/furfural_tpd_0_3lView2.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/MB chamber Furfural/Furfural/furfural_tpd_/furfural_tpd_0_4lView2.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/MB chamber Furfural/Furfural/furfural_tpd_/furfural_tpd_0_8lView2.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/MB chamber Furfural/Furfural/furfural_tpd_/furfural_tpd_zerodoseView1_cleaned.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/furfural Pt(100) IR seq anneal.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/furfural Pt(100) IR seq anneal/furfural Pt(100)  shit ton at 100 K.0.dpt.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/furfural Pt(100) IR seq anneal/furfural Pt(100) 2.2E-08 30 s anneal to 100 K.0.dpt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/furfural Pt(100) IR seq anneal/furfural Pt(100) 2.2E-08 30 s anneal to 179 K.0.dpt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/furfural Pt(100) IR seq anneal/furfural Pt(100) 2.2E-08 30 s anneal to 223 K.0.dpt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/furfural Pt(100) IR seq anneal/furfural Pt(100) 2.2E-08 30 s anneal to 274 K.0.dpt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/furfural Pt(100) IR seq anneal/furfural Pt(100) 2.2E-08 30 s anneal to 354 K.0.dpt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/furfural Pt(100) IR seq anneal/furfural Pt(100) 2.2E-08 30 s anneal to 429 K.0.dpt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/furfural Pt(100) IR seq anneal/furfural Pt(100) 2.2E-08 30 s anneal to 525 K.0.dpt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/furfural Pt(100) IR seq anneal/furfural Pt(100) 2.2E-08 30 s anneal to 800 K.0.dpt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/furfural Pt(100) IR seq anneal/furfural Pt(100) 2.3E-08 30 s.0.dpt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/furfural_1e-08_30 sec _0.15 L_seq anneal_anneal.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/furfural_1e-08_30 sec _0.15 L_seq anneal_anneal/furfural_1e-08_30 sec _0.15 L_seq anneal_anneal to 100 K.dpt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/furfural_1e-08_30 sec _0.15 L_seq anneal_anneal/furfural_1e-08_30 sec _0.15 L_seq anneal_anneal to 223 K.dpt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/furfural_1e-08_30 sec _0.15 L_seq anneal_anneal/furfural_1e-08_30 sec _0.15 L_seq anneal_anneal to 274 K.dpt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/furfural_1e-08_30 sec _0.15 L_seq anneal_anneal/furfural_1e-08_30 sec _0.15 L_seq anneal_anneal to 354 K.dpt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/furfural_1e-08_30 sec _0.15 L_seq anneal_anneal/furfural_1e-08_30 sec _0.15 L_seq anneal_anneal to 424 K.dpt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/furfural_1e-08_30 sec _0.15 L_seq anneal_anneal/furfural_1e-08_30 sec _0.15 L_seq anneal_anneal to 527 K.dpt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/furfural_TPD_92617.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/furfural_TPD_92617/0.05 L Furfural.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/furfural_TPD_92617/furfural_1.0E-9_15s_92617.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/furfural_TPD_92617/furfural_2.2E-9_30s_92617.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/furfural_TPD_92617/furfural_3.0E-9_90s_92617_diff masses.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/furfural_TPD_92617/furfural_3.7E-9_90s_92617_diff masses.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/furfural_TPD_92617/furfural_4.5E-9_120s_92617.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/useful uptake TPD.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/useful uptake TPD/furfural_0L_92817.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/useful uptake TPD/furfural_1.1E-09_30s_0.02L_92817_edit.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/useful uptake TPD/furfural_1.5E-09_30s_0.03 L_92817.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/useful uptake TPD/furfural_1.7E-09_30s_0.04 L_92817.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/useful uptake TPD/furfural_2.1E-9_30s_0.05 L_92817.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/useful uptake TPD/furfural_2.4E-9_30s_0.06 L_92817_edit.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/useful uptake TPD/furfural_2.8E-9_30s_0.07 L_92817.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/useful uptake TPD/furfural_3.9E-9_30s_0.1 L_92817.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/useful uptake TPD/furfural_5.6E-10_30s_0.0025 L_92817.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/useful uptake TPD/furfural_6.4E-10_30s_0.005L_92817.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/useful uptake TPD/furfural_7.9E-10_30s_0.01 L_92817.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/useful uptake TPD/ordered/0furfural_0L_92817.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/useful uptake TPD/ordered/10furfural_3.9E-9_30s_0.1 L_92817.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/useful uptake TPD/ordered/1furfural_5.6E-10_30s_0.0025 L_92817.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/useful uptake TPD/ordered/2furfural_6.4E-10_30s_0.005L_92817.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/useful uptake TPD/ordered/3furfural_7.9E-10_30s_0.01 L_92817.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/useful uptake TPD/ordered/4furfural_1.1E-09_30s_0.02L_92817_edit.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/useful uptake TPD/ordered/5furfural_1.5E-09_30s_0.03 L_92817.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/useful uptake TPD/ordered/6furfural_1.7E-09_30s_0.04 L_92817.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/useful uptake TPD/ordered/7furfural_2.1E-9_30s_0.05 L_92817.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/useful uptake TPD/ordered/8furfural_2.4E-9_30s_0.06 L_92817_edit2.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/useful uptake TPD/ordered/9furfural_2.8E-9_30s_0.07 L_92817.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/useful uptake TPD/ordered/Langmuir only/0 L.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/useful uptake TPD/ordered/Langmuir only/0.0025 L.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/useful uptake TPD/ordered/Langmuir only/0.005 L.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/useful uptake TPD/ordered/Langmuir only/0.01 L.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/useful uptake TPD/ordered/Langmuir only/0.02 L.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/useful uptake TPD/ordered/Langmuir only/0.03 L.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/useful uptake TPD/ordered/Langmuir only/0.04 L.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/useful uptake TPD/ordered/Langmuir only/0.05 L.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/useful uptake TPD/ordered/Langmuir only/0.06 L.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/useful uptake TPD/ordered/Langmuir only/0.07 L.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/useful uptake TPD/ordered/Langmuir only/0.10 L.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/TPD Data/MB chamber Furfural/Furfural/FurfuralTPDimages/0_15Lfurfural.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/TPD Data/MB chamber Furfural/Furfural/FurfuralTPDimages/0_15Lfurfural.fig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/TPD Data/MB chamber Furfural/Furfural/FurfuralTPDimages/CO.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/TPD Data/MB chamber Furfural/Furfural/FurfuralTPDimages/CO.fig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/TPD Data/MB chamber Furfural/Furfural/FurfuralTPDimages/CO2.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/TPD Data/MB chamber Furfural/Furfural/FurfuralTPDimages/CO2.fig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/TPD Data/MB chamber Furfural/Furfural/FurfuralTPDimages/Fur_39.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/TPD Data/MB chamber Furfural/Furfural/FurfuralTPDimages/Fur_39.fig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/TPD Data/MB chamber Furfural/Furfural/FurfuralTPDimages/Furfural96.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/TPD Data/MB chamber Furfural/Furfural/FurfuralTPDimages/Furfural96.fig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/TPD Data/MB chamber Furfural/Furfural/FurfuralTPDimages/H2.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/TPD Data/MB chamber Furfural/Furfural/FurfuralTPDimages/H2.fig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/TPD Data/MB chamber Furfural/Furfural/FurfuralTPDimages/Propene.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/TPD Data/MB chamber Furfural/Furfural/FurfuralTPDimages/Propene.fig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/TPD Data/MB chamber Furfural/Furfural/FurfuralTPDimages/Water.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/TPD Data/MB chamber Furfural/Furfural/FurfuralTPDimages/Water.fig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/TPD Data/MB chamber Furfural/Furfural/FurfuralTPDimages/furan68.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/TPD Data/MB chamber Furfural/Furfural/FurfuralTPDimages/furan68.fig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/TPD Data/MB chamber Furfural/Furfural/FurfuralTPDimages/furfuralmassionization.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/TPD Data/MB chamber Furfural/Furfural/FurfuralTPDstacked.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/TPD Data/MB chamber Furfural/Furfural/Furfural_onPt(111).pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/TPD Data/MB chamber Furfural/Furfural/furfural_tpd_/furfural_tpd_0_13LView2.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/TPD Data/MB chamber Furfural/Furfural/furfural_tpd_/furfural_tpd_0_14lView2.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/TPD Data/MB chamber Furfural/Furfural/furfural_tpd_/furfural_tpd_0_15lView2.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/TPD Data/MB chamber Furfural/Furfural/furfural_tpd_/furfural_tpd_0_16lView2.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/TPD Data/MB chamber Furfural/Furfural/furfural_tpd_/furfural_tpd_0_1LView2.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/TPD Data/MB chamber Furfural/Furfural/furfural_tpd_/furfural_tpd_0_2lView2.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/TPD Data/MB chamber Furfural/Furfural/furfural_tpd_/furfural_tpd_0_3lView2.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/TPD Data/MB chamber Furfural/Furfural/furfural_tpd_/furfural_tpd_0_4lView2.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/TPD Data/MB chamber Furfural/Furfural/furfural_tpd_/furfural_tpd_0_8lView2.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/TPD Data/MB chamber Furfural/Furfural/furfural_tpd_/furfural_tpd_zerodoseView1_cleaned.csv" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plotTPD_data programs/plot_TPD_main.py" afterPath="$PROJECT_DIR$/plotTPD_data programs/plot_TPD_main.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -114,24 +46,23 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/IRAS$plot_TPD_main.coverage" NAME="plot_TPD_main Coverage Results" MODIFIED="1507274957924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/plotTPD_data programs" />
-    <SUITE FILE_PATH="coverage/IRAS$IR_overlays.coverage" NAME="IR_overlays Coverage Results" MODIFIED="1507617406878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/plotTPD_data programs" />
+    <SUITE FILE_PATH="coverage/IRAS$plot_TPD_main.coverage" NAME="plot_TPD_main Coverage Results" MODIFIED="1507619639002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/plotTPD_data programs" />
+    <SUITE FILE_PATH="coverage/IRAS$IR_overlays.coverage" NAME="IR_overlays Coverage Results" MODIFIED="1507618607308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/plotTPD_data programs" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="plot_TPD_main.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="plot_TPD_main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/plotTPD_data programs/plot_TPD_main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1258">
-              <caret line="131" column="116" lean-forward="true" selection-start-line="131" selection-start-column="116" selection-end-line="131" selection-end-column="116" />
+            <state relative-caret-position="370">
+              <caret line="368" column="0" lean-forward="false" selection-start-line="368" selection-start-column="0" selection-end-line="368" selection-end-column="0" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
                 <element signature="e#995#1436#0" expanded="false" />
                 <element signature="e#1542#3238#0" expanded="false" />
-                <element signature="e#5874#6708#0" expanded="false" />
-                <element signature="e#6753#8214#0" expanded="false" />
-                <element signature="e#8342#9286#0" expanded="false" />
-                <element signature="e#9314#10641#0" expanded="false" />
+                <element signature="e#5876#6710#0" expanded="false" />
+                <element signature="e#6755#8216#0" expanded="false" />
+                <element signature="e#8344#9288#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -140,34 +71,10 @@
       <file leaf-file-name="init_info.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plotTPD_data programs/init_info.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="204">
+              <caret line="37" column="36" lean-forward="false" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
               <folding>
                 <element signature="e#247#282#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IR_overlays.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/plotTPD_data programs/IR_overlays.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="60" column="23" lean-forward="false" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="49" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IR_Water_subtraction.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plotTPD_data programs/IR_Water_subtraction.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="53" column="12" lean-forward="true" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -187,6 +94,7 @@
       <find>plot_same</find>
       <find>filename_list</find>
       <find>re</find>
+      <find>dict_values</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -198,9 +106,9 @@
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/plotTPD_data programs/main.py" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/plotTPD_data programs/plot_TPD_main.py" />
         <option value="$PROJECT_DIR$/plotTPD_data programs/init_info.py" />
         <option value="$PROJECT_DIR$/plotTPD_data programs/IR_overlays.py" />
+        <option value="$PROJECT_DIR$/plotTPD_data programs/plot_TPD_main.py" />
       </list>
     </option>
   </component>
@@ -254,23 +162,15 @@
               <item name="IRAS" type="462c0819:PsiDirectoryNode" />
               <item name="Furfural work" type="462c0819:PsiDirectoryNode" />
               <item name="Pt(100)" type="462c0819:PsiDirectoryNode" />
-              <item name="IR data" type="462c0819:PsiDirectoryNode" />
+              <item name="Figs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="IRAS" type="b2602c69:ProjectViewProjectNode" />
               <item name="IRAS" type="462c0819:PsiDirectoryNode" />
               <item name="Furfural work" type="462c0819:PsiDirectoryNode" />
               <item name="Pt(100)" type="462c0819:PsiDirectoryNode" />
-              <item name="IR data" type="462c0819:PsiDirectoryNode" />
-              <item name="furfural Pt(100) IR seq anneal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IRAS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IRAS" type="462c0819:PsiDirectoryNode" />
-              <item name="Furfural work" type="462c0819:PsiDirectoryNode" />
-              <item name="Pt(100)" type="462c0819:PsiDirectoryNode" />
-              <item name="IR data" type="462c0819:PsiDirectoryNode" />
-              <item name="furfural_1e-08_30 sec _0.15 L_seq anneal_anneal" type="462c0819:PsiDirectoryNode" />
+              <item name="Figs" type="462c0819:PsiDirectoryNode" />
+              <item name="IRChamber figs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="IRAS" type="b2602c69:ProjectViewProjectNode" />
@@ -301,7 +201,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.IR_overlays">
+  <component name="RunManager" selected="Python.plot_TPD_main">
     <configuration name="IR_overlays" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -492,8 +392,8 @@
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.IR_overlays" />
-        <item index="1" class="java.lang.String" itemvalue="Python.plot_TPD_main" />
+        <item index="0" class="java.lang.String" itemvalue="Python.plot_TPD_main" />
+        <item index="1" class="java.lang.String" itemvalue="Python.IR_overlays" />
       </list>
     </recent_temporary>
   </component>
@@ -513,17 +413,17 @@
   <component name="ToolWindowManager">
     <frame x="437" y="157" width="1936" height="1056" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21055438" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21055438" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.49456522" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31847826" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -542,12 +442,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/plotTPD_data programs/plot_TPD_main.py</url>
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -555,7 +449,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="42" />
+      <option name="time" value="43" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -568,10 +462,9 @@
             <element signature="e#0#20#0" expanded="true" />
             <element signature="e#995#1436#0" expanded="false" />
             <element signature="e#1542#3238#0" expanded="false" />
-            <element signature="e#5874#6708#0" expanded="false" />
-            <element signature="e#6753#8214#0" expanded="false" />
-            <element signature="e#8342#9286#0" expanded="false" />
-            <element signature="e#9314#10641#0" expanded="false" />
+            <element signature="e#5876#6710#0" expanded="false" />
+            <element signature="e#6755#8216#0" expanded="false" />
+            <element signature="e#8344#9288#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -594,10 +487,9 @@
             <element signature="e#0#20#0" expanded="true" />
             <element signature="e#995#1436#0" expanded="false" />
             <element signature="e#1542#3238#0" expanded="false" />
-            <element signature="e#5874#6708#0" expanded="false" />
-            <element signature="e#6753#8214#0" expanded="false" />
-            <element signature="e#8342#9286#0" expanded="false" />
-            <element signature="e#9314#10641#0" expanded="false" />
+            <element signature="e#5876#6710#0" expanded="false" />
+            <element signature="e#6755#8216#0" expanded="false" />
+            <element signature="e#8344#9288#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -620,10 +512,9 @@
             <element signature="e#0#20#0" expanded="true" />
             <element signature="e#995#1436#0" expanded="false" />
             <element signature="e#1542#3238#0" expanded="false" />
-            <element signature="e#5874#6708#0" expanded="false" />
-            <element signature="e#6753#8214#0" expanded="false" />
-            <element signature="e#8342#9286#0" expanded="false" />
-            <element signature="e#9314#10641#0" expanded="false" />
+            <element signature="e#5876#6710#0" expanded="false" />
+            <element signature="e#6755#8216#0" expanded="false" />
+            <element signature="e#8344#9288#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -646,10 +537,9 @@
             <element signature="e#0#20#0" expanded="true" />
             <element signature="e#995#1436#0" expanded="false" />
             <element signature="e#1542#3238#0" expanded="false" />
-            <element signature="e#5874#6708#0" expanded="false" />
-            <element signature="e#6753#8214#0" expanded="false" />
-            <element signature="e#8342#9286#0" expanded="false" />
-            <element signature="e#9314#10641#0" expanded="false" />
+            <element signature="e#5876#6710#0" expanded="false" />
+            <element signature="e#6755#8216#0" expanded="false" />
+            <element signature="e#8344#9288#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -662,10 +552,9 @@
             <element signature="e#0#20#0" expanded="true" />
             <element signature="e#995#1436#0" expanded="false" />
             <element signature="e#1542#3238#0" expanded="false" />
-            <element signature="e#5874#6708#0" expanded="false" />
-            <element signature="e#6753#8214#0" expanded="false" />
-            <element signature="e#8342#9286#0" expanded="false" />
-            <element signature="e#9314#10641#0" expanded="false" />
+            <element signature="e#5876#6710#0" expanded="false" />
+            <element signature="e#6755#8216#0" expanded="false" />
+            <element signature="e#8344#9288#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -709,38 +598,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plotTPD_data programs/init_info.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="e#247#282#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/plotTPD_data programs/IR_Water_subtraction.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="53" column="12" lean-forward="true" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plotTPD_data programs/plot_TPD_main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1258">
-          <caret line="131" column="116" lean-forward="true" selection-start-line="131" selection-start-column="116" selection-end-line="131" selection-end-column="116" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-            <element signature="e#995#1436#0" expanded="false" />
-            <element signature="e#1542#3238#0" expanded="false" />
-            <element signature="e#5874#6708#0" expanded="false" />
-            <element signature="e#6753#8214#0" expanded="false" />
-            <element signature="e#8342#9286#0" expanded="false" />
-            <element signature="e#9314#10641#0" expanded="false" />
+            <element signature="e#0#19#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -750,7 +613,32 @@
         <state relative-caret-position="179">
           <caret line="60" column="23" lean-forward="false" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="49" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plotTPD_data programs/init_info.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="37" column="36" lean-forward="false" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
+          <folding>
+            <element signature="e#247#282#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plotTPD_data programs/plot_TPD_main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="368" column="0" lean-forward="false" selection-start-line="368" selection-start-column="0" selection-end-line="368" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+            <element signature="e#995#1436#0" expanded="false" />
+            <element signature="e#1542#3238#0" expanded="false" />
+            <element signature="e#5876#6710#0" expanded="false" />
+            <element signature="e#6755#8216#0" expanded="false" />
+            <element signature="e#8344#9288#0" expanded="false" />
           </folding>
         </state>
       </provider>
