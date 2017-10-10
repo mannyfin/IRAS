@@ -357,8 +357,8 @@ for file in file_path1:
     plt.xlabel('Temperature (K)')
     plt.title(filename)
     plt.minorticks_on()
-    plt.savefig(filename+'.png')
-    plt.close(fig)
+    # plt.savefig(filename+'.png')
+    # plt.close(fig)
 
     # any vertical dotted line values go here
     # for x_val in dotted_lines:
