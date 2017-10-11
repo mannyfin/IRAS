@@ -100,6 +100,63 @@ def single_slope_subtract(file__read, num_points_to_average_beg=50,num_points_to
     return new_file_read
 
 
+# def plot_same_masses(dict__values, file_name, new__file__read, area_dict):
+#     """
+#     Plots the same masses together in a matploblib figure. It also feeds into uptake area to calculate the area
+#     under the curve for a particular mass
+#     :param dict__values: dictionary of masses
+#     :param file_name: name of the file
+#     :param new__file__read: dataframe of the data in the file
+#     :return: outputs a plot
+#     """
+#     i = 0
+#     for key, value in dict__values.items():
+#
+#         try:
+#             i += 1
+#             mass_data = new__file__read.filter(regex=str(value))
+#             fig = plt.figure(figsize=(15, 7), num=key)
+#             ax = fig.add_subplot(111)
+#             ax.plot(mass_data, label=file_name, linewidth=2.5)
+#             plt.ylabel('QMS signal (a.u.)')
+#             plt.xlabel('Temperature (K)')
+#             plt.title(key + '/' + surface + ' TPD')
+#
+#             plt.minorticks_on()
+#             # iterate i to change the figure number for the different mass
+#             # ax.get_xaxis().set_minor_locator(mpl.ticker.AutoMinorLocator())
+#             # ax.get_yaxis().set_minor_locator(mpl.ticker.AutoMinorLocator())
+#             # ax.grid(b=True, which='major', color='w', linewidth=1.0)
+#             # ax.grid(b=True, which='minor', color='w', linewidth=0.5)
+#
+#             new__file__read.rename(columns={new__file__read.filter(regex=str(value)).columns[0]: key}, inplace=True)
+#             mass_data.columns = [key]
+#             plt.legend()
+#
+#             integrate_area = uptake_area(mass_data, key, temp_ranges=temp_values)
+#             # print(str(int(integrate_area))+' area for ' + key)
+#             print(str((integrate_area))+' area for ' + key)
+#         # TODO add these areas to a list or ordered dictionary
+#         #     add these areas to a list or ordered dictionary
+#
+#         except ZeroDivisionError or KeyError:
+#             if ax.has_data() is False:
+#                 plt.close(fig)
+#             # print('ZeroDivisionError: integer division or modulo by zero')
+#             print('Mass: ' + key + ' not found in ' + file_name)
+#             integrate_area = -1
+#     #         TODO
+#     #         if the mass is not in the file, we still need to add an empty element to the area for that particular mass
+#     #         this way when another file is read that contains the mass, the order is not lost
+#     #         add these areas to a list or ordered dictionary
+#
+#     #     now add this area to the dictionary
+#         area_dict[key].append(integrate_area)
+#         # area_dict[key].append(int(integrate_area))
+#
+#
+#     # return new__file__read, area_dict
+#     return area_dict
 def plot_same_masses(dict__values, file_name, new__file__read, area_dict):
     """
     Plots the same masses together in a matploblib figure. It also feeds into uptake area to calculate the area
@@ -110,11 +167,17 @@ def plot_same_masses(dict__values, file_name, new__file__read, area_dict):
     :return: outputs a plot
     """
     i = 0
-    for key, value in dict__values.items():
-
+    # for key, value in dict__values.items():
+    for colname in new__file__read.columns:
         try:
             i += 1
-            mass_data = new__file__read.filter(regex=str(value))
+            # mass_data = new__file__read.filter(regex=str(value))
+
+
+            # key = dict__values[new__file__read.columns[0].split('=')[1]]
+            key = dict__values[new__file__read[colname].name.split('=')[1]]
+            mass_data = new__file__read[colname]
+            # mass_data = new__file__read.columns[colname].split('=')[1]
             fig = plt.figure(figsize=(15, 7), num=key)
             ax = fig.add_subplot(111)
             ax.plot(mass_data, label=file_name, linewidth=2.5)
@@ -129,7 +192,8 @@ def plot_same_masses(dict__values, file_name, new__file__read, area_dict):
             # ax.grid(b=True, which='major', color='w', linewidth=1.0)
             # ax.grid(b=True, which='minor', color='w', linewidth=0.5)
 
-            new__file__read.rename(columns={new__file__read.filter(regex=str(value)).columns[0]: key}, inplace=True)
+            # new__file__read.rename(columns={new__file__read.filter(regex=str(value)).columns[0]: key}, inplace=True)
+            new__file__read.rename(columns={new__file__read[colname].name: key}, inplace=True)
             mass_data.columns = [key]
             plt.legend()
 
@@ -174,11 +238,17 @@ def uptake_area(mass_data, key, temp_ranges):
     try:
         lower_index1 = str(temp_ranges[key][0])
         upper_index1 = str(temp_ranges[key][1])
-        mass_data = mass_data.query('index >' + lower_index1 + ' & index < ' + upper_index1)
-        blah = single_slope_subtract(mass_data, num_points_to_average_beg=2,num_points_to_average_end=2 )
+        if type(mass_data) == pd.core.frame.DataFrame:
+            mass_data = mass_data.query('index >' + lower_index1 + ' & index < ' + upper_index1)
+            # blah = single_slope_subtract(mass_data, num_points_to_average_beg=2,num_points_to_average_end=2 )
+            area_under_curve = integrate.trapz(mass_data, x=mass_data.index, axis=0)[0]
+        elif type(mass_data) == pd.core.series.Series:
+            mass_data = mass_data[float(lower_index1): float(upper_index1)]
+            area_under_curve = integrate.trapz(mass_data)
 
-        area_under_curve = integrate.trapz(mass_data, x=mass_data.index, axis=0)[0]
-        area_under_curve/=2253432
+        # The area below was calculated from a saturation dose of CO adsorbed on Pt(100)-hex
+        area_under_curve/=sat_CO_area
+        # area_under_curve/=2253432
     except KeyError:
         area_under_curve = -1
 
@@ -346,6 +416,24 @@ for file in file_path1:
     filename_list.append(filename)
     areas = plot_same_masses(dict__values=dict_values, file_name=filename, new__file__read=new_file_read, area_dict=area_dict)
 
+    """
+    **************************************************************************************************
+    Try to get the Langmuir from the filename and append to area dictionary for making the uptake plot
+    **************************************************************************************************
+    """
+    try:
+        file_added = re.search('.*([0-9]\.[0-9]+)', filename).group(1)
+        try:
+            file_added = float(file_added)
+        except AttributeError:
+            file_added = 0
+
+    except AttributeError:
+        file_added = float(0)
+        # file_added = filename
+
+    areas['L'].append(file_added)
+
     if use_temp_limits is True:
         axes.Axes.set_xlim(plt.gca(), left=low_temp, right=high_temp)
 
@@ -365,8 +453,19 @@ for file in file_path1:
     #     plt.axvline(x=x_val, ymin=0, ymax=1, color='k',  linestyle='--')
 
 # area_table_fig(areas, filename_list)
+
+areas = pd.DataFrame(areas)
+areas.sort_values(by='L',inplace=True)
+areas.reset_index(inplace=True, drop=True)
+
 area_table_fig(areas)
+
+if len(areas.index) > 1:
+    areas.set_index('L', inplace=True)
+    area_axes = areas.plot(title='Uptake')
+    area_axes.set_ylabel('Area')
+    fig = plt.gcf()
+    fig.canvas.set_window_title('Uptake')
 
 plt.show()
 print('hi')
-# print('hi')
