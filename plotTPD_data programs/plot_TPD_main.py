@@ -462,7 +462,7 @@ area_table_fig(areas)
 
 if len(areas.index) > 1:
     areas.set_index('L', inplace=True)
-    area_axes = areas.plot(title='Uptake')
+    area_axes = areas.plot( title='Uptake')
     area_axes.set_ylabel('Area')
     fig = plt.gcf()
     fig.canvas.set_window_title('Uptake')
