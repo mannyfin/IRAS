@@ -9,26 +9,34 @@ First off, change the stuff in the "Preliminary stuff" section
 # Preliminary stuff
 # Display of temp range on plots. These limits are null if there is more than one column unless otherwise specified
 use_temp_limits = True
-low_temp = 110
+low_temp = 125
 high_temp = 800
-single_molecule_name = 'Guaiacol'
+# single_molecule_name = 'Guaiacol'
+single_molecule_name = 'Furfural'
 sat_CO_area = 2253432
 surface = 'Pt(100)'
 # add dict values here:
 dict_values = dict({'1.879': 'H2',
                     '1.922': 'H2',
                     '1.933': 'H2',
+                    '1.9708': 'H2',
+                    '1.971': 'H2',
                     '1.994': 'H2',
                     '2.071': 'H2',
                     '13.642': '14',
                     '14.639': '15',
+                    '14.708': 'CH4',
                     '17.627': 'H2O',
                     '17.798': 'H2O',
                     '17.701': 'H2O',
+                    '17.737': 'H2O',
                     '17.847': 'H2O',
                     '26.9': '27-eth',
+                    '27.708': 'CO',
                     '27.844': 'CO',
+                    '27.883': 'CO',
                     '27.907': 'CO',
+                    '27.993': 'CO',
                     '28.936': 'Formaldehyde',
                     '30.937': '31-ol',
                     '39.000': '39',
@@ -50,6 +58,7 @@ dict_values = dict({'1.879': 'H2',
                     'furan39': '39',
                     'Propene': 'Propylene',
                     'Carbon Dioxide': 'CO2',
+                    'Carbon dioxide': 'CO2',
                     'furan68': 'Furan',
                     'furf96': 'Furfural',
                     '109.505': 'Anisole',
@@ -188,8 +197,11 @@ dict_values = dict({'1.879': 'H2',
 
 # to calculate areas under peaks put in the temp range value
 temp_values = dict({'H2': (250,750),
-                    'CO': (330,535),
+                    'CO': (330,550),
                     'Benzene': (310,460),
-                    'Furfural': (150,250),
+                    'Furfural': (130,250),
                     'GUA': (170,375)
                     })
+# 'Furfural': (188,250), --> mono
+# 'Furfural': (130,250), --> mono + multi
+# 'Furfural': (150,250), --> old
