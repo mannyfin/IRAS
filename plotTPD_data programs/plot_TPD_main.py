@@ -140,7 +140,7 @@ def plot_same_masses(dict__values, file_name, new__file__read, area_dict):
             mass_data.columns = [key]
             plt.legend()
 
-            integrate_area = uptake_area(mass_data, key, temp_ranges=temp_values)
+            integrate_area = uptake_area(mass_data, key, temp_ranges=temp_values, slope_subtract=slope_subtract)
             # print(str(int(integrate_area))+' area for ' + key)
             print(str((integrate_area))+' area for ' + key)
         # TODO add these areas to a list or ordered dictionary
@@ -166,7 +166,7 @@ def plot_same_masses(dict__values, file_name, new__file__read, area_dict):
     return area_dict
 
 
-def uptake_area(mass_data, key, temp_ranges):
+def uptake_area(mass_data, key, temp_ranges, slope_subtract = True):
     """
 
     :param mass_data: Data from the particular mass
@@ -174,7 +174,7 @@ def uptake_area(mass_data, key, temp_ranges):
     :param temp_ranges: The temperature range you want to take the area under the curve. This area is slope subtracted.
     :return: Area under the curve
     """
-    slope_subtract = True
+    # slope_subtract = True
 
     try:
         lower_index1 = str(temp_ranges[key][0])
@@ -406,7 +406,9 @@ for file in file_path1:
 
 # area_table_fig(areas, filename_list)
 try:
-    areas = pd.DataFrame(areas)
+    # areas = pd.DataFrame(areas)
+    areas = pd.DataFrame.from_dict(areas, orient='index').T
+    areas = areas.fillna(method='ffill')
     areas.sort_values(by='L',inplace=True)
     areas.reset_index(inplace=True, drop=True)
 
@@ -426,3 +428,4 @@ try:
     print('hi')
 except:
     print('')
+    plt.show()
