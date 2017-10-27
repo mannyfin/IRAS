@@ -21,8 +21,12 @@ temp_values = dict({'H2': (250,750),
                     'CO': (330,550),
                     'Benzene': (310,460),
                     'Furfural': (130,250),
-                    'GUA': (170,375)
+                    'GUA': (290, 360)
                     })
+
+# 'GUA': (170,375) -> total
+# 'GUA': (290,360) -> recombinative peak
+# 'GUA': (208,250) -> 2nd physisorbed layer
 # 'Furfural': (188,250), --> mono
 # 'Furfural': (130,250), --> mono + multi
 # 'Furfural': (150,250), --> old
