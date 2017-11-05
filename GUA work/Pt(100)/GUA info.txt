@@ -1,0 +1,5 @@
+This file contains information about our data
+
+After plotting the uptake of GUA, we believe we have 1 ML of GUA at an exposure of 0.015 L.
+This is based on the saturation of the recombinative peak around 320 K. We slope subtracted the peak to determine areas.
+This is also corroborated with the CO and H2 uptake areas.
