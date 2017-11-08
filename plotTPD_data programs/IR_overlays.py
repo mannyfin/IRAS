@@ -10,6 +10,7 @@ import re
 sns.set()
 sns.set_context("poster")
 
+"for reading and normalizing NIST IR spectra"
 
 # Param
 shiftdown = True
@@ -33,7 +34,7 @@ root.withdraw()
 file_path1 = filedialog.askopenfilenames(filetypes=(('All files', '*.*'), ('JCamp files', '*.jdx'), ('Data files', '*.dpt')),
                                          title='Select Input File(s)')
 
-# nist_spectrum = 'F:/PythonProjects/IRAS_plot/IRAS/Furfural work/Pt(100)/IR data/Furfural_liquid_IR_nist.jdx'
+# nist_spectrum = '~/PythonProjects/IRAS_plot/IRAS/Furfural work/Pt(100)/IR data/Furfural_liquid_IR_nist.jdx'
 
 nist = pd.read_csv(file_path1[0], sep=' ', skiprows=37, skipfooter=1, header=None, index_col=0, engine='python' )
 # nist = pd.read_csv(nist_spectrum, sep=' ', skiprows=37, skipfooter=2, names =['wave', 'freq1', 'freq2', 'freq3', 'freq4', 'freq5'],index_col = 0, engine='python' )
