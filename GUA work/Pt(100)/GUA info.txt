@@ -28,3 +28,63 @@ CH4, or undergoes decomposition to form H(ads) and C(ads), and the H(ads) recomb
 formaldehyde can either undergo decomposition to form surface H and CO, or desorb later as formaldehyde.
 The phenol exists because of the 748 cm-1 bending mode and desorbs at 390 K. The formaldehyde could be a crack of 29.
 - Sometimes we get additional scission of the C-OH bond based on 1268 cm-1 C-OH stretch to form some benzene.
+-Appearance of unknown peak at 1142 cm-1
+
+
+Between 337 K and 391 K, we observe the following:
+-In TPD we see desorption of phenol, benzene, some methane?, H2,
+
+-unidentified peak at 1142 cm-1 grows
+-decrease in (A' sym HCH bend/A' asym HCH bend) 1458 cm-1 is likely due to methane desorption and methyl decomposition and (A' CC stretch) 1508 cm-1
+
+
+Above 391 K, we observe the following:
+-Desorption of H2, CO, and possibly formaldehyde
+-peak at 748 cm-1 is gone
+
+
+Decomposition Scheme
+
+100 K
+C6H4(OH)(OCH3)(g) → C6H4(OH)(OCH3)(ads)
+Adsorption
+100 K 一 191K
+C6H4(OH)(OCH3)(ads)  → C6H4(O)(OCH3)(ads) + H(ads) **check with submonolayer***
+                                 → C6H4(OH)(OCH3)(g)
+#O一H scission
+#multilayer desorption
+
+191K 一 249 K
+C6H4(OH)(OCH3)(ads) → C6H4(OH)(OCH3)(g)
+C6H4(OH)(OCH3)(ads)  → C6H4(O)(OCH3)(ads) + H(ads)
+2H(ads) → H2(g)
+
+#2nd physisorbed layer desorption
+#O一H scission
+
+249 K 一 337 K
+C6H4(O)(OCH3)(ads) + H(ads) → C6H4(OH)(OCH3)(g)
+C6H4(O)(OCH3)(ads) or C6H4(OH)(OCH3)(ads) → C6H4(O-----)(ads) + OCH2(ads) + H(ads)
+C6H4(O)(OCH3)(ads) → C6H4(O)(O)(ads) + CH3(ads)
+C6H4(O)(OCH3)(ads) →C6H4(OCH3)(ads)  + O(ads)
+C6H4(OCH3)(ads) →C6H4(O)(ads) + CH3(ads)
+ CH3(ads)+ H(ads)→ CH4(g)
+2H(ads) → H2(g)
+
+# GUA recombination
+# methoxy scission
+
+337 K 一 391 K
+C6H4(O)(O)(ads)→C6H4(O)(ads) + O(ads)
+C6H4(O)(ads) + H(ads) → C6H4(OH)(g)
+C6H4(O)(ads) → C6H4(ads) + O(ads) →  C6H4(g)
+OCH2(ads)→ CO(ads) + 2H(ads)
+2H(ads) → H2(g)
+
+>391 K
+OCH2(ads)→ CH2O(g) ?
+ CO(ads) →  CO(g)
+2H(ads) → H2(g)
+Ads C from ring and CH3 decomp
+#formaldehyde desorption etc
+
