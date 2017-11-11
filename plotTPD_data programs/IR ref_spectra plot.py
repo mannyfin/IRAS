@@ -35,6 +35,13 @@ file_path1 = filedialog.askopenfilenames(filetypes=(('All files', '*.*'), ('JCam
                                          title='Select Input File(s)')
 
 # nist_spectrum = '~/PythonProjects/IRAS_plot/IRAS/Furfural work/Pt(100)/IR data/Furfural_liquid_IR_nist.jdx'
+molname = pd.read_csv("anisole IR_solution.jdx",delimiter=None,nrows=0).columns
+
+if len(molname) ==2:
+    # assumes len(molname) == 2 potential breakage here...
+    molname = molname[0].strip('##TITLE=') + molname[1]
+else:
+    molname = molname[0].strip('##TITLE=')
 
 nist = pd.read_csv(file_path1[0], sep=' ', skiprows=37, skipfooter=1, header=None, index_col=0, engine='python' )
 # nist = pd.read_csv(nist_spectrum, sep=' ', skiprows=37, skipfooter=2, names =['wave', 'freq1', 'freq2', 'freq3', 'freq4', 'freq5'],index_col = 0, engine='python' )
@@ -62,43 +69,8 @@ wave = wave[:len(nist_absorb)]
 fig, ax = plt.subplots(num='IR Overlay')
 molecule = file_path1[0].rsplit('/')[-1].rstrip('.0.dpt').split(' ')[0]
 
-ax.plot(wave,nist_absorb, label=molecule+' NIST Reference Spectrum -- Liquid')
-if shiftdown is True:
-    # shift the baseline down by taking avg of points at the end, which are approx flat
-    shifted = nist_absorb_norm[np.where(wave>3700)[0]].mean()
-    nist_absorb_norm = nist_absorb_norm - shifted
 
 
-# # Select the rest
-# root = tk.Tk()
-# root.withdraw()
-# file_path1 = filedialog.askopenfilenames(filetypes=(('All files', '*.*'), ('JCamp files', '*.jdx'), ('Data files', '*.dpt')),
-#                                          title='Select Input File(s)')
-# colnames = ['wave', 'amp']
-# # current_palette = sns.color_palette("Paired", max(len(file_path1), 8))
-# # sns.set_palette(current_palette, n_colors=max(len(file_path1), 8))
-#
-# fig, ax = plt.subplots(num='IR Overlay')
-# ax.plot(wave,nist_absorb_norm, label='NIST Reference Spectrum -- Liquid')
-
-# for file in file_path1:
-#     IR_df = pd.read_csv(file, sep='\t', header=None, names=colnames)
-#     IR_df.set_index('wave', inplace=True)
-#     IR_df = IR_df.loc[:700]
-#     # normalize wrt v(C=O) ald stretch
-#     ir_df_normalizing_val = IR_df.loc[IR_df.loc[1715:1660].idxmax()]
-#     normalized_IR = normalize_wrt(IR_df, ir_df_normalizing_val)
-#
-#     label = ospath.basename(file)
-#     # label = re.findall('(\d\.\d .*?)\.', label)[0]
-#
-#     if shiftdown is True:
-#         # shift the baseline down by taking avg of points at the end, which are approx flat
-#         shifted = normalized_IR.loc[:3700].mean()
-#         normalized_IR = normalized_IR - shifted
-#
-#
-#     ax.plot(normalized_IR, label=label)
 
 plt.legend()
 plt.show()
