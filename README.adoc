@@ -1,15 +1,15 @@
 = IRAS
 
-This repository is used to facilitate quick data analysis and plots (effectively in _real time_) of our temperature
-programmed desorption (TPD) data and Infrared Reflection Absorption Spectroscopy (IRAS) data. As a result, I have been
-able to conduct 2-3x more experiments than before.
+This repository is used to facilitate quick data analysis and plots (effectively in _real time_) of my _temperature
+programmed desorption_ (*TPD*) data and _Infrared Reflection Absorption Spectroscopy_ (*IRAS*) data. As a result of
+creating this code, I havecbeen able to conduct 2-3x more experiments in the same time than before.
 
-It is a code that I use for my research and that I update whenever necessary.
+This is code that I use for my research and that I update whenever necessary.
 
-The programs can be found in the 'plotTPD_data programs' folder and the necessary files can be found under 'molecule
-name' + work (ex. GUA work). I also have some other small utilities for some on the fly calculations.
+The programs can be found in the `plotTPD_data programs` folder and the necessary files can be found under `'molecule
+name' + work` (ex. `GUA work`). I also have some other small utilities for some on the fly calculations.
 
-TPD (plot_TPD_main.py)::
+TPD (`plot_TPD_main.py`)::
 To begin, open init_info.py and fill in the fields
 . plot TPD file (using seaborn if desired)
 . Perform slope subtraction and/or background subtraction
@@ -20,7 +20,7 @@ plain area between two temperatures (points)
     b) all the files for a particular mass (i.e. all the H2O curves from all the files together)
     c) uptake plot (area vs L)
     d) a table of the areas
-. It will also output the areas to an excel file named 'MoleculeName Area_output.xlsx'
+. It will also output the areas to an excel file named `'MoleculeName' Area_output.xlsx`
 . Ordering of the files when you pick them is not necessary as long as the files fit a consistent naming convention in
 my files
 
