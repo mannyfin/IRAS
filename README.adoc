@@ -2,7 +2,7 @@
 
 This repository is used to facilitate quick data analysis and plots (effectively in _real time_) of my _temperature
 programmed desorption_ (*TPD*) data and _Infrared Reflection Absorption Spectroscopy_ (*IRAS*) data. As a result of
-creating this code, I havecbeen able to conduct 2-3x more experiments in the same time than before.
+creating this code, I have been able to conduct 2-3x more experiments in the same time than before.
 
 This is code that I use for my research and that I update whenever necessary.
 
