@@ -9,7 +9,7 @@ This is code that I use for my research and that I update whenever necessary.
 The programs can be found in the `plotTPD_data programs` folder and the necessary files can be found under `'molecule
 name' + work` (ex. `GUA work`). I also have some other small utilities for some on the fly calculations.
 
-Beginning in GUA work\GUA papers\Quick Notes on papers\ I have added notes on some important work I am reading
+Beginning in `GUA work\GUA papers\Quick Notes on papers\` I have added notes on some important work I am reading
 
 TPD (`plot_TPD_main.py`)::
 To begin, open init_info.py and fill in the fields
