@@ -1,0 +1,19 @@
+= TPD and HREELS of GUA on Zn/Pt(111)
+
+Prior work::
+    - Benzaldehyde and anisole on Pt(111) and Zn/Pt(111)
+    - Zn alters d-band of Pt by decreasing binding of ring to surface.
+
+Experimental::
+    - Assume 1ML of Zn = 1 ML of Pt = 1.51E15 atoms/cm^2
+    - Prior: Zn stays on surface below 600 K. Above, it diffuses to substitutional alloy in primarily in second layer
+    - This work, stick with Zn adatoms
+    - TPD of guaiacol--> low T peak is second layer. Saturation dose of 0.5 L -> only chemisorbed GUA
+
+Results::
+    ::: _TPD of GUA on Pt(111):_
+    ** Peak at pass:q[<u>225 K assigned to desorption of *second physisorbed layer* </u>]  *(see ref 20).*
+    ** Only other desorbing species were H~2~ and CO
+    *** assume that all the oxygen in GUA is accounted for in CO
+    ** H~2~ has a desorption limited peak @ 340 K -> dehydrogenation occurred below that temperature
+    ** H~2~ and CO have coincident peak at 435 K -> from some adsorbed intermediate
