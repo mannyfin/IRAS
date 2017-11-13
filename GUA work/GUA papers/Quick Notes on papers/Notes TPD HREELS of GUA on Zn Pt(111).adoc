@@ -1,4 +1,4 @@
-= TPD and HREELS of GUA on Zn/Pt(111)
+= https://doi.org/10.1016/j.cattod.2017.07.002[TPD and HREELS of GUA on Zn/Pt(111)]
 
 Prior work::
     - Benzaldehyde and anisole on Pt(111) and Zn/Pt(111)
@@ -10,10 +10,43 @@ Experimental::
     - This work, stick with Zn adatoms
     - TPD of guaiacol--> low T peak is second layer. Saturation dose of 0.5 L -> only chemisorbed GUA
 
-Results::
+TPD Results::
     ::: _TPD of GUA on Pt(111):_
     ** Peak at pass:q[<u>225 K assigned to desorption of *second physisorbed layer* </u>]  *(see ref 20).*
     ** Only other desorbing species were H~2~ and CO
     *** assume that all the oxygen in GUA is accounted for in CO
     ** H~2~ has a desorption limited peak @ 340 K -> dehydrogenation occurred below that temperature
     ** H~2~ and CO have coincident peak at 435 K -> from some adsorbed intermediate
+
+    ::: _TPD of GUA on 0.4 ML Zn/Pt(111):_
+    ** Same narrow GUA peak at 225 K
+    ** Coincident CO and H~2~ peak at 750 K
+    ** Additional CH~4~ peak at 480 K attrib to C--O bond in O--CH~3~
+    ** Show quantification of Carbon atoms on the surface per molecule of CO
+    ** multilayers of Zn were found to be unreactive towards GUA
+
+HREELS Results::
+    :: Pt(111):
+    * Molecular GUA assigned by comparison to IR/Raman at 150 K
+
+    * 225 K: decrease in intensities of in-plane modes (900--1600 cm^-1^)  relative to o.o.p. CCO bend at 740 cm^-1^
+    ** => the ring is parallel to the surface because of induced image dipoles in the metal
+    ** new peak at 610 cm^-1^
+    ** loss of _v_(O--H) between 3200--3600 cm^-1^ attributed to H-bonding in physisorbed layer and not replaced by OH
+    stretch
+    ** alphatic peaks (2870 cm^-1^) increased relative to aromatic peaks (3030 cm^-1^)
+    ** Based on the information above, the authors attribute this to a reaction on the surface
+    ** might have formed 2-methoxy-2,5-cyclohexadien-1-one. *_Lets check the IR differences_*
+
+    * 285 K:
+    ** loss of aromatic character, and disappearance and appearance of peaks that the authors do not assign
+
+    * 485 K:
+    ** 1800 and 2000 cm^-1^ peaks due to _v_(CO) modes on bridge and atop sites respectively
+    ** Sill see _v_(C--H) stretch at 2870 cm^-1^ and other peaks indicate HC fragments on surface
+
+    :: 0.4 ML Zn/Pt(111):
+    * 150 K --450 K Similar spectra as on Pt(111)
+    ** _v_(C--H)~ring~ at 3030 cm^-1^ unchanged till 450 K => ring is intact
+    ** no significant decrease in in-plane modes => ring is tilted away on the surface
+    ** oxygen binds to the Zn sites as some di-oxo species
