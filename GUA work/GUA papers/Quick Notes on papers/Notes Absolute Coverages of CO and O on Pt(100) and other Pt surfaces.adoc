@@ -1,0 +1,9 @@
+= https://doi.org/10.1016/0167-2584(82)90130-X[Absolute coverages of CO and O on Pt(111); Comparison of saturation CO coverages on Pt(100), (110) and (111) surfaces]
+
+CO coverage on Pt(100) was θ = 0.77 +/- 0.03
+
+Surface atom density of Pt(100) is 1.503 * 0.866 = 1.302 e 15 atoms/cm^2^
+
+1.302x10^15^ atoms/cm^2^ * 0.77 = 1E15 molecules of CO/cm^2^
+
+Saturation Area from our TPD

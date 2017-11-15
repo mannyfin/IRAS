@@ -21,7 +21,6 @@ Between 249 K and 337 K, we observe the following:
 On the surface (adsorbed species) we have: H, CO, CH3, OCH3 ,formaldehyde, hydroxyl-H removed GUA, phenol, and benzene.
 
 -Appearance of CO stretch on atop (2012 cm-1) and bridge (1813 cm-1) sites implying that if OCH3 decomposes to form H(ads)
-
 -1043 cm-1 disappears, so we cleave the O-CH3 bond leaving CH3(ads) on the surface. This CH3 recombines with H to form
 CH4, or undergoes decomposition to form H(ads) and C(ads), and the H(ads) recombine to form H2 (maybe at higher temps.)
 -1232 cm-1 disappearance attributed to scission of the C-OCH3 bond leads to formation of formaldehyde and phenol. The
