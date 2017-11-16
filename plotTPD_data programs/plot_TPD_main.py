@@ -339,7 +339,8 @@ file_path1 = sorted(file_path1, reverse=True)
 current_palette = sns.color_palette("Paired", max(len(file_path1), 8))
 sns.set_palette(current_palette, n_colors= max(len(file_path1), 8))
 # sns.palplot(sns.color_palette())
-
+temp_df = []
+fname_lst = []
 for file in file_path1:
 
     file_read, filename = read_files(file=file)
@@ -366,7 +367,8 @@ for file in file_path1:
     filename = re.sub('.csv', '', filename)
     filename_list.append(filename)
     areas = plot_same_masses(dict__values=dict_values, file_name=filename, new__file__read=new_file_read, area_dict=area_dict)
-
+    temp_df.append(new_file_read)
+    fname_lst.append(filename)
     """
     **************************************************************************************************
     Try to get the Langmuir from the filename and append to area dictionary for making the uptake plot
@@ -390,7 +392,7 @@ for file in file_path1:
 
     fig = plt.figure(filename, figsize=(15, 7))
     all_axes = fig.add_subplot(111)
-    new_file_read.plot(ax=all_axes,figsize=(15, 7), title=filename, linewidth=2.5)
+    new_file_read.plot(ax=all_axes, figsize=(15, 7), title=filename, linewidth=2.5)
     plt.ylabel('QMS signal (a.u.)')
     plt.xlabel('Temperature (K)')
     plt.title(filename)
@@ -424,6 +426,17 @@ try:
     writer.save()
     plt.show()
     print('hi')
+
+    """
+    Use the following commented lines out below if you want to save the slope subtracted data
+    """
+    # tpd_writer = pd.ExcelWriter(single_molecule_name + fname_lst[0] +'TPD.xlsx')
+    # for idx, val in enumerate(fname_lst):
+    #     you need the line below because each sheet name has to have <= 31 chars
+    #     if len(val) >= 31:
+    #         val = val[:30]
+    #     temp_df[idx].to_excel(tpd_writer, val)
+    # tpd_writer.save()
 except:
     print('')
     plt.show()
