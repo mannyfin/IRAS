@@ -5,13 +5,13 @@ Surface atom density of Pt(100), ρ~Pt(100)~ is 1.503 * 0.866 = 1.302 e 15 atoms
 1.302x10^15^ atoms/cm^2^ * 0.77 = 1E15 molecules of CO/cm^2^
 
 Saturation Area from our TPD: 0.318 relative to 1 ML CO area: `sat_CO_area = 2253432`
-
+0.318 is our saturation
 So 0.318*1E15 = 3.18E14 molecules of CO / cm^2^
 
-3.18E14/1.302E15 = 0.244 ML of CO relative to surface atomic density, ρ~Pt(100)~
+3.18E14/1.302E15 = 0.245 ML of CO relative to surface atomic density, ρ~Pt(100)~
 
 So we have a minimum of 0.122 ML of GUA decomposing because GUA can either form 1 or 2 CO plus O~(ads)~ on the surface
-If it forms 1 CO then it is 0.122 ML of GUA decomposing minimum and the maximum is above 0.244 ML of CO
+If it forms 1 CO then it is 0.122 ML of GUA decomposing minimum and the maximum is above 0.245 ML of CO
 
 
 == TO DO:
