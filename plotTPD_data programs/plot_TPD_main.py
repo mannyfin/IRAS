@@ -321,8 +321,6 @@ def read_files(file):
         file_read = file_read.dropna(axis=1)
         file_read.drop(['Time', 'ms'],axis=1, inplace=True)
         file_read.set_index('Temperature', inplace=True)
-
-    # TODO append some dictionary to a df every iteration for the uptake curve
     # pseudo code...
     # pd.DataFrame(molecule_area[i], index=langmuir) and append all of them
 
@@ -422,7 +420,7 @@ try:
         fig.canvas.set_window_title('Uptake')
 
     writer = pd.ExcelWriter(single_molecule_name + ' Area_output.xlsx')
-    areas.to_excel(writer,'Sheet1')
+    areas.to_excel(writer, 'Sheet1')
     writer.save()
     plt.show()
     print('hi')
