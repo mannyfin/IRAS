@@ -9,6 +9,7 @@ This is based on the saturation of the recombinative peak around 320 K. We slope
 This is also corroborated with the CO and H2 uptake areas.
 
 Between 191 K and 249 K, we observe the following:
+
 - Disappearance of the hydrogen bonded OH stretch peak at 3400 cm-1
 - Disappearance of ring C-H stretch from 3000-3100 suggests ring is lying flat or C-H has decomposed, prob lying flat
 because we see ring modes at 1508 cm-1
