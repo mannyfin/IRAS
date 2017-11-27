@@ -8,7 +8,8 @@ Experimental::
     - Assume 1ML of Zn = 1 ML of Pt = 1.51E15 atoms/cm^2
     - Prior: Zn stays on surface below 600 K. Above, it diffuses to substitutional alloy in primarily in second layer
     - This work, stick with Zn adatoms
-    - TPD of guaiacol--> low T peak is second layer. Saturation dose of 0.5 L -> only chemisorbed GUA
+    - TPD of guaiacol--> low T peak is second layer. Saturation dose of 0.5 L -> contains saturated second physisorbed
+     layer and saturated chemisorbed GUA
 
 TPD Results::
     ::: _TPD of GUA on Pt(111):_
