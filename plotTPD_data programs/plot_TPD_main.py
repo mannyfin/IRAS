@@ -10,7 +10,7 @@ from scipy import integrate
 import re
 from init_info import *
 from collections import defaultdict
-import seaborn as sns
+# import seaborn as sns
 # TODO see below
 """
 1. areas don't get bigger than monolayer for the cracks
@@ -22,8 +22,7 @@ label each curve
 """
 
 
-sns.set()
-sns.set_context("poster")
+
 # sns.set_style("dark")
 # sns.set_style("ticks", {"xtick.minor.size": 8, "ytick.minor.size": 8})
 mpl.rcParams.update({'font.size': 16})
@@ -123,7 +122,9 @@ def plot_same_masses(dict__values, file_name, new__file__read, area_dict):
             # mass_data = new__file__read.columns[colname].split('=')[1]
             fig = plt.figure(figsize=(15, 7), num=key)
             ax = fig.add_subplot(111)
-            ax.plot(mass_data, label=file_name, linewidth=2.5)
+            ax.plot(mass_data, label=file_name, linewidth=2, color='k')
+            if file_name == monolayer:
+                ax.plot(mass_data, label=file_name, linewidth=2, color='r')
             plt.ylabel('QMS signal (a.u.)')
             plt.xlabel('Temperature (K)')
             plt.title(key + '/' + surface + ' TPD')
@@ -138,7 +139,8 @@ def plot_same_masses(dict__values, file_name, new__file__read, area_dict):
             # new__file__read.rename(columns={new__file__read.filter(regex=str(value)).columns[0]: key}, inplace=True)
             new__file__read.rename(columns={new__file__read[colname].name: key}, inplace=True)
             mass_data.columns = [key]
-            plt.legend()
+            if legend =='on':
+                plt.legend()
 
             integrate_area = uptake_area(mass_data, key, temp_ranges=temp_values, slope_subtract=slope_subtract)
             # print(str(int(integrate_area))+' area for ' + key)
@@ -336,8 +338,13 @@ file_path1 = filedialog.askopenfilenames(filetypes=(('All files', '*.*'), ('Text
 # attempt to order the files
 file_path1 = sorted(file_path1, reverse=True)
 # set color palette to be len(num_files). 8 refers to the typical number of masses represented on a TPD plot
-current_palette = sns.color_palette("Paired", max(len(file_path1), 8))
-sns.set_palette(current_palette, n_colors= max(len(file_path1), 8))
+try:
+    sns.set()
+    sns.set_context("poster")
+    current_palette = sns.color_palette("Paired", max(len(file_path1), 8))
+    sns.set_palette(current_palette, n_colors= max(len(file_path1), 8))
+except NameError:
+    "seaborn not imported and is likely commented out"
 # sns.palplot(sns.color_palette())
 temp_df = []
 fname_lst = []

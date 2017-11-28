@@ -10,7 +10,9 @@ First off, change the stuff in the "Preliminary stuff" section
 # Display of temp range on plots. These limits are null if there is more than one column unless otherwise specified
 use_temp_limits = True
 slope_subtract = True
-low_temp = 110
+legend = 'off'
+monolayer = '0.015 L'
+low_temp = 100
 high_temp = 800
 single_molecule_name = 'Guaiacol'
 # single_molecule_name = 'Furfural'
