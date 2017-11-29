@@ -10,7 +10,7 @@ First off, change the stuff in the "Preliminary stuff" section
 # Display of temp range on plots. These limits are null if there is more than one column unless otherwise specified
 use_temp_limits = True
 slope_subtract = True
-legend = 'off'
+legend = 'on'
 monolayer = '0.015 L'
 low_temp = 100
 high_temp = 800
