@@ -4,6 +4,8 @@ Surface atom density of Pt(100), ρ~Pt(100)~ is 1.503 * 0.866 = 1.302 e 15 atoms
 
 1.302x10^15^ atoms/cm^2^ * 0.77 = 1E15 molecules of CO/cm^2^
 
+Hydrogen coverage at 200 K on Pt(100) 5x20 is 1.1E15 molecules H2/cm^2
+
 Saturation Area from our TPD: 0.318 relative to 1 ML CO area: `sat_CO_area = 2253432`
 0.318 is our saturation
 So 0.318*1E15 = 3.18E14 molecules of CO / cm^2^
