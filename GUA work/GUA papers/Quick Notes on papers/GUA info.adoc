@@ -8,35 +8,46 @@ uptake plots*
 This is based on the saturation of the recombinative peak around 320 K. We slope subtracted the peak to determine areas.
 This is also corroborated with the CO and H2 uptake areas.
 
-Between 191 K and 249 K, we observe the following:
 
+Between 191 K and 249 K, we observe the following:
 - Disappearance of the hydrogen bonded OH stretch peak at 3400 cm-1
 - Disappearance of ring C-H stretch from 3000-3100 suggests ring is lying flat or C-H has decomposed, prob lying flat
-because we see ring modes at 1508 cm-1
+because we see i.p. ring modes at 1508 cm-1 and the ratio of the i.p. C--C stretch 1508 mode to the o.o.p 748 CCO bend and 837 o.o.p wag CH of the ring decreases. So i.p/o.o.p decreases implying i.p modes decreases relative to o.o.p. Implying the ring is lying flat.---or we are losing aromatic character for at least some of the adsorbed intermediates (because of formation of 2-methoxy-2,5-cyclohexadiene-1-one)
 - Presence of C-H asym and sym stretches from 2800-3000 suggest methyl group is intact
 - bending CCO o.o.p mode suggests R-O is intact.
 - No OH stretch at 3500 cm-1 suggests scission of the hydroxyl hydrogen
-- TPD results indicate recombination of this hydrogen to make guaiacol and H2
-- small decrease in intensity of in plane modes (919, 961, 1027) relative to:
-    out of plane CCO bending mode at 748 cm-1,
-    A' CX stretch at 1268 cm-1
-    and the other out of plane modes
+
+- TPD:  H2 desorption
 
 Between 249 K and 337 K, we observe the following:
-On the surface (adsorbed species) we have: H, CO, CH3, OCH3 ,formaldehyde, hydroxyl-H removed GUA, phenol, and benzene.
 
-- 1043 cm-1 disappears, so we cleave the O-CH3 bond leaving CH3(ads) on the surface. This CH3 recombines with H to form
-CH4, or undergoes decomposition to form H(ads) and C(ads), and the H(ads) recombine to form H2 (maybe at higher temps.)
-- 1232 cm-1 disappearance attributed to scission of the C-OCH3 bond leads to formation of formaldehyde and phenol. The
-formaldehyde can either undergo decomposition to form surface H and CO, or desorb later as formaldehyde.
-The phenol exists because of the 748 cm-1 bending mode and desorbs at 390 K. The formaldehyde could be a crack of 29.
-- Also see the appearance of CO stretch on atop (2012 cm-1) and bridge (1813 cm-1) sites implying that if OCH3 decomposes to form H(ads)
-- Sometimes we get additional scission of the C-OH bond based on 1268 cm-1 C-OH stretch to form some benzene.
-- Appearance of unknown peak at 1142 cm-1
-
+- 1043 cm-1 disappears, so we cleave the O-CH3 bond leaving CH3(ads) on the surface.
+-1458 cm-1 A' sym HCH bend/A' asym HCH bend decreases (should add to table 1)
+- C-H methyl stretches between 2840-2970 cm-1 decrease
+- 1232 cm-1 disappearance attributed to scission of the C-OH bond
+- Also see the appearance of CO stretch on atop (2012 cm-1) and bridge (1813 cm-1) sites
+- 1268 cm-1 C-OCH3  decreases.
+- ν(C-C)ring i.p. mode at 1508 cm-1 decreases
+- Appearance of very small unknown peak at 1142 cm-1
+- GUA recombinative desorption
 
 Between 337 K and 391 K, we observe the following:
-- In TPD we see desorption of phenol, benzene, some methane?, H2,
+
+- unidentified peak at 1142 cm-1 grows
+- disappearance of (A' sym HCH bend/A' asym HCH bend) 1458 cm-1
+- disappearance of C-H methyl stretches between 2840-2970 cm-1
+- ν(C-C)ring i.p. mode at 1508 cm-1 decreases further
+-CO stretches increases: atop (2012 cm-1) and bridge (1813 cm-1)
+
+-We see CH4 desorption at 330 K in TPD
+-desorption of phenol (385 K), H2
+
+
+Above 391 K, we observe the following:
+- Desorption of H2, CO, formaldehyde (450 K), and benzene (400 K)
+- peak at 748 cm-1 is gone
+
+
 
 - unidentified peak at 1142 cm-1 grows
 - decrease in (A' sym HCH bend/A' asym HCH bend) 1458 cm-1 is likely due to methane desorption and methyl decomposition and (A' CC stretch) 1508 cm-1
