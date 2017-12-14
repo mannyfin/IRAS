@@ -17,7 +17,7 @@ high_temp = 800
 single_molecule_name = 'Acetic Acid'
 # single_molecule_name = 'Furfural'
 sat_CO_area = 2253432
-surface = 'Pt(100)'
+surface = 'Ni(110)'
 # to calculate areas under peaks put in the temp range value
 temp_values = dict({'H2': (250,750),
                     'CO': (330,550),
@@ -34,7 +34,8 @@ temp_values = dict({'H2': (250,750),
 # 'Furfural': (150,250), --> old
 
 # add dict values here:
-dict_values = dict({'1.839': 'H2',
+dict_values = dict({'1.538': 'H2',
+                    '1.839': 'H2',
                     '1.879': 'H2',
                     '1.922': 'H2',
                     '1.933': 'H2',
@@ -53,6 +54,7 @@ dict_values = dict({'1.839': 'H2',
                     '17.701': 'Water',
                     '17.737': 'Water',
                     '17.847': 'Water',
+                    '17.903': 'Water',
                     '25.803': 'Ethylene',
                     '26.9': '27-eth',
                     '27.708': 'CO',
@@ -61,6 +63,7 @@ dict_values = dict({'1.839': 'H2',
                     '27.883': 'CO',
                     '27.907': 'CO',
                     '27.993': 'CO',
+                    '28.250': 'CO',
                     '28.818': 'Formaldehyde',
                     '28.936': 'Formaldehyde',
                     '30.937': '31-ol',
@@ -71,7 +74,9 @@ dict_values = dict({'1.839': 'H2',
                     '43.737': 'CO2',
                     '43.905': 'CO2',
                     '44.109': 'CO2',
+                    '44.784': 'CO2',
                     '60.080': 'HOAc',
+                    '61.297': 'HOAc',
                     '68.654': 'Furan',
                     '78.423': 'Benzene',
                     '78.871': 'Benzene',
