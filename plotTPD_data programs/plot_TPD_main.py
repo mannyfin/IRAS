@@ -202,7 +202,7 @@ def uptake_area(mass_data, key, temp_ranges, slope_subtract = True):
                 area_under_curve = integrate.trapz(mass_data)
 
         # The area below was calculated from a saturation dose of CO adsorbed on Pt(100)-hex
-        # area_under_curve/=sat_CO_area
+        # area_under_curve/=sat_CO_area_Pt
         # area_under_curve/=2253432
 
         # mass_data.plot()

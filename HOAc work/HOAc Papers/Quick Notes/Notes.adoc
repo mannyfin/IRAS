@@ -1,0 +1,38 @@
+= Notes for acetic acid paper
+
+Facts::
+
+- Surface atom density of Ni(110), ρ~Ni(110)~ is 1.864 * 0.612 = 1.141 e 15 atoms/cm^2^
+
+- Saturation CO coverage:
+
+- Saturation H2 coverage:
+
+
+
+
+Comments::
+
+Correct for background pressure
+
+arr = [1.5, 1.8, 1, 2.5, 3.2, 3.5, 3.6, 4.9, 6.3, 7.6, 9.1]
+L = 1e-6
+list(map(lambda x: x*15*1e-9/L, arr))
+
+[0.022500000000000003,
+ 0.027000000000000003,
+ 0.015000000000000003,
+ 0.037500000000000006,
+ 0.04800000000000001,
+ 0.052500000000000005,
+ 0.054000000000000006,
+ 0.07350000000000001,
+ 0.09450000000000001,
+ 0.114,
+ 0.1365]
+
+
+Some easy questions
+
+- Do we have H2, CO, and possibly H2O saturation on Ni(110)?
+- What are the values for their respective coverages?
