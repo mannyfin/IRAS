@@ -1,0 +1,7 @@
+== IRAS of HOAc on Ni(110)
+
+=== Low coverage
+
+==== 90 K
+- no γOH suggests scission of hydroxyl hydrogen
+- ρCH3 suggests methyl group is intact
