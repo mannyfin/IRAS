@@ -1,7 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-
-
+import matplotlib.axes as ax
 # creates the data for the HOAc/Ni(110) IR
 colnames = ['Wavenumber', 'Intensity']
 
@@ -42,8 +41,22 @@ k350_60s = -1*(f7-f5)
 k450_60s = -1*(f7-f6)
 
 cat_60s = pd.concat([k90_60s, k200_60s, k350_60s, k450_60s], axis=1, keys=['90K', '200K', '350K', '450K'])
+#
+# fig1, ax1 = plt.subplots()
+# ax1.plot(cat_15s)
+cat_15s.plot(title='HOAc/Ni(110) IRAS, 15s', color=['mediumblue', 'firebrick', 'lime'])
+plt.minorticks_on()
+# ax.Axes.invert_xaxis(plt.gca())
+# fig2, ax2 = plt.subplots()
+# ax2.plot(cat_60s)
+cat_60s.plot(title='HOAc/Ni(110) IRAS, 60s', color=['rebeccapurple', 'steelblue', 'orange', 'navy'])
+plt.minorticks_on()
 
-writer = pd.ExcelWriter('HOAc_Ni(110) IR plot.xlsx')
-cat_15s.to_excel(writer, sheet_name='Sheet1')
-cat_60s.to_excel(writer, sheet_name='Sheet1', startcol=5)
-writer.save()
+plt.show()
+
+# uncomment if needed
+
+# writer = pd.ExcelWriter('HOAc_Ni(110) IR plot.xlsx')
+# cat_15s.to_excel(writer, sheet_name='Sheet1')
+# cat_60s.to_excel(writer, sheet_name='Sheet1', startcol=5)
+# writer.save()
