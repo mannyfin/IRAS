@@ -8,12 +8,9 @@ Facts::
 
 - Saturation H2 coverage:
 
-
-
-
 Comments::
 
-Correct for background pressure
+Need to correct for background pressure
 
 arr = [1.5, 1.8, 1, 2.5, 3.2, 3.5, 3.6, 4.9, 6.3, 7.6, 9.1]
 L = 1e-6
@@ -34,5 +31,5 @@ list(map(lambda x: x*15*1e-9/L, arr))
 
 Some easy questions
 
-- Do we have H2, CO, and possibly H2O saturation on Ni(110)?
+- Do we have H2, CO, and possibly H2O saturation on Ni(110)? Yes
 - What are the values for their respective coverages?
