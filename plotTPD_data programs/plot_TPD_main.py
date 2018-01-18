@@ -122,9 +122,13 @@ def plot_same_masses(dict__values, file_name, new__file__read, area_dict):
             # mass_data = new__file__read.columns[colname].split('=')[1]
             fig = plt.figure(figsize=(15, 7), num=key)
             ax = fig.add_subplot(111)
-            ax.plot(mass_data, label=file_name, linewidth=2, color='k')
-            if file_name == monolayer:
-                ax.plot(mass_data, label=file_name, linewidth=2, color='r')
+
+            if monochrome:
+                ax.plot(mass_data, label=file_name, linewidth=2, color='k')
+                if file_name == monolayer:
+                    ax.plot(mass_data, label=file_name, linewidth=2, color='r')
+            else:
+                ax.plot(mass_data, label=file_name, linewidth=2)
             plt.ylabel('QMS signal (a.u.)')
             plt.xlabel('Temperature (K)')
             plt.title(key + '/' + surface + ' TPD')
@@ -139,7 +143,7 @@ def plot_same_masses(dict__values, file_name, new__file__read, area_dict):
             # new__file__read.rename(columns={new__file__read.filter(regex=str(value)).columns[0]: key}, inplace=True)
             new__file__read.rename(columns={new__file__read[colname].name: key}, inplace=True)
             mass_data.columns = [key]
-            if legend =='on':
+            if legend_disp =='on':
                 plt.legend()
 
             integrate_area = uptake_area(mass_data, key, temp_ranges=temp_values, slope_subtract=slope_subtract)

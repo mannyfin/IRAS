@@ -12,11 +12,13 @@ First off, change the stuff in the "Preliminary stuff" section
 "Perform a background slope subtraction of the data"
 slope_subtract = True
 
-"legend, yes or no"
-legend = 'on'
+"legend, on or off"
+legend_disp = 'on'
 
 "Where is the monolayer? This will search the filenames for the exposure and plot those particular plots in red"
 monolayer = '0.015 L'
+# monochrome in curves other than monolayer
+monochrome = False
 
 "Axes limits on plots, and whether to use them"
 # Display of temp range on plots. These limits are null if there is more than one column unless otherwise specified
@@ -51,11 +53,12 @@ temp_values = dict({'H2': (190,570),
 
 single_molecule_name = 'Acetic Acid'
 # single_molecule_name = 'Furfural'
-sat_CO_area = 2253432
+# sat_CO_area = 2253432
+sat_CO_area = 75759996 # Ni(110)
 surface = 'Ni(110)'
 # to calculate areas under peaks put in the temp range value
 temp_values = dict({'H2': (250,750),
-                    'CO': (330,550),
+                    'CO': (175, 475),
                     'Benzene': (310,460),
                     'Furfural': (130,250),
                     'GUA': (290, 360)
@@ -100,6 +103,7 @@ dict_values = dict({'1.538': 'H2',
                     '17.701': 'Water',
                     '17.737': 'Water',
                     '17.847': 'Water',
+                    '17.895': 'Water',
                     '17.903': 'Water',
                     '25.803': 'Ethylene',
                     '26.9': '27-eth',
@@ -109,6 +113,7 @@ dict_values = dict({'1.538': 'H2',
                     '27.883': 'CO',
                     '27.907': 'CO',
                     '27.993': 'CO',
+                    '28.219': 'CO',
                     '28.250': 'CO',
                     '28.818': 'Formaldehyde',
                     '28.936': 'Formaldehyde',
@@ -118,9 +123,11 @@ dict_values = dict({'1.538': 'H2',
                     '40.816': 'Propylene',
                     '42.078': 'Ketene',
                     '43.737': 'CO2',
+                    '43.765': 'CO2',
                     '43.905': 'CO2',
                     '44.109': 'CO2',
                     '44.784': 'CO2',
+                    '44.818': 'CO2_2',
                     '60.080': 'HOAc',
                     '61.297': 'HOAc',
                     '68.654': 'Furan',

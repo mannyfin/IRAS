@@ -40,16 +40,17 @@ k200_60s = -1*(f7-f4)
 k350_60s = -1*(f7-f5)
 k450_60s = -1*(f7-f6)
 
+# colors added to more closely match excel
 cat_60s = pd.concat([k90_60s, k200_60s, k350_60s, k450_60s], axis=1, keys=['90K', '200K', '350K', '450K'])
 #
 # fig1, ax1 = plt.subplots()
 # ax1.plot(cat_15s)
-cat_15s.plot(title='HOAc/Ni(110) IRAS, 15s', color=['mediumblue', 'firebrick', 'lime'])
+cat_15s.plot(title='HOAc/Ni(110) IRAS, 15s', color=['mediumblue', 'firebrick', 'lime'], linewidth=2.5)
 plt.minorticks_on()
 # ax.Axes.invert_xaxis(plt.gca())
 # fig2, ax2 = plt.subplots()
 # ax2.plot(cat_60s)
-cat_60s.plot(title='HOAc/Ni(110) IRAS, 60s', color=['rebeccapurple', 'steelblue', 'orange', 'navy'])
+cat_60s.plot(title='HOAc/Ni(110) IRAS, 60s', color=['rebeccapurple', 'steelblue', 'darkorange', 'navy'], linewidth=2.5)
 plt.minorticks_on()
 
 plt.show()
