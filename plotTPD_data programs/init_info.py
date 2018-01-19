@@ -23,7 +23,7 @@ monochrome = False
 "Axes limits on plots, and whether to use them"
 # Display of temp range on plots. These limits are null if there is more than one column unless otherwise specified
 use_temp_limits = True
-low_temp = 100
+low_temp = 141
 high_temp = 800
 
 
@@ -35,8 +35,8 @@ single_molecule_name = 'HOAc'
 "Saturation areas of a reference molecule"
 # sat_CO_area_Pt = 2253432
 
-surface = 'Ni(110)'
-# surface = 'Pt(100)'
+# surface = 'Ni(110)'
+surface = 'Pt(100)'
 
 ###########################################################################################
 
@@ -140,12 +140,16 @@ dict_values = dict({'1.538': 'H2',
                     '97.084': 'Furfural',
                     '111.496': 'Catechol',
                     'Hydrogen': 'H2',
+                    'Ketene': 'Ketene',
                     'Water': 'Water',
                     'Carbon monoxide': 'CO',
                     'furan39': '39',
+                    'Acetaldehyde': 'Acetaldehyde',
                     'Propene': 'Propylene',
                     'Carbon Dioxide': 'CO2',
                     'Carbon dioxide': 'CO2',
+                    'Acetic acid': 'Acetic acid43',
+                    'Acetic acid.1': 'Acetic acid60',
                     'furan68': 'Furan',
                     'furf96': 'Furfural',
                     '109.505': 'Anisole',

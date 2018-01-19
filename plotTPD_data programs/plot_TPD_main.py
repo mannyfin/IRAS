@@ -11,14 +11,10 @@ import re
 from init_info import *
 from collections import defaultdict
 # import seaborn as sns
+
 # TODO see below
 """
-1. areas don't get bigger than monolayer for the cracks
-2. plot uptake of HOAC 
-3. plot uptake of H2 and CO vs uptake of HOAC (combine 1 and 2)
-
-label each curve
-
+1. Handle hiden TPD files by using corresponding mass instead of name in finding in the dict
 """
 
 
@@ -145,7 +141,8 @@ def plot_same_masses(dict__values, file_name, new__file__read, area_dict):
             mass_data.columns = [key]
             if legend_disp =='on':
                 plt.legend()
-
+            if use_temp_limits is True:
+                axes.Axes.set_xlim(plt.gca(), left=low_temp, right=high_temp)
             integrate_area = uptake_area(mass_data, key, temp_ranges=temp_values, slope_subtract=slope_subtract)
             # print(str(int(integrate_area))+' area for ' + key)
             print(str((integrate_area))+' area for ' + key)
@@ -435,6 +432,12 @@ try:
     writer = pd.ExcelWriter(single_molecule_name + ' Area_output.xlsx')
     areas.to_excel(writer, 'Sheet1')
     writer.save()
+
+    # save plots
+
+
+
+
     plt.show()
     print('hi')
 
