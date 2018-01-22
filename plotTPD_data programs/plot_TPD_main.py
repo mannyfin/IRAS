@@ -21,7 +21,7 @@ from collections import defaultdict
 
 # sns.set_style("dark")
 # sns.set_style("ticks", {"xtick.minor.size": 8, "ytick.minor.size": 8})
-mpl.rcParams.update({'font.size': 16})
+mpl.rcParams.update({'font.size': 20})
 # current_palette = sns.color_palette("hls", 10)
 # sns.set_palette(current_palette, n_colors=10)
 # sns.palplot(sns.color_palette("hls", 8))
@@ -132,7 +132,8 @@ def plot_same_masses(dict__values, file_name, new__file__read, area_dict):
 
             plt.minorticks_on()
             plt.tick_params(which='minor', length=4, width=1.5)
-
+            ax.spines['top'].set_visible(False)
+            ax.spines['right'].set_visible(False)
             # iterate i to change the figure number for the different mass
             # ax.get_xaxis().set_minor_locator(mpl.ticker.AutoMinorLocator())
             # ax.get_yaxis().set_minor_locator(mpl.ticker.AutoMinorLocator())
@@ -334,6 +335,10 @@ def read_files(file):
 
     return file_read, filename
 
+def export_data(corrected_data_file, filename):
+    writer = pd.ExcelWriter(filename + ' TPD_output ' + single_molecule_name+'.xlsx')
+    corrected_data_file.to_excel(writer, 'Sheet1')
+    writer.save()
 
 # Main begins
 root = tk.Tk()
@@ -411,9 +416,16 @@ for file in file_path1:
     plt.title(filename)
     all_axes.tick_params(direction='out', length=6, width=2, colors='k')
     plt.ticklabel_format(style='sci', axis='y', scilimits=(0,0))
+    all_axes.spines['top'].set_visible(False)
+    all_axes.spines['right'].set_visible(False)
     plt.minorticks_on()
     plt.tick_params(which='minor', length=4, width=1)
-    # plt.ticklabel_format(style='sci', axis='y')
+
+    # export the subtracted data?
+    if export is True:
+        export_data(new_file_read, filename)
+
+
     # plt.savefig(filename+'.png')
     # plt.close(fig)
 
@@ -443,11 +455,8 @@ try:
     writer.save()
 
     # save plots
-
-
-
-
-    plt.show()
+    if suppress_plots is False:
+        plt.show()
     print('hi')
 
     """
@@ -462,4 +471,5 @@ try:
     # tpd_writer.save()
 except:
     print('')
-    plt.show()
+    if suppress_plots is False:
+        plt.show()

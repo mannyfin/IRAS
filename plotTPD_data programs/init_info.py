@@ -8,7 +8,10 @@ First off, change the stuff in the "Preliminary stuff" section
 
 #################################### Preliminary stuff ####################################
 
-
+"Export the data"
+export = True
+"suppress plots"
+suppress_plots = True
 "Perform a background slope subtraction of the data"
 slope_subtract = True
 
