@@ -13,7 +13,7 @@ First off, change the stuff in the "Preliminary stuff" section
 slope_subtract = True
 
 "legend, on or off"
-legend_disp = 'on'
+legend_disp = 'off'
 
 "Where is the monolayer? This will search the filenames for the exposure and plot those particular plots in red"
 monolayer = '0.015 L'
@@ -23,8 +23,8 @@ monochrome = False
 "Axes limits on plots, and whether to use them"
 # Display of temp range on plots. These limits are null if there is more than one column unless otherwise specified
 use_temp_limits = True
-low_temp = 141
-high_temp = 800
+low_temp = 100
+high_temp = 600
 
 
 "Molecule name"
@@ -35,8 +35,8 @@ single_molecule_name = 'HOAc'
 "Saturation areas of a reference molecule"
 # sat_CO_area_Pt = 2253432
 
-# surface = 'Ni(110)'
-surface = 'Pt(100)'
+surface = 'Ni(110)'
+# surface = 'Pt(100)'
 
 ###########################################################################################
 

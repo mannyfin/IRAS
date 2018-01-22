@@ -118,6 +118,7 @@ def plot_same_masses(dict__values, file_name, new__file__read, area_dict):
             # mass_data = new__file__read.columns[colname].split('=')[1]
             fig = plt.figure(figsize=(15, 7), num=key)
             ax = fig.add_subplot(111)
+            ax.tick_params(direction='out', length=6, width=2, colors='k')
 
             if monochrome:
                 ax.plot(mass_data, label=file_name, linewidth=2, color='k')
@@ -130,6 +131,8 @@ def plot_same_masses(dict__values, file_name, new__file__read, area_dict):
             plt.title(key + '/' + surface + ' TPD')
 
             plt.minorticks_on()
+            plt.tick_params(which='minor', length=4, width=1.5)
+
             # iterate i to change the figure number for the different mass
             # ax.get_xaxis().set_minor_locator(mpl.ticker.AutoMinorLocator())
             # ax.get_yaxis().set_minor_locator(mpl.ticker.AutoMinorLocator())
@@ -146,6 +149,8 @@ def plot_same_masses(dict__values, file_name, new__file__read, area_dict):
             integrate_area = uptake_area(mass_data, key, temp_ranges=temp_values, slope_subtract=slope_subtract)
             # print(str(int(integrate_area))+' area for ' + key)
             print(str((integrate_area))+' area for ' + key)
+
+            plt.ticklabel_format(style='sci', axis='y', scilimits=(0,0))
         # TODO add these areas to a list or ordered dictionary
         #     add these areas to a list or ordered dictionary
 
@@ -404,7 +409,11 @@ for file in file_path1:
     plt.ylabel('QMS signal (a.u.)')
     plt.xlabel('Temperature (K)')
     plt.title(filename)
+    all_axes.tick_params(direction='out', length=6, width=2, colors='k')
+    plt.ticklabel_format(style='sci', axis='y', scilimits=(0,0))
     plt.minorticks_on()
+    plt.tick_params(which='minor', length=4, width=1)
+    # plt.ticklabel_format(style='sci', axis='y')
     # plt.savefig(filename+'.png')
     # plt.close(fig)
 
