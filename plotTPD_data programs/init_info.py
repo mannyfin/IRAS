@@ -9,9 +9,9 @@ First off, change the stuff in the "Preliminary stuff" section
 #################################### Preliminary stuff ####################################
 
 "Export the data"
-export = True
+export = False
 "suppress plots"
-suppress_plots = True
+suppress_plots = False
 "Perform a background slope subtraction of the data"
 slope_subtract = True
 
@@ -61,7 +61,8 @@ sat_CO_area = 75759996 # Ni(110)
 surface = 'Ni(110)'
 # to calculate areas under peaks put in the temp range value
 temp_values = dict({'H2': (250,750),
-                    'CO': (175, 475),
+                    'CO': (236, 570),
+                    'CO2': (320,570),
                     'Benzene': (310,460),
                     'Furfural': (130,250),
                     'GUA': (290, 360)
@@ -97,9 +98,13 @@ dict_values = dict({'1.538': 'H2',
                     '2.071': 'H2',
                     '11.679': 'C',
                     '13.642': '14',
+                    '13.681': '14',
+                    '13.596': '14',
                     '14.639': '15',
                     '14.600': 'CH4',
+                    '14.613': 'CH4',
                     '14.708': 'CH4',
+                    '17.526': 'Water',
                     '17.577': 'Water',
                     '17.627': 'Water',
                     '17.798': 'Water',
@@ -109,8 +114,10 @@ dict_values = dict({'1.538': 'H2',
                     '17.895': 'Water',
                     '17.903': 'Water',
                     '25.803': 'Ethylene',
+                    '26.774': '27-eth',
                     '26.9': '27-eth',
                     '27.708': 'CO',
+                    '27.740': 'CO',
                     '27.745': 'CO',
                     '27.844': 'CO',
                     '27.883': 'CO',
@@ -118,20 +125,27 @@ dict_values = dict({'1.538': 'H2',
                     '27.993': 'CO',
                     '28.219': 'CO',
                     '28.250': 'CO',
+                    '28.270': 'CO',
                     '28.818': 'Formaldehyde',
                     '28.936': 'Formaldehyde',
+                    '29.393': 'Formaldehyde',
                     '30.937': '31-ol',
+                    '30.759': '31-ol',
                     '39.000': '39',
                     '39.': '39',
                     '40.816': 'Propylene',
                     '42.078': 'Ketene',
+                    '42.664': 'Ketene43?',
+                    '43.686': 'CO2',
                     '43.737': 'CO2',
                     '43.765': 'CO2',
+                    '43.788': 'CO2',
                     '43.905': 'CO2',
                     '44.109': 'CO2',
                     '44.784': 'CO2',
                     '44.818': 'CO2_2',
                     '60.080': 'HOAc',
+                    '60.088': 'HOAc',
                     '61.297': 'HOAc',
                     '68.654': 'Furan',
                     '78.423': 'Benzene',
