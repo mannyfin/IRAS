@@ -420,13 +420,17 @@ for file in file_path1:
     all_axes.spines['right'].set_visible(False)
     plt.minorticks_on()
     plt.tick_params(which='minor', length=4, width=1)
-
+    fig.patch.set_alpha(0)
+    fig.patch.set_facecolor('none')
+    all_axes.patch.set_alpha(0)
+    all_axes.patch.set_facecolor('none')
+    all_axes.legend(facecolor='none')
     # export the subtracted data?
     if export is True:
         export_data(new_file_read, filename)
 
 
-    # plt.savefig(filename+'.png')
+    # plt.savefig(filename+'.png', transparent=True)
     # plt.close(fig)
 
     # any vertical dotted line values go here

@@ -26,8 +26,8 @@ monochrome = False
 "Axes limits on plots, and whether to use them"
 # Display of temp range on plots. These limits are null if there is more than one column unless otherwise specified
 use_temp_limits = True
-low_temp = 100
-high_temp = 600
+low_temp = 120
+high_temp = 595
 
 
 "Molecule name"
@@ -53,12 +53,9 @@ temp_values = dict({'H2': (190,570),
                     'HOAc': (130,300)
                     })
 
-
-single_molecule_name = 'Acetic Acid'
-# single_molecule_name = 'Furfural'
 # sat_CO_area = 2253432
 sat_CO_area = 75759996 # Ni(110)
-surface = 'Ni(110)'
+
 # to calculate areas under peaks put in the temp range value
 temp_values = dict({'H2': (250,750),
                     'CO': (236, 570),
@@ -92,6 +89,7 @@ dict_values = dict({'1.538': 'H2',
                     '1.879': 'H2',
                     '1.922': 'H2',
                     '1.933': 'H2',
+                    '1.942': 'H2',
                     '1.9708': 'H2',
                     '1.971': 'H2',
                     '1.994': 'H2',
@@ -116,9 +114,11 @@ dict_values = dict({'1.538': 'H2',
                     '25.803': 'Ethylene',
                     '26.774': '27-eth',
                     '26.9': '27-eth',
+                    '27.000': '27-eth',
                     '27.708': 'CO',
                     '27.740': 'CO',
                     '27.745': 'CO',
+                    '27.796': 'CO',
                     '27.844': 'CO',
                     '27.883': 'CO',
                     '27.907': 'CO',
@@ -130,6 +130,7 @@ dict_values = dict({'1.538': 'H2',
                     '28.936': 'Formaldehyde',
                     '29.393': 'Formaldehyde',
                     '30.937': '31-ol',
+                    '30.708': '31-ol',
                     '30.759': '31-ol',
                     '39.000': '39',
                     '39.': '39',
@@ -146,6 +147,7 @@ dict_values = dict({'1.538': 'H2',
                     '44.818': 'CO2_2',
                     '60.080': 'HOAc',
                     '60.088': 'HOAc',
+                    '60.996': 'HOAc',
                     '61.297': 'HOAc',
                     '68.654': 'Furan',
                     '78.423': 'Benzene',
