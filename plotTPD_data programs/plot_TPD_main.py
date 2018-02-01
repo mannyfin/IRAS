@@ -414,6 +414,8 @@ for file in file_path1:
     plt.ylabel('QMS signal (a.u.)')
     plt.xlabel('Temperature (K)')
     plt.title(filename)
+
+    # The code below makes clear background and aesthetic improvements to the tpd plot of a file
     all_axes.tick_params(direction='out', length=6, width=2, colors='k')
     plt.ticklabel_format(style='sci', axis='y', scilimits=(0,0))
     all_axes.spines['top'].set_visible(False)
