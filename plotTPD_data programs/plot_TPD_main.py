@@ -408,25 +408,28 @@ for file in file_path1:
     if use_temp_limits is True:
         axes.Axes.set_xlim(plt.gca(), left=low_temp, right=high_temp)
 
-    fig = plt.figure(filename, figsize=(15, 7))
-    all_axes = fig.add_subplot(111)
-    new_file_read.plot(ax=all_axes, figsize=(15, 7), title=filename, linewidth=2.5)
-    plt.ylabel('QMS signal (a.u.)')
-    plt.xlabel('Temperature (K)')
-    plt.title(filename)
+    # plots the whole file with all the masses on the same temperature scale
+    if plot_whole_file is True:
+        fig = plt.figure(filename, figsize=(15, 7))
+        all_axes = fig.add_subplot(111)
+        new_file_read.plot(ax=all_axes, figsize=(15, 7), title=filename, linewidth=2.5)
+        plt.ylabel('QMS signal (a.u.)')
+        plt.xlabel('Temperature (K)')
+        plt.title(filename)
 
-    # The code below makes clear background and aesthetic improvements to the tpd plot of a file
-    all_axes.tick_params(direction='out', length=6, width=2, colors='k')
-    plt.ticklabel_format(style='sci', axis='y', scilimits=(0,0))
-    all_axes.spines['top'].set_visible(False)
-    all_axes.spines['right'].set_visible(False)
-    plt.minorticks_on()
-    plt.tick_params(which='minor', length=4, width=1)
-    fig.patch.set_alpha(0)
-    fig.patch.set_facecolor('none')
-    all_axes.patch.set_alpha(0)
-    all_axes.patch.set_facecolor('none')
-    all_axes.legend(facecolor='none')
+        # The code below makes clear background and aesthetic improvements to the tpd plot of a file
+        all_axes.tick_params(direction='out', length=6, width=2, colors='k')
+        plt.ticklabel_format(style='sci', axis='y', scilimits=(0,0))
+        all_axes.spines['top'].set_visible(False)
+        all_axes.spines['right'].set_visible(False)
+        plt.minorticks_on()
+        plt.tick_params(which='minor', length=4, width=1)
+        fig.patch.set_alpha(0)
+        fig.patch.set_facecolor('none')
+        all_axes.patch.set_alpha(0)
+        all_axes.patch.set_facecolor('none')
+        all_axes.legend(facecolor='none')
+
     # export the subtracted data?
     if export is True:
         export_data(new_file_read, filename)

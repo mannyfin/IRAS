@@ -9,14 +9,17 @@ First off, change the stuff in the "Preliminary stuff" section
 #################################### Preliminary stuff ####################################
 
 "Export the data"
-export = False
+export = True
 "suppress plots"
-suppress_plots = False
+suppress_plots = True
 "Perform a background slope subtraction of the data"
 slope_subtract = True
 
 "legend, on or off"
 legend_disp = 'off'
+
+"Plot the experiment TPD file"
+plot_whole_file = False
 
 "Where is the monolayer? This will search the filenames for the exposure and plot those particular plots in red"
 monolayer = '0.015 L'
@@ -26,12 +29,12 @@ monochrome = False
 "Axes limits on plots, and whether to use them"
 # Display of temp range on plots. These limits are null if there is more than one column unless otherwise specified
 use_temp_limits = False
-low_temp = 120
-high_temp = 595
+low_temp = 100
+high_temp = 600
 
 
 "Molecule name"
-single_molecule_name = 'HOAc'
+single_molecule_name = 'Acetic acid'
 # single_molecule_name = 'Guaiacol'
 # single_molecule_name = 'Furfural'
 
@@ -124,6 +127,7 @@ dict_values = dict({'1.538': 'H2',
                     '27.883': 'CO',
                     '27.907': 'CO',
                     '27.993': 'CO',
+                    '28.178': 'CO',
                     '28.219': 'CO',
                     '28.250': 'CO',
                     '28.270': 'CO',
@@ -133,6 +137,7 @@ dict_values = dict({'1.538': 'H2',
                     '30.937': '31-ol',
                     '30.708': '31-ol',
                     '30.759': '31-ol',
+                    '31.296': '31-ol',
                     '39.000': '39',
                     '39.': '39',
                     '40.816': 'Propylene',
