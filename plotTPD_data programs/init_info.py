@@ -9,9 +9,9 @@ First off, change the stuff in the "Preliminary stuff" section
 #################################### Preliminary stuff ####################################
 
 "Export the data"
-export = True
+export = False
 "suppress plots"
-suppress_plots = True
+suppress_plots = False
 "Perform a background slope subtraction of the data"
 slope_subtract = True
 
