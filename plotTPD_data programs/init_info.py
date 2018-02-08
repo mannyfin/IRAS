@@ -11,7 +11,7 @@ First off, change the stuff in the "Preliminary stuff" section
 "Export the data"
 export = True
 "suppress plots"
-suppress_plots = False
+suppress_plots = True
 "Perform a background slope subtraction of the data"
 slope_subtract = True
 
@@ -24,7 +24,7 @@ plot_whole_file = False
 "Where is the monolayer? This will search the filenames for the exposure and plot those particular plots in red"
 monolayer = '0.015 L'
 # monochrome in curves other than monolayer
-monochrome = False
+monochrome = True
 
 "Axes limits on plots, and whether to use them"
 # Display of temp range on plots. These limits are null if there is more than one column unless otherwise specified
