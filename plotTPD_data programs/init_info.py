@@ -9,7 +9,7 @@ First off, change the stuff in the "Preliminary stuff" section
 #################################### Preliminary stuff ####################################
 
 "Export the data"
-export = False
+export = True
 "suppress plots"
 suppress_plots = False
 "Perform a background slope subtraction of the data"
@@ -34,15 +34,15 @@ high_temp = 600
 
 
 "Molecule name"
-single_molecule_name = 'Acetic acid'
-# single_molecule_name = 'Guaiacol'
+# single_molecule_name = 'Acetic acid'
+single_molecule_name = 'Guaiacol'
 # single_molecule_name = 'Furfural'
 
 "Saturation areas of a reference molecule"
 # sat_CO_area_Pt = 2253432
 
-surface = 'Ni(110)'
-# surface = 'Pt(100)'
+# surface = 'Ni(110)'
+surface = 'Pt(100)'
 
 ###########################################################################################
 

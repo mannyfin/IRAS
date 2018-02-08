@@ -143,6 +143,21 @@ def plot_same_masses(dict__values, file_name, new__file__read, area_dict):
             # new__file__read.rename(columns={new__file__read.filter(regex=str(value)).columns[0]: key}, inplace=True)
             new__file__read.rename(columns={new__file__read[colname].name: key}, inplace=True)
             mass_data.columns = [key]
+            """
+            # work in progress
+            # TODO add these areas to a list or ordered dictionary
+            #     add these areas to a list or ordered dictionary
+            "for exporting data with masses concatenated"
+            export_dict = dict()
+            tempcol = new__file__read.columns
+            # new__file__read.columns = [file_name]*len(tempcol)
+
+            for col in tempcol:
+                placeholder = new__file__read[col].copy()
+                placeholder.name = file_name
+                export_dict.setdefault(col, []).append(placeholder)
+                # print(placeholder.head())
+            """
             if legend_disp =='on':
                 plt.legend()
             if use_temp_limits is True:
@@ -152,8 +167,7 @@ def plot_same_masses(dict__values, file_name, new__file__read, area_dict):
             print(str((integrate_area))+' area for ' + key)
 
             plt.ticklabel_format(style='sci', axis='y', scilimits=(0,0))
-        # TODO add these areas to a list or ordered dictionary
-        #     add these areas to a list or ordered dictionary
+
 
         except ZeroDivisionError or KeyError:
             if ax.has_data() is False:
@@ -339,6 +353,7 @@ def export_data(corrected_data_file, filename):
     writer = pd.ExcelWriter(filename + ' TPD_output ' + single_molecule_name+'.xlsx')
     corrected_data_file.to_excel(writer, 'Sheet1')
     writer.save()
+
 
 # Main begins
 root = tk.Tk()
