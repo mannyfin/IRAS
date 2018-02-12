@@ -9,14 +9,14 @@ First off, change the stuff in the "Preliminary stuff" section
 #################################### Preliminary stuff ####################################
 
 "Export the data"
-export = True
+export = False
 "suppress plots"
-suppress_plots = True
+suppress_plots = False
 "Perform a background slope subtraction of the data"
 slope_subtract = True
 
 "legend, on or off"
-legend_disp = 'off'
+legend_disp = 'on'
 
 "Plot the experiment TPD file"
 plot_whole_file = False
@@ -24,18 +24,17 @@ plot_whole_file = False
 "Where is the monolayer? This will search the filenames for the exposure and plot those particular plots in red"
 monolayer = '0.015 L'
 # monochrome in curves other than monolayer
-monochrome = True
+monochrome = False
 
 "Axes limits on plots, and whether to use them"
 # Display of temp range on plots. These limits are null if there is more than one column unless otherwise specified
-use_temp_limits = False
-low_temp = 100
-high_temp = 600
-
+use_temp_limits = True
+low_temp = 185
+high_temp = 300
 
 "Molecule name"
-# single_molecule_name = 'Acetic acid'
-single_molecule_name = 'Guaiacol'
+single_molecule_name = 'Acetic acid'
+# single_molecule_name = 'Guaiacol'
 # single_molecule_name = 'Furfural'
 
 "Saturation areas of a reference molecule"
@@ -57,16 +56,16 @@ temp_values = dict({'H2': (190,570),
                     })
 
 # sat_CO_area = 2253432
-sat_CO_area = 75759996 # Ni(110)
+# sat_CO_area = 75759996 # Ni(110)
 
 # to calculate areas under peaks put in the temp range value
-temp_values = dict({'H2': (250,750),
-                    'CO': (236, 570),
-                    'CO2': (320,570),
-                    'Benzene': (310,460),
-                    'Furfural': (130,250),
-                    'GUA': (290, 360)
-                    })
+# temp_values = dict({'H2': (250,750),
+#                     'CO': (236, 570),
+#                     'CO2': (320,570),
+#                     'Benzene': (310,460),
+#                     'Furfural': (130,250),
+#                     'GUA': (290, 360)
+#                     })
 
 "GUA and Furfural"
 # temp_values = dict({'H2': (250,750),
@@ -96,7 +95,9 @@ dict_values = dict({'1.538': 'H2',
                     '1.9708': 'H2',
                     '1.971': 'H2',
                     '1.994': 'H2',
+                    '2.051': 'H2',
                     '2.071': 'H2',
+                    '2.085': 'H2',
                     '11.679': 'C',
                     '13.642': '14',
                     '13.681': '14',
@@ -105,6 +106,9 @@ dict_values = dict({'1.538': 'H2',
                     '14.600': 'CH4',
                     '14.613': 'CH4',
                     '14.708': 'CH4',
+                    '15.166': 'CH4',
+                    '15.880': '16',
+                    '17.074': 'Water',
                     '17.526': 'Water',
                     '17.577': 'Water',
                     '17.627': 'Water',
@@ -112,10 +116,13 @@ dict_values = dict({'1.538': 'H2',
                     '17.701': 'Water',
                     '17.737': 'Water',
                     '17.847': 'Water',
+                    '17.884': 'Water',
                     '17.895': 'Water',
                     '17.903': 'Water',
+                    '24.835': 'Ethylene',
                     '25.803': 'Ethylene',
                     '26.000': '26',
+                    '26.712': '27-eth',
                     '26.774': '27-eth',
                     '26.9': '27-eth',
                     '27.000': '27-eth',
@@ -127,6 +134,7 @@ dict_values = dict({'1.538': 'H2',
                     '27.883': 'CO',
                     '27.907': 'CO',
                     '27.993': 'CO',
+                    '28.038': 'CO',
                     '28.178': 'CO',
                     '28.219': 'CO',
                     '28.250': 'CO',
@@ -141,16 +149,24 @@ dict_values = dict({'1.538': 'H2',
                     '39.000': '39',
                     '39.': '39',
                     '40.816': 'Propylene',
+                    '41.148': '41.148',
+                    '42.035': 'Ketene',
                     '42.078': 'Ketene',
                     '42.664': 'Ketene43?',
+                    '42.992': 'Acetic acid43',
+                    '43.088': 'Acetic acid43',
                     '43.686': 'CO2',
                     '43.737': 'CO2',
                     '43.765': 'CO2',
                     '43.788': 'CO2',
                     '43.905': 'CO2',
                     '44.109': 'CO2',
+                    '44.029': 'CO2',
                     '44.784': 'CO2',
                     '44.818': 'CO2_2',
+                    '45.058': 'Acetic acid45',
+                    '57.407': 'Acetone',
+                    '60.047': 'HOAc',
                     '60.080': 'HOAc',
                     '60.088': 'HOAc',
                     '60.996': 'HOAc',
@@ -174,7 +190,7 @@ dict_values = dict({'1.538': 'H2',
                     'Carbon Dioxide': 'CO2',
                     'Carbon dioxide': 'CO2',
                     'Acetic acid': 'Acetic acid43',
-                    'Acetic acid.1': 'Acetic acid60',
+                    'Acetic acid.1': 'HOAc',
                     'furan68': 'Furan',
                     'furf96': 'Furfural',
                     '109.505': 'Anisole',
