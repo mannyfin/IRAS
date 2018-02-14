@@ -174,7 +174,8 @@ def plot_same_masses(dict__values, file_name, new__file__read, area_dict):
                 plt.close(fig)
             # print('ZeroDivisionError: integer division or modulo by zero')
             print('Mass: ' + key + ' not found in ' + file_name)
-            integrate_area = -1
+            # integrate_area = -1
+            integrate_area = 0
     #         TODO
     #         if the mass is not in the file, we still need to add an empty element to the area for that particular mass
     #         this way when another file is read that contains the mass, the order is not lost
@@ -228,7 +229,8 @@ def uptake_area(mass_data, key, temp_ranges, slope_subtract = True):
 
         # mass_data.plot()
     except KeyError:
-        area_under_curve = -1
+        # area_under_curve = -1
+        area_under_curve = 0
 
     return area_under_curve
 

@@ -29,8 +29,8 @@ monochrome = False
 "Axes limits on plots, and whether to use them"
 # Display of temp range on plots. These limits are null if there is more than one column unless otherwise specified
 use_temp_limits = True
-low_temp = 185
-high_temp = 300
+low_temp = 143
+high_temp = 600
 
 "Molecule name"
 single_molecule_name = 'Acetic acid'
