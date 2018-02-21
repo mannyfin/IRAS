@@ -19,7 +19,7 @@ slope_subtract = True
 legend_disp = 'on'
 
 "Plot the experiment TPD file"
-plot_whole_file = False
+plot_whole_file = True
 
 "Where is the monolayer? This will search the filenames for the exposure and plot those particular plots in red"
 monolayer = '0.015 L'
@@ -28,7 +28,7 @@ monochrome = False
 
 "Axes limits on plots, and whether to use them"
 # Display of temp range on plots. These limits are null if there is more than one column unless otherwise specified
-use_temp_limits = True
+use_temp_limits = False
 low_temp = 143
 high_temp = 600
 
@@ -210,7 +210,8 @@ dict_values = dict({'1.538': 'H2',
                     'phenol': 95.0,
                     'eth': 26.9,
                     'formaldehyde': 28.93,
-                    'methanol/ethanol': 30.9})
+                    'methanol/ethanol': 30.9
+                    })
 
 
 # # any vertical dotted lines go here
