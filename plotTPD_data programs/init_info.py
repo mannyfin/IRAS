@@ -33,9 +33,9 @@ low_temp = 143
 high_temp = 600
 
 "Molecule name"
-single_molecule_name = 'Acetic acid'
+# single_molecule_name = 'Acetic acid'
 # single_molecule_name = 'Guaiacol'
-# single_molecule_name = 'Furfural'
+single_molecule_name = 'Furfural'
 
 "Saturation areas of a reference molecule"
 # sat_CO_area_Pt = 2253432
@@ -124,6 +124,7 @@ dict_values = dict({'1.538': 'H2',
                     '26.000': '26',
                     '26.712': '27-eth',
                     '26.774': '27-eth',
+                    '26.890': '27-eth',
                     '26.9': '27-eth',
                     '27.000': '27-eth',
                     '27.708': 'CO',
@@ -141,14 +142,17 @@ dict_values = dict({'1.538': 'H2',
                     '28.270': 'CO',
                     '28.818': 'Formaldehyde',
                     '28.936': 'Formaldehyde',
+                    '28.920': 'Formaldehyde',
                     '29.393': 'Formaldehyde',
                     '30.937': '31-ol',
+                    '30.949': '31-ol',
                     '30.708': '31-ol',
                     '30.759': '31-ol',
                     '31.296': '31-ol',
                     '39.000': '39',
                     '39.': '39',
                     '40.816': 'Propylene',
+                    '41.000': 'Propylene',
                     '41.148': '41.148',
                     '42.035': 'Ketene',
                     '42.078': 'Ketene',
