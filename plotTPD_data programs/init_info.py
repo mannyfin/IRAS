@@ -9,7 +9,7 @@ First off, change the stuff in the "Preliminary stuff" section
 #################################### Preliminary stuff ####################################
 
 "Export the data"
-export = False
+export = True
 "suppress plots"
 suppress_plots = False
 "Perform a background slope subtraction of the data"
@@ -29,8 +29,8 @@ monochrome = False
 "Axes limits on plots, and whether to use them"
 # Display of temp range on plots. These limits are null if there is more than one column unless otherwise specified
 use_temp_limits = False
-low_temp = 143
-high_temp = 600
+low_temp = 120
+high_temp = 800
 
 "Molecule name"
 # single_molecule_name = 'Acetic acid'
