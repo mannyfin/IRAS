@@ -1,0 +1,4 @@
+-use IR for uptake
+
+...\IRAS\Furfural work\Pt(100)\TPD Data\IR Chamber Furfural\useful uptake TPD\ordered\Langmuir only
+
