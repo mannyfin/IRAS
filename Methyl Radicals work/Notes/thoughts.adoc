@@ -1,0 +1,2 @@
+take IR of azomethane adsorbed on surface (no heating) and of CH~3~ (with heating)
+Attempt TPD in both cases
