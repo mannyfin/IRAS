@@ -22,14 +22,19 @@ legend_disp = 'on'
 plot_whole_file = True
 
 "Where is the monolayer? This will search the filenames for the exposure and plot those particular plots in red"
-monolayer = '0.015 L'
+monolayer = '0.04 L'
 # monochrome in curves other than monolayer
 monochrome = False
 
 "Axes limits on plots, and whether to use them"
 # Display of temp range on plots. These limits are null if there is more than one column unless otherwise specified
+<<<<<<< HEAD
+use_temp_limits = True
+low_temp = 110
+=======
 use_temp_limits = False
 low_temp = 120
+>>>>>>> 71abe8e08d0a7a39be61a0c1432a56c46ea1af53
 high_temp = 800
 
 "Molecule name"
@@ -46,14 +51,14 @@ surface = 'Pt(100)'
 ###########################################################################################
 
 "to calculate areas under peaks put in the temp range values"
-
-"HOAc"
-temp_values = dict({'H2': (190,570),
-                    'Water': (280, 330),
-                    'CO': (330,570),
-                    'CO2': (320,570),
-                    'HOAc': (130,300)
-                    })
+if single_molecule_name == 'Acetic acid':
+    "HOAc"
+    temp_values = dict({'H2': (190,570),
+                        'Water': (280, 330),
+                        'CO': (330,570),
+                        'CO2': (320,570),
+                        'HOAc': (130,300),
+                        })
 
 # sat_CO_area = 2253432
 # sat_CO_area = 75759996 # Ni(110)
@@ -66,14 +71,14 @@ temp_values = dict({'H2': (190,570),
 #                     'Furfural': (130,250),
 #                     'GUA': (290, 360)
 #                     })
-
-"GUA and Furfural"
-# temp_values = dict({'H2': (250,750),
-#                     'CO': (330,550),
-#                     'Benzene': (310,460),
-#                     'Furfural': (130,250),
-#                     'GUA': (290, 360)
-#                     })
+elif single_molecule_name == 'Guaiacol' or 'Furfural':
+    "GUA and Furfural"
+    temp_values = dict({'H2': (250,750),
+                        'CO': (330,550),
+                        'Benzene': (310,460),
+                        'Furfural': (130,250),
+                        'GUA': (290, 360)
+                        })
 
 
 "Some notes on the molecules is listed below"
@@ -141,6 +146,7 @@ dict_values = dict({'1.538': 'H2',
                     '28.250': 'CO',
                     '28.270': 'CO',
                     '28.818': 'Formaldehyde',
+                    '28.920': 'Formaldehyde',
                     '28.936': 'Formaldehyde',
                     '28.920': 'Formaldehyde',
                     '29.393': 'Formaldehyde',
