@@ -29,8 +29,6 @@ monochrome = False
 "Axes limits on plots, and whether to use them"
 # Display of temp range on plots. These limits are null if there is more than one column unless otherwise specified
 
-use_temp_limits = True
-low_temp = 110
 use_temp_limits = False
 low_temp = 120
 high_temp = 800
@@ -38,8 +36,7 @@ high_temp = 800
 "Molecule name"
 # single_molecule_name = 'Acetic acid'
 # single_molecule_name = 'Guaiacol'
-# single_molecule_name = 'Furfural'
-single_molecule_name = 'calib'
+single_molecule_name = 'Furfural'
 
 "Saturation areas of a reference molecule"
 # sat_CO_area_Pt = 2253432
@@ -70,7 +67,7 @@ if single_molecule_name == 'Acetic acid':
 #                     'Furfural': (130,250),
 #                     'GUA': (290, 360)
 #                     })
-elif single_molecule_name == 'Guaiacol' or 'Furfural' or 'calib':
+elif single_molecule_name == 'Guaiacol' or 'Furfural':
     "GUA and Furfural"
     temp_values = dict({'H2': (250,750),
                         'CO': (330,550),
