@@ -1,5 +1,5 @@
 = IRAS
-*update 3/2018* The code has grown quite a bit since I started. I intend to refactor the code soon.
+*update 4/2018* The code has grown quite a bit since I started. I intend to refactor the code soon.
 
 This repository is used to facilitate quick data analysis and plots (effectively in _real time_) of my _temperature
 programmed desorption_ (*TPD*) data and _Infrared Reflection Absorption Spectroscopy_ (*IRAS*) data. As a result of
