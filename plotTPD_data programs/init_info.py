@@ -28,13 +28,9 @@ monochrome = False
 
 "Axes limits on plots, and whether to use them"
 # Display of temp range on plots. These limits are null if there is more than one column unless otherwise specified
-<<<<<<< HEAD
-use_temp_limits = True
-low_temp = 110
-=======
+
 use_temp_limits = False
 low_temp = 120
->>>>>>> 71abe8e08d0a7a39be61a0c1432a56c46ea1af53
 high_temp = 800
 
 "Molecule name"
