@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7934e857-690a-48c6-9432-6dbff041ce63" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Type C calibrations/Type C calibration_corrected.xlsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Type C calibrations/TypeC calcs.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Type C calibrations/TypeC calcs.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -88,10 +89,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="60" />
-    <option name="y" value="167" />
-    <option name="width" value="1722" />
-    <option name="height" value="1135" />
+    <option name="x" value="2541" />
+    <option name="y" value="325" />
+    <option name="width" value="1435" />
+    <option name="height" value="862" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -453,16 +454,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="60" y="167" width="1722" height="1135" extended-state="0" />
+    <frame x="2541" y="325" width="1435" height="862" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32890624" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5047695" side_tool="true" weight="0.45078126" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49841017" weight="0.42627883" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32962587" />
+<<<<<<< HEAD
+      <window_info active="true" anchor="bottom" id="Python Console" order="7" sideWeight="0.49682036" visible="true" weight="0.5179558" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49523053" weight="0.4012036" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.36145455" />
+=======
       <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.49682036" weight="0.3765625" />
       <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49523053" visible="true" weight="0.4012036" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2918171" />
+>>>>>>> 5bd60c4c653b1c6fdf8b71500320b8b784f3e1e4
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" auto_hide="true" x="865" y="344" width="830" height="712" id="SciView" order="3" show_stripe_button="false" type="FLOATING" weight="0.3298887" />
