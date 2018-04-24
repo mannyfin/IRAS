@@ -30,6 +30,7 @@ mpl.rcParams.update({'font.size': 20})
 langmuir = []
 # keep area dict empty
 area_dict = defaultdict(list)
+data_dict = defaultdict(lambda: defaultdict(list))
 filename_list = []
 
 def rename_to_text(file_path):
@@ -91,7 +92,7 @@ def single_slope_subtract(file__read, num_points_to_average_beg=50, num_points_t
 
     return new_file_read
 
-def plot_same_masses(dict__values, file_name, new__file__read, area_dict):
+def plot_same_masses(dict__values, file_name, new__file__read, area_dict, data_dict, file_added):
     """
     Plots the same masses together in a matploblib figure. It also feeds into uptake area to calculate the area
     under the curve for a particular mass
@@ -163,10 +164,13 @@ def plot_same_masses(dict__values, file_name, new__file__read, area_dict):
             if use_temp_limits is True:
                 axes.Axes.set_xlim(plt.gca(), left=low_temp, right=high_temp)
             integrate_area = uptake_area(mass_data, key, temp_ranges=temp_values, slope_subtract=slope_subtract)
+
+            data_dict[key][str(file_added) + ' L']= mass_data
             # print(str(int(integrate_area))+' area for ' + key)
             print(str((integrate_area))+' area for ' + key)
 
             plt.ticklabel_format(style='sci', axis='y', scilimits=(0,0))
+
 
 
         except ZeroDivisionError or KeyError:
@@ -176,18 +180,15 @@ def plot_same_masses(dict__values, file_name, new__file__read, area_dict):
             print('Mass: ' + key + ' not found in ' + file_name)
             # integrate_area = -1
             integrate_area = 0
-    #         TODO
-    #         if the mass is not in the file, we still need to add an empty element to the area for that particular mass
-    #         this way when another file is read that contains the mass, the order is not lost
-    #         add these areas to a list or ordered dictionary
 
     #     now add this area to the dictionary
         area_dict[key].append(integrate_area)
+
         # area_dict[key].append(int(integrate_area))
 
 
     # return new__file__read, area_dict
-    return area_dict
+    return area_dict, data_dict
 
 
 def uptake_area(mass_data, key, temp_ranges, slope_subtract = True):
@@ -401,14 +402,12 @@ for file in file_path1:
     # For Hiden data
     filename = re.sub('.csv', '', filename)
     filename_list.append(filename)
-    areas = plot_same_masses(dict__values=dict_values, file_name=filename, new__file__read=new_file_read, area_dict=area_dict)
-    temp_df.append(new_file_read)
-    fname_lst.append(filename)
+
     """
-    **************************************************************************************************
-    Try to get the Langmuir from the filename and append to area dictionary for making the uptake plot
-    **************************************************************************************************
-    """
+     **************************************************************************************************
+     Try to get the Langmuir from the filename and append to area dictionary for making the uptake plot
+     **************************************************************************************************
+     """
     try:
         file_added = re.search('.*([0-9]\.[0-9]+)', filename).group(1)
         try:
@@ -419,6 +418,13 @@ for file in file_path1:
     except AttributeError:
         file_added = float(0)
         # file_added = filename
+
+    # PLOTTING
+    areas, data = plot_same_masses(dict__values=dict_values, file_name=filename, new__file__read=new_file_read,
+                             area_dict=area_dict, data_dict=data_dict, file_added=file_added)
+    temp_df.append(new_file_read)
+    fname_lst.append(filename)
+
 
     areas['L'].append(file_added)
 
