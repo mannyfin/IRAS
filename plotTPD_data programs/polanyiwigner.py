@@ -14,7 +14,7 @@ def polanyi_wigner(T, init_coverage, Edes, beta, order, nu=None, disp=False):
         nu  = order_dict.get(order,1e13)
     dNdT = np.zeros((T.shape[0], len(init_coverage)))
 
-    coverage_lst = []
+    coverage_lst = np.zeros((T.shape[0], len(init_coverage)))
 
     # for looping over multiple coverages
     for idx1, coverage in enumerate(init_coverage):
@@ -28,15 +28,16 @@ def polanyi_wigner(T, init_coverage, Edes, beta, order, nu=None, disp=False):
             # dNdT[idx][idx1] = nu/(beta)*(np.float_power(coverage,order))*np.exp(-Edes/(R*val))
 
             # this may be needed for debugging:
-            if idx % 5 == 0:
-                print(dNdT[idx][idx1])
-                print('nu: {0}, \nbeta: {1},\ncoverage: {2},\nexp term: {3}, \nT: {4}'
-                      .format(nu, beta, coverage,np.exp(-Edes / (R * val)), val))
+            # if idx % 5 == 0:
+            #     print(dNdT[idx][idx1])
+            #     print('nu: {0}, \nbeta: {1},\ncoverage: {2},\nexp term: {3}, \nT: {4}'
+            #           .format(nu, beta, coverage,np.exp(-Edes / (R * val)), val))
             if coverage <= 0:
                 coverage = 0
-                coverage_lst.append(coverage)
+                dNdT[idx][idx1] = 0
+                coverage_lst[idx][idx1] = coverage
             else:
-                coverage_lst.append(coverage)
+                coverage_lst[idx][idx1] = coverage
                 coverage -= val*dNdT[idx][idx1]
 
     fig, ax = plt.subplots()
@@ -64,11 +65,11 @@ def polanyi_wigner(T, init_coverage, Edes, beta, order, nu=None, disp=False):
     # return hv.Curve(polanyi_wigner(T, init_coverage, Edes, beta, order, nu))
     return
 
-order = 0
+order = 2
 Edes = 30e3 #j/mol, a good value is 50e3
-T = np.arange(1,500,1)
-# initial_coverage=[1e15, 5e14, 2e14]
-initial_coverage=[2e14]
+T = np.arange(1,500,0.01)
+initial_coverage=[1e15, 5e14, 2e14]
+# initial_coverage=[2e14]
 beta = 3
 
 out = polanyi_wigner(T, initial_coverage, Edes, beta, order, disp=True)
