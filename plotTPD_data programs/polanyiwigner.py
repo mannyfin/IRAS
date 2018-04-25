@@ -14,34 +14,48 @@ def polanyi_wigner(T, init_coverage, Edes, beta, order, nu=None, disp=False):
         nu  = order_dict.get(order,1e13)
     dNdT = np.zeros((T.shape[0], len(init_coverage)))
 
-    coverage = init_coverage
+    coverage_lst = []
 
+    # for looping over multiple coverages
     for idx1, coverage in enumerate(init_coverage):
-
+        # for a particular coverage, loop over T
         for idx, val in enumerate(T):
 
             dNdT[idx][idx1] = nu/(beta)*(coverage**order)*np.exp(-Edes/(R*val))
             # dNdT[idx][idx1] = nu/(beta)*(np.float_power(coverage,order))*np.exp(-Edes/(R*val))
-            if coverage <=0:
+            if coverage <= 0:
                 coverage = 0
+                coverage_lst.append(coverage)
             else:
+                coverage_lst.append(coverage)
                 coverage -= val*dNdT[idx][idx1]
 
     fig, ax = plt.subplots()
     ax.plot(T, dNdT)
-
+    plt.xlabel('Temperature')
+    plt.ylabel('dN/dT')
+    fig1, ax1 = plt.subplots()
+    ax1.plot(T, coverage_lst)
     if disp is True:
         plt.show()
     else:
         return
 
+    # test
+    cov = np.array(coverage_lst)
+    out = cov[:,np.newaxis]*dNdT
+    # assert len(out) == len(T)
+    # fig2, ax2 = plt.subplots()
+    # ax2.plot(T,out)
+
     # return hv.Curve(polanyi_wigner(T, init_coverage, Edes, beta, order, nu))
     return
 
-order = 1
-Edes = 100e3 #j/mol
-T = np.arange(100,500,0.1)
-initial_coverage=[1e15, 5e14, 2e14]
+order = 0
+Edes = 50e3 #j/mol, a good value is 50e3
+T = np.arange(1,1000,1)
+# initial_coverage=[1e15, 5e14, 2e14]
+initial_coverage=[2e14]
 beta = 3
 
 out = polanyi_wigner(T, initial_coverage, Edes, beta, order, disp=True)
