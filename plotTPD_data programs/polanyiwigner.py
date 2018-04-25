@@ -21,8 +21,17 @@ def polanyi_wigner(T, init_coverage, Edes, beta, order, nu=None, disp=False):
         # for a particular coverage, loop over T
         for idx, val in enumerate(T):
 
+
+            # TODO: issue for zero order in that at some point coverage = 0 but the exp decreases as T increases
             dNdT[idx][idx1] = nu/(beta)*(coverage**order)*np.exp(-Edes/(R*val))
+            # print(dNdT[idx][idx1])
             # dNdT[idx][idx1] = nu/(beta)*(np.float_power(coverage,order))*np.exp(-Edes/(R*val))
+
+            # this may be needed for debugging:
+            if idx % 5 == 0:
+                print(dNdT[idx][idx1])
+                print('nu: {0}, \nbeta: {1},\ncoverage: {2},\nexp term: {3}, \nT: {4}'
+                      .format(nu, beta, coverage,np.exp(-Edes / (R * val)), val))
             if coverage <= 0:
                 coverage = 0
                 coverage_lst.append(coverage)
@@ -36,14 +45,18 @@ def polanyi_wigner(T, init_coverage, Edes, beta, order, nu=None, disp=False):
     plt.ylabel('dN/dT')
     fig1, ax1 = plt.subplots()
     ax1.plot(T, coverage_lst)
+
+    # # test
+    # fig2, ax2 = plt.subplots()
+    # cov = np.array(coverage_lst)
+    # out = cov[:,np.newaxis]*dNdT
+    # ax2.plot(T,out)
     if disp is True:
         plt.show()
     else:
         return
 
-    # test
-    cov = np.array(coverage_lst)
-    out = cov[:,np.newaxis]*dNdT
+
     # assert len(out) == len(T)
     # fig2, ax2 = plt.subplots()
     # ax2.plot(T,out)
@@ -52,8 +65,8 @@ def polanyi_wigner(T, init_coverage, Edes, beta, order, nu=None, disp=False):
     return
 
 order = 0
-Edes = 50e3 #j/mol, a good value is 50e3
-T = np.arange(1,1000,1)
+Edes = 30e3 #j/mol, a good value is 50e3
+T = np.arange(1,500,1)
 # initial_coverage=[1e15, 5e14, 2e14]
 initial_coverage=[2e14]
 beta = 3
