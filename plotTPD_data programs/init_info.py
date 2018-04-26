@@ -86,6 +86,16 @@ elif single_molecule_name == 'Guaiacol' or 'Furfural':
 # 'Furfural': (130,250), --> mono + multi
 # 'Furfural': (150,250), --> old
 
+
+# UPDATED 4252018
+# 'GUA': (150,375) -> total
+# 'GUA' : (150,208)-> multilayer
+# 'GUA': (260,3375) -> recombinative peak
+# 'GUA': (208,260) -> 2nd physisorbed layer
+
+
+
+
 # add dict values here:
 dict_values = dict({'1.538': 'H2',
                     '1.839': 'H2',
