@@ -1,1 +1,14 @@
 https://www.omega.com/techref/pdf/z202.pdf
+
+the coefficients in this forum may help
+
+http://control.com/thread/944685960#944685960
+
+T(deg.C)=((a3x+a2)x+a1)x+a0
+x= mV (millivolts)
+
+Coefficients:
+a0 = -9.744966
+a1 = 65.600825
+a2 = -1.0236416
+a3 = 0.02537307
