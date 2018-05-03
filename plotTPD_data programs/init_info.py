@@ -51,7 +51,7 @@ if single_molecule_name == 'Acetic acid':
     "HOAc"
     temp_values = dict({'H2': (190,570),
                         'Water': (280, 330),
-                        'CO': (330,570),
+                        'CO': (360,500),
                         'CO2': (320,570),
                         'HOAc': (130,300),
                         })
