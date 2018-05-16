@@ -29,14 +29,14 @@ monochrome = False
 "Axes limits on plots, and whether to use them"
 # Display of temp range on plots. These limits are null if there is more than one column unless otherwise specified
 
-use_temp_limits = False
-low_temp = 120
-high_temp = 800
+use_temp_limits = True
+low_temp = 110
+high_temp = 600
 
 "Molecule name"
-# single_molecule_name = 'Acetic acid'
+single_molecule_name = 'Acetic acid'
 # single_molecule_name = 'Guaiacol'
-single_molecule_name = 'Furfural'
+# single_molecule_name = 'Furfural'
 
 "Saturation areas of a reference molecule"
 # sat_CO_area_Pt = 2253432
@@ -49,11 +49,11 @@ surface = 'Pt(100)'
 "to calculate areas under peaks put in the temp range values"
 if single_molecule_name == 'Acetic acid':
     "HOAc"
-    temp_values = dict({'H2': (190,570),
+    temp_values = dict({'H2': (190, 570),
                         'Water': (280, 330),
-                        'CO': (360,500),
-                        'CO2': (320,570),
-                        'HOAc': (130,300),
+                        'CO': (360, 500),
+                        'CO2': (320, 570),
+                        'HOAc': (130, 300),
                         })
 
 # sat_CO_area = 2253432
