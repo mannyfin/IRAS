@@ -8,6 +8,8 @@ import os
 
 colnames = ['Wavenumber', 'Intensity']
 
+export_me = False
+
 # Select the rest
 root = tk.Tk()
 root.withdraw()
@@ -19,6 +21,8 @@ os.chdir(pathlocation)
 
 fig, ax = plt.subplots()
 filelist = []
+
+
 ir_writer = pd.ExcelWriter('IR.xlsx')
 temp_df = []
 cols = []
@@ -31,6 +35,7 @@ for file in file_path1:
     filelist.append(file)
     # puts all the IR files together in an excel file
     cols.append(file[-5:])
+
     IR_spectra.to_excel(ir_writer,sheet_name=cols[-1])
     temp_df.append(IR_spectra)
 
