@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 import pandas as pd
 
+
 def norm_df(df):
     norm_ = (df - df.min())/(df.max() - df.min())
     return norm_

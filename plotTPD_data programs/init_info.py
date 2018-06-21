@@ -30,8 +30,8 @@ monochrome = False
 # Display of temp range on plots. These limits are null if there is more than one column unless otherwise specified
 
 use_temp_limits = True
-low_temp = 110
-high_temp = 600
+low_temp = 100
+high_temp = 800
 
 "Molecule name"
 single_molecule_name = 'Acetic acid'
