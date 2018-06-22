@@ -13,13 +13,13 @@ export = False
 "suppress plots"
 suppress_plots = False
 "Perform a background slope subtraction of the data"
-slope_subtract = True
+slope_subtract = False
 
 "legend, on or off"
 legend_disp = 'on'
 
 "Plot the experiment TPD file"
-plot_whole_file = True
+plot_whole_file = False
 
 "Where is the monolayer? This will search the filenames for the exposure and plot those particular plots in red"
 monolayer = '0.04 L'
@@ -30,8 +30,8 @@ monochrome = False
 # Display of temp range on plots. These limits are null if there is more than one column unless otherwise specified
 
 use_temp_limits = True
-low_temp = 100
-high_temp = 800
+low_temp = 120
+high_temp = 600
 
 "Molecule name"
 single_molecule_name = 'Acetic acid'
@@ -41,8 +41,8 @@ single_molecule_name = 'Acetic acid'
 "Saturation areas of a reference molecule"
 # sat_CO_area_Pt = 2253432
 
-# surface = 'Ni(110)'
-surface = 'Pt(100)'
+surface = 'Ni(110)'
+# surface = 'Pt(100)'
 
 ###########################################################################################
 
@@ -50,7 +50,7 @@ surface = 'Pt(100)'
 if single_molecule_name == 'Acetic acid':
     "HOAc"
     temp_values = dict({'H2': (190, 570),
-                        'Water': (280, 330),
+                        'Water': (280, 335),
                         'CO': (360, 500),
                         'CO2': (320, 570),
                         'HOAc': (130, 300),
