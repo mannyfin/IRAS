@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7934e857-690a-48c6-9432-6dbff041ce63" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Type C calibrations/TypeC calcs corrected.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Type C calibrations/TypeC calcs corrected.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotTPD_data programs/IR _plot.py" beforeDir="false" afterPath="$PROJECT_DIR$/plotTPD_data programs/IR _plot.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,13 +15,16 @@
     <SUITE FILE_PATH="coverage/IRAS$untitled.coverage" NAME="untitled Coverage Results" MODIFIED="1526364022087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Type C calibrations" />
     <SUITE FILE_PATH="coverage/IRAS$IR__plot.coverage" NAME="IR _plot Coverage Results" MODIFIED="1528161110508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/plotTPD_data programs" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="IRAS" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="IR _plot.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/plotTPD_data programs/IR _plot.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="80">
-              <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -95,9 +96,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="188" />
-    <option name="y" value="69" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="293" />
+    <option name="y" value="-15" />
     <option name="width" value="1867" />
     <option name="height" value="1116" />
   </component>
@@ -131,6 +132,19 @@
               <item name="HOAc work" type="462c0819:PsiDirectoryNode" />
               <item name="HOAc vapor phase 642018" type="462c0819:PsiDirectoryNode" />
               <item name="vapor phase 642018" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IRAS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IRAS" type="462c0819:PsiDirectoryNode" />
+              <item name="HOAc work" type="462c0819:PsiDirectoryNode" />
+              <item name="Ni(110)" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IRAS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IRAS" type="462c0819:PsiDirectoryNode" />
+              <item name="HOAc work" type="462c0819:PsiDirectoryNode" />
+              <item name="Ni(110)" type="462c0819:PsiDirectoryNode" />
+              <item name="IRAS chamber" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="IRAS" type="b2602c69:ProjectViewProjectNode" />
@@ -469,24 +483,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="188" y="69" width="1867" height="1116" extended-state="1" />
-    <editor active="true" />
+    <frame x="2774" y="230" width="1867" height="1116" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32890624" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5047695" side_tool="true" weight="0.45078126" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49841017" visible="true" weight="0.42535788" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32962587" />
       <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.49682036" weight="0.47648263" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49523053" weight="0.34350547" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23851688" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49841017" weight="0.42535788" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49523053" visible="true" weight="0.3425358" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4976672" visible="true" weight="0.24405092" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32822084" />
       <window_info anchor="right" auto_hide="true" x="865" y="344" width="830" height="712" id="SciView" order="3" show_stripe_button="false" type="FLOATING" weight="0.3298887" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" sideWeight="0.5023328" side_tool="true" weight="0.24405092" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.40062597" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -494,6 +506,7 @@
       <window_info anchor="right" id="Data View" order="3" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32822084" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -548,27 +561,23 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Type C calibrations/untitled.py">
+    <entry file="file://$PROJECT_DIR$/plotTPD_data programs/IR _plot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1241">
-          <caret line="73" column="54" selection-start-line="73" selection-start-column="54" selection-end-line="73" selection-end-column="54" />
+        <state relative-caret-position="119">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Type C calibrations/untitled.py">
+    <entry file="file://$PROJECT_DIR$/plotTPD_data programs/IR _plot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1241">
-          <caret line="73" column="54" selection-start-line="73" selection-start-column="54" selection-end-line="73" selection-end-column="54" />
+        <state relative-caret-position="119">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Type C calibrations/untitled.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2159">
-          <caret line="127" column="17" selection-start-line="127" selection-start-column="17" selection-end-line="127" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Type C calibrations/untitled.py" />
+    <entry file="file://$PROJECT_DIR$/Type C calibrations/untitled.py" />
+    <entry file="file://$PROJECT_DIR$/Type C calibrations/untitled.py" />
     <entry file="file://$PROJECT_DIR$/Type C calibrations/Untitled.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
@@ -576,13 +585,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Type C calibrations/untitled.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-633">
-          <caret line="73" column="54" selection-start-line="73" selection-start-column="54" selection-end-line="73" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Type C calibrations/untitled.py" />
     <entry file="file://$PROJECT_DIR$/Furfural work/furfural vapor phase 642018/vapor phase 642018/furfural to 950 cm.dpt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -593,7 +596,7 @@
     <entry file="file://$PROJECT_DIR$/plotTPD_data programs/IR _plot.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
-          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
         </state>
       </provider>
     </entry>
