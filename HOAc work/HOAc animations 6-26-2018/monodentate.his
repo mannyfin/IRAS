@@ -1,0 +1,9 @@
+assign atom ({0}) "C" {0.6009685 -1.0423048 0.0}
+assign atom ({6}) "X"
+assign connect  ({5}) ({7})
+assign atom ({9}) "O"
+assign atom ({11}) "O"
+assign atom ({10}) "X"
+assign atom ({13}) "X"
+assign bond [{5}] "2"
+assign atom ({12}) "X"
