@@ -115,42 +115,6 @@
               <item name="IRAS" type="b2602c69:ProjectViewProjectNode" />
               <item name="IRAS" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="IRAS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IRAS" type="462c0819:PsiDirectoryNode" />
-              <item name="HOAc work" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IRAS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IRAS" type="462c0819:PsiDirectoryNode" />
-              <item name="HOAc work" type="462c0819:PsiDirectoryNode" />
-              <item name="HOAc vapor phase 642018" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IRAS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IRAS" type="462c0819:PsiDirectoryNode" />
-              <item name="HOAc work" type="462c0819:PsiDirectoryNode" />
-              <item name="HOAc vapor phase 642018" type="462c0819:PsiDirectoryNode" />
-              <item name="vapor phase 642018" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IRAS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IRAS" type="462c0819:PsiDirectoryNode" />
-              <item name="HOAc work" type="462c0819:PsiDirectoryNode" />
-              <item name="Ni(110)" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IRAS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IRAS" type="462c0819:PsiDirectoryNode" />
-              <item name="HOAc work" type="462c0819:PsiDirectoryNode" />
-              <item name="Ni(110)" type="462c0819:PsiDirectoryNode" />
-              <item name="IRAS chamber" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IRAS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IRAS" type="462c0819:PsiDirectoryNode" />
-              <item name="plotTPD_data programs" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -483,7 +447,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2774" y="230" width="1867" height="1116" extended-state="0" />
+    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32890624" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5047695" side_tool="true" weight="0.45078126" />
@@ -491,8 +455,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32962587" />
       <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.49682036" weight="0.47648263" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49841017" weight="0.42535788" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49523053" visible="true" weight="0.3425358" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4976672" visible="true" weight="0.24405092" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49523053" visible="true" weight="0.26212832" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4976672" visible="true" weight="0.17527822" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" auto_hide="true" x="865" y="344" width="830" height="712" id="SciView" order="3" show_stripe_button="false" type="FLOATING" weight="0.3298887" />
