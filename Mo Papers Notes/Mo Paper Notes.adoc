@@ -1,0 +1,6 @@
+## Below are some short notes on some papers
+
+### Vibrational Characterization of Thiophene Decomposition on the Mo(100) surface
+- Thiophene is a 5 membered ring with sulfur. Think furan, but with S instead of O.
+- saturation coverage = 0.3 ML
+- low coverage, only H2 desorption

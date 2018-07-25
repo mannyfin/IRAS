@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7934e857-690a-48c6-9432-6dbff041ce63" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Mo Papers Notes/Mo Paper Notes.adoc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/occond" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,8 +25,8 @@
       <file leaf-file-name="IR _plot.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/plotTPD_data programs/IR _plot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+            <state relative-caret-position="680">
+              <caret line="45" column="20" lean-forward="true" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -87,6 +89,7 @@
         <option value="$PROJECT_DIR$/Type C calibrations/Untitled.ipynb" />
         <option value="$PROJECT_DIR$/Furfural work/furfural vapor phase 642018/vapor phase 642018/furfural 256 scan.0 - Copy.dpt" />
         <option value="$PROJECT_DIR$/plotTPD_data programs/IR _plot.py" />
+        <option value="$PROJECT_DIR$/Mo Papers Notes/Mo Paper Notes.adoc" />
       </list>
     </option>
   </component>
@@ -114,6 +117,43 @@
             <path>
               <item name="IRAS" type="b2602c69:ProjectViewProjectNode" />
               <item name="IRAS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IRAS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IRAS" type="462c0819:PsiDirectoryNode" />
+              <item name="Furfural work" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IRAS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IRAS" type="462c0819:PsiDirectoryNode" />
+              <item name="Furfural work" type="462c0819:PsiDirectoryNode" />
+              <item name="Pt(100)" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IRAS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IRAS" type="462c0819:PsiDirectoryNode" />
+              <item name="GUA work" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IRAS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IRAS" type="462c0819:PsiDirectoryNode" />
+              <item name="GUA work" type="462c0819:PsiDirectoryNode" />
+              <item name="Pt(100)" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IRAS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IRAS" type="462c0819:PsiDirectoryNode" />
+              <item name="GUA work" type="462c0819:PsiDirectoryNode" />
+              <item name="Pt(100)" type="462c0819:PsiDirectoryNode" />
+              <item name="IR chamber" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IRAS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IRAS" type="462c0819:PsiDirectoryNode" />
+              <item name="GUA work" type="462c0819:PsiDirectoryNode" />
+              <item name="Pt(100)" type="462c0819:PsiDirectoryNode" />
+              <item name="IR chamber" type="462c0819:PsiDirectoryNode" />
+              <item name="TPD data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -453,10 +493,10 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5047695" side_tool="true" weight="0.45078126" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32962587" />
-      <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.49682036" weight="0.47648263" />
+      <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.49682036" weight="0.47574335" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49841017" weight="0.42535788" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49523053" visible="true" weight="0.26212832" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4976672" visible="true" weight="0.17527822" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49523053" visible="true" weight="0.26212832" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4976672" visible="true" weight="0.17885533" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" auto_hide="true" x="865" y="344" width="830" height="712" id="SciView" order="3" show_stripe_button="false" type="FLOATING" weight="0.3298887" />
@@ -532,6 +572,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mo Papers Notes/Mo Paper Notes.adoc">
+      <provider selected="true" editor-type-id="split-provider[text-editor;AsciiDocPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="102">
+            <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plotTPD_data programs/IR _plot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plotTPD_data programs/IR _plot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plotTPD_data programs/IR _plot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/plotTPD_data programs/IR _plot.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -557,10 +631,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Furfural work/Pt(100)/notes.adoc">
+      <provider selected="true" editor-type-id="split-provider[text-editor;AsciiDocPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HOAc work/Ni(110)/Quick Notes/Notes.adoc">
+      <provider selected="true" editor-type-id="split-provider[text-editor;AsciiDocPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mo Papers Notes/Mo Paper Notes.adoc">
+      <provider selected="true" editor-type-id="split-provider[text-editor;AsciiDocPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="102">
+            <caret line="6" selection-start-line="6" selection-end-line="6" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/plotTPD_data programs/IR _plot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        <state relative-caret-position="680">
+          <caret line="45" column="20" lean-forward="true" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
         </state>
       </provider>
     </entry>
