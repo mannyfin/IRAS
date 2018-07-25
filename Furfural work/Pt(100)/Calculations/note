@@ -1,3 +1,6 @@
 plot 0.05L for all masses - done
 
 2.2e-8 30s for IR - done
+
+label masses in TPD plot by amu
+

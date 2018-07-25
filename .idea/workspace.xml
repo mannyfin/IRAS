@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7934e857-690a-48c6-9432-6dbff041ce63" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/Calculations/note" beforeDir="false" afterPath="$PROJECT_DIR$/Furfural work/Pt(100)/Calculations/note" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HOAc work/HOAc vapor phase 642018/vapor phase 642018/IR.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/HOAc work/HOAc vapor phase 642018/vapor phase 642018/IR.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Methyl Radicals work/Notes/Chemisorption and Reaction Characteristics of Methyl Radicals on Cu(110)" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Methyl Radicals work/Notes/Methyl free radical source paper notes.adoc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Methyl Radicals work/Notes/thoughts.adoc" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,7 +24,7 @@
         <entry file="file://$PROJECT_DIR$/plotTPD_data programs/IR _plot.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="45" column="20" lean-forward="true" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
+              <caret line="45" column="20" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -38,8 +33,8 @@
         <entry file="file://$PROJECT_DIR$/Furfural work/Pt(100)/Calculations/note">
           <provider selected="true" editor-type-id="split-provider[text-editor;AsciiDocPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="34">
-                <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+              <first_editor relative-caret-position="102">
+                <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
               </first_editor>
               <second_editor />
             </state>
@@ -491,6 +486,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="185" y="57" width="1867" height="1116" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32890624" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5047695" side_tool="true" weight="0.45078126" />
@@ -498,8 +494,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32962587" />
       <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.49682036" weight="0.47574335" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49841017" weight="0.42535788" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49523053" visible="true" weight="0.3425358" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4976672" visible="true" weight="0.24903154" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49523053" visible="true" weight="0.3425358" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4976672" visible="true" weight="0.24903154" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" auto_hide="true" x="865" y="344" width="830" height="712" id="SciView" order="3" show_stripe_button="false" type="FLOATING" weight="0.3298887" />
@@ -676,15 +672,15 @@
     <entry file="file://$PROJECT_DIR$/plotTPD_data programs/IR _plot.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="45" column="20" lean-forward="true" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
+          <caret line="45" column="20" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Furfural work/Pt(100)/Calculations/note">
       <provider selected="true" editor-type-id="split-provider[text-editor;AsciiDocPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="34">
-            <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+          <first_editor relative-caret-position="102">
+            <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
           </first_editor>
           <second_editor />
         </state>
