@@ -3,4 +3,9 @@
 ### Vibrational Characterization of Thiophene Decomposition on the Mo(100) surface
 - Thiophene is a 5 membered ring with sulfur. Think furan, but with S instead of O.
 - saturation coverage = 0.3 ML
-- low coverage, only H2 desorption
+- low coverage, only H~2~ desorption
+
+
+### Determination of surface sites for hydrogen chemisorption over Mo(100) single crystal surfaces by using LEED, TDS and HREELS
+- H~2~ coverage on Mo(100) is 2.0 ML
+- H~2~ binds to two fold bridge sites, evidenced by LEED, and HREELS, and TPD
