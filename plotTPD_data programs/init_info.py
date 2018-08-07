@@ -34,15 +34,16 @@ low_temp = 120
 high_temp = 600
 
 "Molecule name"
-single_molecule_name = 'Acetic acid'
-# single_molecule_name = 'Guaiacol'
+# single_molecule_name = 'Acetic acid'
+single_molecule_name = 'Guaiacol'
 # single_molecule_name = 'Furfural'
 
 "Saturation areas of a reference molecule"
 # sat_CO_area_Pt = 2253432
+# sat_H2_area_Pt = 274878 #average of 400 L and 2400 L H2 exposures using 220 and 450 as limits of integration
 
-surface = 'Ni(110)'
-# surface = 'Pt(100)'
+# surface = 'Ni(110)'
+surface = 'Pt(100)'
 
 ###########################################################################################
 
@@ -117,12 +118,14 @@ dict_values = dict({'1.538': 'H2',
                     '14.600': 'CH4',
                     '14.613': 'CH4',
                     '14.708': 'CH4',
+                    '14.745': 'CH4',
                     '15.166': 'CH4',
                     '15.880': '16',
                     '17.074': 'Water',
                     '17.526': 'Water',
                     '17.577': 'Water',
                     '17.627': 'Water',
+                    '17.664': 'Water',
                     '17.798': 'Water',
                     '17.701': 'Water',
                     '17.737': 'Water',
@@ -155,12 +158,14 @@ dict_values = dict({'1.538': 'H2',
                     '28.920': 'Formaldehyde',
                     '28.936': 'Formaldehyde',
                     '28.920': 'Formaldehyde',
+                    '29.015': 'Formaldehyde',
                     '29.393': 'Formaldehyde',
                     '30.937': '31-ol',
                     '30.949': '31-ol',
                     '30.708': '31-ol',
                     '30.759': '31-ol',
                     '31.296': '31-ol',
+                    '32.000':'32',
                     '39.000': '39',
                     '39.': '39',
                     '40.816': 'Propylene',
@@ -181,6 +186,7 @@ dict_values = dict({'1.538': 'H2',
                     '44.784': 'CO2',
                     '44.818': 'CO2_2',
                     '45.058': 'Acetic acid45',
+                    '56.522': '56.522',
                     '57.407': 'Acetone',
                     '60.047': 'HOAc',
                     '60.080': 'HOAc',
@@ -192,10 +198,12 @@ dict_values = dict({'1.538': 'H2',
                     '78.871': 'Benzene',
                     '78.8': 'Benzene',
                     '82.865': 'Me-furan',
+                    '84.866': '84.866',
                     '95.0': 'Phenol',
                     '95.042': 'Phenol',
                     '97.084': 'Furfural',
                     '111.496': 'Catechol',
+                    '111.548': 'Catechol',
                     'Hydrogen': 'H2',
                     'Ketene': 'Ketene',
                     'Water': 'Water',
