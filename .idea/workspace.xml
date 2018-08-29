@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7934e857-690a-48c6-9432-6dbff041ce63" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/IRAS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/IRAS.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -375,10 +373,10 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5047695" side_tool="true" weight="0.45078126" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3483871" />
-      <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.49682036" visible="true" weight="0.265285" />
+      <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.49682036" weight="0.265285" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49841017" weight="0.42451614" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49523053" weight="0.3419355" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4976672" visible="true" weight="0.29961306" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49523053" visible="true" weight="0.34093264" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4976672" visible="true" weight="0.29961306" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" x="865" y="344" width="830" height="712" id="SciView" order="3" weight="0.7145488" />
