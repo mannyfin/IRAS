@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7934e857-690a-48c6-9432-6dbff041ce63" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/plotTPD_data programs/JCAMP_DX_Reader.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HOAc work/HOAc vapor phase 642018/vapor phase 642018/IR.xlsx" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,11 +33,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="init_info.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="init_info.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plotTPD_data programs/init_info.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="52" column="38" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
+            <state relative-caret-position="153">
+              <caret line="44" column="21" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NIST 64-19-7-IR.jdx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HOAc work/HOAc vapor phase 642018/NIST 64-19-7-IR.jdx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-357">
+              <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JCAMP_DX_Reader.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/plotTPD_data programs/JCAMP_DX_Reader.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IR ref_spectra plot.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plotTPD_data programs/IR ref_spectra plot.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="61" column="13" lean-forward="true" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -101,6 +136,7 @@
         <option value="$PROJECT_DIR$/HOAc work/Ni(110)/IRAS chamber/HOAc results on Ni and SnNi in IRAS chamber/IRASmain.py" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_7.py" />
         <option value="$PROJECT_DIR$/plotTPD_data programs/init_info.py" />
+        <option value="$PROJECT_DIR$/plotTPD_data programs/JCAMP_DX_Reader.py" />
       </list>
     </option>
   </component>
@@ -113,11 +149,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="311" />
-    <option name="y" value="86" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="54" />
+    <option name="y" value="-15" />
     <option name="width" value="1869" />
-    <option name="height" value="1103" />
+    <option name="height" value="1376" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -125,7 +161,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -136,38 +171,29 @@
             <path>
               <item name="IRAS" type="b2602c69:ProjectViewProjectNode" />
               <item name="IRAS" type="462c0819:PsiDirectoryNode" />
-              <item name="GUA work" type="462c0819:PsiDirectoryNode" />
+              <item name="HOAc work" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="IRAS" type="b2602c69:ProjectViewProjectNode" />
               <item name="IRAS" type="462c0819:PsiDirectoryNode" />
-              <item name="GUA work" type="462c0819:PsiDirectoryNode" />
-              <item name="Pt(100)" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IRAS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IRAS" type="462c0819:PsiDirectoryNode" />
-              <item name="GUA work" type="462c0819:PsiDirectoryNode" />
-              <item name="Pt(100)" type="462c0819:PsiDirectoryNode" />
-              <item name="IR chamber" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IRAS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IRAS" type="462c0819:PsiDirectoryNode" />
-              <item name="GUA work" type="462c0819:PsiDirectoryNode" />
-              <item name="Pt(100)" type="462c0819:PsiDirectoryNode" />
-              <item name="IR chamber" type="462c0819:PsiDirectoryNode" />
-              <item name="IR data" type="462c0819:PsiDirectoryNode" />
+              <item name="HOAc work" type="462c0819:PsiDirectoryNode" />
+              <item name="HOAc vapor phase 642018" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="IRAS" type="b2602c69:ProjectViewProjectNode" />
               <item name="IRAS" type="462c0819:PsiDirectoryNode" />
               <item name="plotTPD_data programs" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="IRAS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IRAS" type="462c0819:PsiDirectoryNode" />
+              <item name="theses and more" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -372,19 +398,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="311" y="86" width="1869" height="1103" extended-state="0" />
+    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32890624" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5047695" side_tool="true" weight="0.45078126" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3483871" />
-      <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.49682036" weight="0.265285" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="7" sideWeight="0.49682036" visible="true" weight="0.6032864" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49841017" weight="0.42451614" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49523053" visible="true" weight="0.34093264" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4976672" visible="true" weight="0.3095633" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49523053" weight="0.34093264" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4976672" visible="true" weight="0.22734499" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" x="865" y="344" width="830" height="712" id="SciView" order="3" weight="0.7145488" />
+      <window_info anchor="right" x="865" y="344" width="830" height="712" id="SciView" order="3" type="SLIDING" weight="0.11565978" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5023328" side_tool="true" weight="0.24405092" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.40062597" />
@@ -450,6 +477,34 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/plotTPD_data programs/IR _plot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="45" column="20" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plotTPD_data programs/init_info.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" column="38" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plotTPD_data programs/IR _plot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="45" column="20" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plotTPD_data programs/init_info.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" column="38" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/plotTPD_data programs/IR _plot.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
@@ -657,8 +712,35 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_7.py" />
     <entry file="file://$PROJECT_DIR$/plotTPD_data programs/init_info.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="52" column="38" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
+        <state relative-caret-position="153">
+          <caret line="44" column="21" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HOAc work/HOAc vapor phase 642018/NIST 64-19-7-IR.jdx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-357">
+          <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plotTPD_data programs/IR ref_spectra plot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="61" column="13" lean-forward="true" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plotTPD_data programs/JCAMP_DX_Reader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
