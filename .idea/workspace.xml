@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7934e857-690a-48c6-9432-6dbff041ce63" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/plotTPD_data programs/HertzKnudsen.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HOAc work/Pt(100)/IR chamber/Pt100 acetic acid seq anneal/Data for IR of HOAc onPt(100) Upper chamber/Plotted IR HOAc on Pt(100).xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/HOAc work/Pt(100)/IR chamber/Pt100 acetic acid seq anneal/Data for IR of HOAc onPt(100) Upper chamber/Plotted IR HOAc on Pt(100).xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HOAc work/Pt(100)/IR chamber/Pt100 acetic acid seq anneal/IR HOAc uptake.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/HOAc work/Pt(100)/IR chamber/Pt100 acetic acid seq anneal/IR HOAc uptake.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HOAc work/Pt(100)/TPD plots HOAc Pt(100).xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/HOAc work/Pt(100)/TPD plots HOAc Pt(100).xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotTPD_data programs/Acetic Acid Area_output.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/plotTPD_data programs/Acetic Acid Area_output.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotTPD_data programs/JCAMP_DX_Reader.py" beforeDir="false" afterPath="$PROJECT_DIR$/plotTPD_data programs/JCAMP_DX_Reader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotTPD_data programs/init_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/plotTPD_data programs/init_info.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotTPD_data programs/polanyi wigner deconv.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/plotTPD_data programs/polanyi wigner deconv.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,7 +13,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/IRAS$plot_TPD_main.coverage" NAME="plot_TPD_main Coverage Results" MODIFIED="1539733038075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/plotTPD_data programs" />
-    <SUITE FILE_PATH="coverage/IRAS$HertzKnudsen.coverage" NAME="HertzKnudsen Coverage Results" MODIFIED="1539828891275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/plotTPD_data programs" />
+    <SUITE FILE_PATH="coverage/IRAS$HertzKnudsen.coverage" NAME="HertzKnudsen Coverage Results" MODIFIED="1539830571183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/plotTPD_data programs" />
     <SUITE FILE_PATH="coverage/IRAS$IRASmain.coverage" NAME="IRASmain Coverage Results" MODIFIED="1533652961021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HOAc work/Ni(110)/IRAS chamber/HOAc results on Ni and SnNi in IRAS chamber" />
     <SUITE FILE_PATH="coverage/IRAS$untitled.coverage" NAME="untitled Coverage Results" MODIFIED="1526364022087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Type C calibrations" />
     <SUITE FILE_PATH="coverage/IRAS$polanyiwigner.coverage" NAME="polanyiwigner Coverage Results" MODIFIED="1538684504355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/plotTPD_data programs" />
@@ -74,8 +66,8 @@
       <file leaf-file-name="HertzKnudsen.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/plotTPD_data programs/HertzKnudsen.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+            <state relative-caret-position="119">
+              <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -422,10 +414,10 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32890624" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5047695" side_tool="true" weight="0.45078126" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3483871" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.34749454" />
       <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.49682036" weight="0.41721132" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49841017" visible="true" weight="0.42374727" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49523053" weight="0.45969498" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49841017" weight="0.42374727" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49523053" visible="true" weight="0.45969498" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4976672" visible="true" weight="0.2457356" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
@@ -836,8 +828,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/plotTPD_data programs/HertzKnudsen.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        <state relative-caret-position="119">
+          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
         </state>
       </provider>
     </entry>

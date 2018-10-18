@@ -17,7 +17,7 @@ sticking = 1
 P = Z*sqrt(2*pi*m*kb*T)/sticking
 
 P_torr = P*760/101325
-print(P_torr)
+print('Pressure is: {:.4}'.format(P_torr))
 
 
 
