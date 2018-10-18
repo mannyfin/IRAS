@@ -11,8 +11,10 @@ m = 28/(Na*1000)
 kb = 1.38066e-23
 # Temperature, Kelvin
 T = 300
+# sticking coefficient
+sticking = 1
 #  Hertz knudsen equation. The pressure is in Pascal
-P = Z*sqrt(2*pi*m*kb*T)
+P = Z*sqrt(2*pi*m*kb*T)/sticking
 
 P_torr = P*760/101325
 print(P_torr)
