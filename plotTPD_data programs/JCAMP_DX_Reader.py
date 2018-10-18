@@ -8,7 +8,7 @@ os.chdir('HOAc work\\HOAc vapor phase 642018')
 fname = 'NIST 64-19-7-IR.jdx'
 
 # extract header information
-header_info = pd.read_csv('NIST 64-19-7-IR.jdx', sep='##', header=0, nrows = 36, engine='python')
+header_info = pd.read_csv(fname, sep='##', header=0, nrows = 36, engine='python')
 temp = header_info.iloc[:,1]
 temp.dropna(inplace=True)
 
@@ -19,7 +19,7 @@ for row in temp:
     if 'DELTAX=' in row:
         dx = float(row[len('DELTAX='):])
 
-data = pd.read_csv('NIST 64-19-7-IR.jdx', sep=' ', skiprows=37, skipfooter=1, header=None, index_col=0, engine='python')
+data = pd.read_csv(fname, sep=' ', skiprows=37, skipfooter=1, header=None, index_col=0, engine='python')
 
 
 wave = np.concatenate(np.array(list(map(lambda x: np.array(x)+dx*np.array([0,1,2,3,4]), data.index.values))))
