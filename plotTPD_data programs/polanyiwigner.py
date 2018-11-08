@@ -68,9 +68,9 @@ def polanyi_wigner(T, init_coverage, Edes, beta, order, nu=None, disp=False):
     # return hv.Curve(polanyi_wigner(T, init_coverage, Edes, beta, order, nu))
     return
 
-order = 2
-Edes = 173e3 #j/mol, a good value is 50e3
-T = np.arange(1,700,0.01)
+order = 1
+Edes = 102.59e3 #j/mol, a good value is 50e3
+T = np.arange(100,500,0.01)
 initial_coverage=[1e15, 5e14, 2e14]
 # initial_coverage=[2e14]
 beta = 3

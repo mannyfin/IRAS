@@ -13,13 +13,13 @@ export = False
 "suppress plots"
 suppress_plots = False
 "Perform a background slope subtraction of the data"
-slope_subtract = False
+slope_subtract = True
 
 "legend, on or off"
 legend_disp = 'off'
 
 "Plot the experiment TPD file"
-plot_whole_file = False
+plot_whole_file = True
 
 "Where is the monolayer? This will search the filenames for the exposure and plot those particular plots in red"
 monolayer = '0.04 L'
@@ -31,19 +31,19 @@ monochrome = False
 
 use_temp_limits = True
 low_temp = 100
-high_temp = 600
+high_temp = 800
 
 "Molecule name"
-single_molecule_name = 'Acetic acid'
+# single_molecule_name = 'Acetic acid'
 # single_molecule_name = 'Guaiacol'
-# single_molecule_name = 'Furfural'
+single_molecule_name = 'Furfural'
 
 "Saturation areas of a reference molecule"
 # sat_CO_area_Pt = 2253432
 # sat_H2_area_Pt = 274878 #average of 400 L and 2400 L H2 exposures using 220 and 450 as limits of integration
 
-surface = 'Ni(110)'
-# surface = 'Pt(100)'
+# surface = 'Ni(110)'
+surface = 'Pt(100)'
 
 ###########################################################################################
 
