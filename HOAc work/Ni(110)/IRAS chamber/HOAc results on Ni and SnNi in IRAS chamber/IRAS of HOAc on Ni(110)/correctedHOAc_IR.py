@@ -29,10 +29,10 @@ f4.set_index(colnames[0], inplace=True)
 f5 = pd.read_csv("Ni(110) 1e-9Torr60s -350K.0.dpt", '\t', header=None, names=colnames)
 f5.set_index(colnames[0], inplace=True)
 
-f6 = pd.read_csv("Ni(110) 1e-9Torr60s -450K.0.dpt", '\t', header=None, names=colnames)
+f6 = pd.read_csv("Ni(110) 1e-9Torr60s -450K.1.dpt", '\t', header=None, names=colnames)
 f6.set_index(colnames[0], inplace=True)
 
-f7 = pd.read_csv("Ni(110) 1e-9Torr60s -550K.0.dpt", '\t', header=None, names=colnames)
+f7 = pd.read_csv("Ni(110) 1e-9Torr60s -550K.1.dpt", '\t', header=None, names=colnames)
 f7.set_index(colnames[0], inplace=True)
 
 k90_60s = -1*f7
@@ -57,7 +57,7 @@ plt.show()
 
 # uncomment if needed
 
-# writer = pd.ExcelWriter('HOAc_Ni(110) IR plot.xlsx')
-# cat_15s.to_excel(writer, sheet_name='Sheet1')
-# cat_60s.to_excel(writer, sheet_name='Sheet1', startcol=5)
-# writer.save()
+writer = pd.ExcelWriter('HOAc_Ni(110) IR plot2.xlsx')
+cat_15s.to_excel(writer, sheet_name='Sheet1')
+cat_60s.to_excel(writer, sheet_name='Sheet1', startcol=5)
+writer.save()

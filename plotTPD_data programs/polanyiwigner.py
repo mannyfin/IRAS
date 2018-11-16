@@ -42,7 +42,7 @@ def polanyi_wigner(T, init_coverage, Edes, beta, order, nu=None, disp=False):
 
     fig, ax = plt.subplots()
     ax.plot(T, dNdT)
-    plt.xlabel('Temperature')
+    plt.xlabel('Temperature (K)')
     plt.ylabel('dN/dT')
     fig1, ax1 = plt.subplots()
     ax1.plot(T, coverage_lst)
@@ -58,7 +58,7 @@ def polanyi_wigner(T, init_coverage, Edes, beta, order, nu=None, disp=False):
     if disp is True:
         plt.show()
     else:
-        return
+        return 0
 
 
     # assert len(out) == len(T)
@@ -66,12 +66,13 @@ def polanyi_wigner(T, init_coverage, Edes, beta, order, nu=None, disp=False):
     # ax2.plot(T,out)
 
     # return hv.Curve(polanyi_wigner(T, init_coverage, Edes, beta, order, nu))
-    return
+    return 0
 
-order = 1
-Edes = 102.59e3 #j/mol, a good value is 50e3
+order = 2
+Edes = 53e3 #j/mol, a good value is 50e3
 T = np.arange(100,500,0.01)
 initial_coverage=[1e15, 5e14, 2e14]
+
 # initial_coverage=[2e14]
 beta = 3
 
