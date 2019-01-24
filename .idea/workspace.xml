@@ -2,53 +2,58 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7934e857-690a-48c6-9432-6dbff041ce63" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/plotTPD_data programs/Furfural Area_output1.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/0.05 L Furfural TPD_fig.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Furfural work/Pt(100)/0.05 L Furfural TPD_fig.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/Furfural IR Fig.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Furfural work/Pt(100)/Furfural IR Fig.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/IR data/furfural Pt(100) IR seq anneal/Furfural IR Fig.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Furfural work/Pt(100)/IR data/furfural Pt(100) IR seq anneal/Furfural IR Fig.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Furfural work/Pt(100)/IR data/furfural_1e-08_30 sec _0.15 L_seq anneal_anneal/IR.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Furfural work/Pt(100)/IR data/furfural_1e-08_30 sec _0.15 L_seq anneal_anneal/IR.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HOAc work/Ni(110)/IRAS HOAc on SnNi.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/HOAc work/Ni(110)/IRAS HOAc on SnNi.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HOAc work/Ni(110)/TPD PLOT_HOAc_9.6E-09_15 s_724 TPD_output Acetic Acid.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/HOAc work/Ni(110)/TPD PLOT_HOAc_9.6E-09_15 s_724 TPD_output Acetic Acid.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HOAc work/Ni(110)/TPD Plot HOAc_2e-9_30s_SnNi .xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/HOAc work/Ni(110)/TPD Plot HOAc_2e-9_30s_SnNi .xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HOAc work/Pt(100)/TPD plots HOAc Pt(100).xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/HOAc work/Pt(100)/TPD plots HOAc Pt(100).xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotTPD_data programs/Acetic Acid Area_output.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/plotTPD_data programs/Acetic Acid Area_output.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotTPD_data programs/Furfural Area_output.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/plotTPD_data programs/Furfural Area_output.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pandas/_libs/parsers.pyx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plotTPD_data programs/Furfural Area_output.xlsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/plotTPD_data programs/init_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/plotTPD_data programs/init_info.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotTPD_data programs/polanyiwigner.py" beforeDir="false" afterPath="$PROJECT_DIR$/plotTPD_data programs/polanyiwigner.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/IRAS$plot_TPD_main.coverage" NAME="plot_TPD_main Coverage Results" MODIFIED="1540272122490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/plotTPD_data programs" />
     <SUITE FILE_PATH="coverage/IRAS$HertzKnudsen.coverage" NAME="HertzKnudsen Coverage Results" MODIFIED="1539830805063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/plotTPD_data programs" />
-    <SUITE FILE_PATH="coverage/IRAS$IRASmain.coverage" NAME="IRASmain Coverage Results" MODIFIED="1533652961021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HOAc work/Ni(110)/IRAS chamber/HOAc results on Ni and SnNi in IRAS chamber" />
-    <SUITE FILE_PATH="coverage/IRAS$untitled.coverage" NAME="untitled Coverage Results" MODIFIED="1526364022087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Type C calibrations" />
     <SUITE FILE_PATH="coverage/IRAS$polanyiwigner.coverage" NAME="polanyiwigner Coverage Results" MODIFIED="1539853047163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/plotTPD_data programs" />
+    <SUITE FILE_PATH="coverage/IRAS$plot_TPD_main.coverage" NAME="plot_TPD_main Coverage Results" MODIFIED="1547007776978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/plotTPD_data programs" />
+    <SUITE FILE_PATH="coverage/IRAS$remove_wiggle.coverage" NAME="remove_wiggle Coverage Results" MODIFIED="1548293687560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GaP" />
     <SUITE FILE_PATH="coverage/IRAS$IR__plot.coverage" NAME="IR _plot Coverage Results" MODIFIED="1528161110508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/plotTPD_data programs" />
+    <SUITE FILE_PATH="coverage/IRAS$untitled.coverage" NAME="untitled Coverage Results" MODIFIED="1526364022087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Type C calibrations" />
+    <SUITE FILE_PATH="coverage/IRAS$IRASmain.coverage" NAME="IRASmain Coverage Results" MODIFIED="1533652961021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HOAc work/Ni(110)/IRAS chamber/HOAc results on Ni and SnNi in IRAS chamber" />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="IRAS" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="init_info.py" pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plotTPD_data programs/init_info.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="41" column="26" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
+              <caret line="44" column="21" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="plot_TPD_main.py" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GaP/remove_wiggle.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-435">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plotTPD_data programs/plot_TPD_main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="1972">
+              <caret line="127" column="17" selection-start-line="127" selection-start-column="17" selection-end-line="127" selection-end-column="17" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
@@ -77,6 +82,7 @@
       <find>onpress</find>
       <find>sat_CO_area</find>
       <find>y_true</find>
+      <find>Uptake</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -96,7 +102,6 @@
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_2.py" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_4.py" />
         <option value="$PROJECT_DIR$/plotTPD_data programs/test code.py" />
-        <option value="$PROJECT_DIR$/plotTPD_data programs/plot_TPD_main.py" />
         <option value="$PROJECT_DIR$/GUA work/GUA papers/Quick Notes on papers/Calcs.adoc" />
         <option value="$PROJECT_DIR$/HOAc work/HOAc Papers/Quick Notes/Notes.adoc" />
         <option value="$PROJECT_DIR$/README.adoc" />
@@ -119,24 +124,16 @@
         <option value="$PROJECT_DIR$/plotTPD_data programs/HertzKnudsen.py" />
         <option value="$PROJECT_DIR$/plotTPD_data programs/langmuir.py" />
         <option value="$PROJECT_DIR$/plotTPD_data programs/polanyiwigner.py" />
+        <option value="$PROJECT_DIR$/plotTPD_data programs/plot_TPD_main.py" />
         <option value="$PROJECT_DIR$/plotTPD_data programs/init_info.py" />
+        <option value="$PROJECT_DIR$/GaP/remove_wiggle.py" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2929" />
-    <option name="y" value="192" />
-    <option name="width" value="1869" />
-    <option name="height" value="1022" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1273" />
+    <option name="width" value="1294" />
+    <option name="height" value="1407" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -144,6 +141,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -154,45 +152,16 @@
             <path>
               <item name="IRAS" type="b2602c69:ProjectViewProjectNode" />
               <item name="IRAS" type="462c0819:PsiDirectoryNode" />
-              <item name="HOAc work" type="462c0819:PsiDirectoryNode" />
+              <item name="GaP" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="IRAS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IRAS" type="462c0819:PsiDirectoryNode" />
-              <item name="HOAc work" type="462c0819:PsiDirectoryNode" />
-              <item name="HOAc vapor phase 642018" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IRAS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IRAS" type="462c0819:PsiDirectoryNode" />
-              <item name="HOAc work" type="462c0819:PsiDirectoryNode" />
-              <item name="Pt(100)" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IRAS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IRAS" type="462c0819:PsiDirectoryNode" />
-              <item name="HOAc work" type="462c0819:PsiDirectoryNode" />
-              <item name="Pt(100)" type="462c0819:PsiDirectoryNode" />
-              <item name="MB chamber TPD" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IRAS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IRAS" type="462c0819:PsiDirectoryNode" />
-              <item name="HOAc work" type="462c0819:PsiDirectoryNode" />
-              <item name="Pt(100)" type="462c0819:PsiDirectoryNode" />
-              <item name="MB chamber TPD" type="462c0819:PsiDirectoryNode" />
-              <item name="HOAc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IRAS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IRAS" type="462c0819:PsiDirectoryNode" />
-              <item name="plotTPD_data programs" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -220,7 +189,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.plot_TPD_main">
+  <component name="RunManager" selected="Python.remove_wiggle">
     <configuration name="HertzKnudsen" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="IRAS" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -239,25 +208,9 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="IR _plot" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="IRAS" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/plotTPD_data programs" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/plotTPD_data programs/IR _plot.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="IRASmain" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="IRAS" />
@@ -277,6 +230,9 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="plot_TPD_main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="IRAS" />
@@ -296,6 +252,9 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="polanyiwigner" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="IRAS" />
@@ -315,6 +274,31 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="remove_wiggle" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="IRAS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GaP" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GaP/remove_wiggle.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="IRAS" type="Python.Ipnb" factoryName="Jupyter Notebook">
       <module name="IRAS" />
@@ -333,13 +317,14 @@
       <option name="ipnbHost" value="127.0.0.1" />
       <option name="ipnbPort" value="8888" />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+    <configuration default="true" type="js.build_tools.gulp">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <gulpfile />
       <tasks />
       <arguments />
       <envs />
+      <method v="2" />
     </configuration>
     <configuration default="true" type="tests" factoryName="Nosetests">
       <module name="IRAS" />
@@ -355,22 +340,22 @@
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;.&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Jupyter Notebook.IRAS" />
+      <item itemvalue="Python.HertzKnudsen" />
+      <item itemvalue="Python.IRASmain" />
       <item itemvalue="Python.plot_TPD_main" />
       <item itemvalue="Python.polanyiwigner" />
-      <item itemvalue="Python.IR _plot" />
-      <item itemvalue="Python.IRASmain" />
-      <item itemvalue="Python.HertzKnudsen" />
+      <item itemvalue="Python.remove_wiggle" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.remove_wiggle" />
         <item itemvalue="Python.plot_TPD_main" />
         <item itemvalue="Python.polanyiwigner" />
         <item itemvalue="Python.HertzKnudsen" />
         <item itemvalue="Python.IRASmain" />
-        <item itemvalue="Python.IR _plot" />
       </list>
     </recent_temporary>
   </component>
@@ -384,8 +369,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1503721832146</updated>
+      <workItem from="1544617044267" duration="15000" />
+      <workItem from="1546586011518" duration="9288000" />
+      <workItem from="1547007150602" duration="1215000" />
+      <workItem from="1548065976603" duration="51000" />
+      <workItem from="1548066071395" duration="11000" />
+      <workItem from="1548278797828" duration="13268000" />
     </task>
     <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="23848000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -397,30 +391,31 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2552" y="195" width="1936" height="1056" extended-state="6" />
+    <frame x="1273" y="0" width="1294" height="1407" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32890624" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5047695" side_tool="true" weight="0.45078126" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.34749454" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="7" sideWeight="0.49682036" visible="true" weight="0.540305" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49841017" weight="0.42374727" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49523053" weight="0.45969498" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4976672" visible="true" weight="0.25373134" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" auto_hide="true" x="865" y="344" width="830" height="712" id="SciView" order="3" show_stripe_button="false" type="FLOATING" weight="0.3504699" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4976672" weight="0.29011345" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5023328" side_tool="true" weight="0.24405092" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32822084" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49841017" visible="true" weight="0.42307693" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39978212" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32890624" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49523053" weight="0.45937163" />
+      <window_info anchor="bottom" id="Python Console" order="8" sideWeight="0.49682036" weight="0.54160124" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.34749454" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5047695" side_tool="true" weight="0.45078126" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" id="Data View" order="3" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32822084" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" auto_hide="true" x="865" y="344" width="830" height="712" id="SciView" order="3" show_stripe_button="false" type="FLOATING" weight="0.3504699" />
+      <window_info anchor="right" id="Data View" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -451,9 +446,20 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -471,141 +477,9 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="123" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/plotTPD_data programs/init_info.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plotTPD_data programs/plot_TPD_main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plotTPD_data programs/IR _plot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="45" column="20" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plotTPD_data programs/init_info.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="52" column="38" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plotTPD_data programs/IR _plot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="45" column="20" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plotTPD_data programs/init_info.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="52" column="38" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plotTPD_data programs/IR _plot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="45" column="20" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plotTPD_data programs/init_info.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="52" column="38" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plotTPD_data programs/IR _plot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="45" column="20" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plotTPD_data programs/init_info.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="52" column="38" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plotTPD_data programs/IR _plot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="45" column="20" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plotTPD_data programs/init_info.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="52" column="38" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plotTPD_data programs/IR _plot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="45" column="20" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plotTPD_data programs/init_info.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="52" column="38" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plotTPD_data programs/IR _plot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="45" column="20" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plotTPD_data programs/IR _plot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="45" column="20" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mo Papers Notes/Mo Paper Notes.adoc">
-      <provider selected="true" editor-type-id="split-provider[text-editor;AsciiDocPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="187">
-            <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plotTPD_data programs/IR _plot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="45" column="20" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Furfural work/Pt(100)/Calculations/note">
       <provider selected="true" editor-type-id="split-provider[text-editor;AsciiDocPreviewEditor]">
         <state split_layout="SPLIT">
@@ -616,54 +490,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plotTPD_data programs/IR _plot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mo Papers Notes/Mo Paper Notes.adoc">
-      <provider selected="true" editor-type-id="split-provider[text-editor;AsciiDocPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="102">
-            <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plotTPD_data programs/IR _plot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plotTPD_data programs/IR _plot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plotTPD_data programs/IR _plot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plotTPD_data programs/IR _plot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Type C calibrations/untitled.py" />
-    <entry file="file://$PROJECT_DIR$/Type C calibrations/untitled.py" />
-    <entry file="file://$PROJECT_DIR$/Type C calibrations/untitled.py" />
     <entry file="file://$PROJECT_DIR$/Type C calibrations/Untitled.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
@@ -795,19 +621,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plotTPD_data programs/plot_TPD_main.py">
+    <entry file="file://$PROJECT_DIR$/pandas/_libs/parsers.pyx" />
+    <entry file="file://I:/Anaconda3_6/Lib/site-packages/matplotlib/cbook/deprecation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="416">
+          <caret line="106" selection-start-line="106" selection-end-line="106" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/plotTPD_data programs/init_info.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="41" column="26" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
+          <caret line="44" column="21" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plotTPD_data programs/plot_TPD_main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1972">
+          <caret line="127" column="17" selection-start-line="127" selection-start-column="17" selection-end-line="127" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GaP/remove_wiggle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-435">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

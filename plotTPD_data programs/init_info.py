@@ -56,8 +56,8 @@ if single_molecule_name == 'Acetic acid':
                         'CO2': (320, 570),
                         'HOAc': (130, 300),
                         })
-
-# sat_CO_area = 2253432
+# using UTI 100C
+# sat_CO_area = 2253432 # Pt(100)
 # sat_CO_area = 75759996 # Ni(110)
 
 # to calculate areas under peaks put in the temp range value
@@ -104,6 +104,7 @@ dict_values = dict({'1.538': 'H2',
                     '1.922': 'H2',
                     '1.933': 'H2',
                     '1.942': 'H2',
+                    '1.962': 'H2',
                     '1.9708': 'H2',
                     '1.971': 'H2',
                     '1.994': 'H2',
