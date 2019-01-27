@@ -9,10 +9,11 @@ First off, change the stuff in the "Preliminary stuff" section
 #################################### Preliminary stuff ####################################
 
 "Export the data"
-export = False
+export = True
 "suppress plots"
 suppress_plots = False
 "Perform a background slope subtraction of the data"
+# if slope subtract is true, then it also performs subtraction between the temp_values variable for integration below
 slope_subtract = True
 
 "legend, on or off"
@@ -39,8 +40,15 @@ high_temp = 800
 single_molecule_name = 'Furfural'
 
 "Saturation areas of a reference molecule"
+"These aren't used in calculations for this program at the moment, but are definitely used in additional processing."
+# On IR Chamber with UTI 100C
 # sat_CO_area_Pt = 2253432
 # sat_H2_area_Pt = 274878 #average of 400 L and 2400 L H2 exposures using 220 and 450 as limits of integration
+
+# on MB Chamber with Hiden RGA:
+# H2 coverage on Pt(100) is 1.1E15 molecules/cm^2 @200K ads
+sat_H2_area_Pt = 6.09407E-06  # See file "Combined H2 TPD with areas calculated.xlsx" The integrands were 215-450 K
+sat_CO_area_Pt = 2.09037E-05  # See file "Combined CO TPD with areas calculated.xlsx" The integrands were 215-550 K
 
 # surface = 'Ni(110)'
 surface = 'Pt(100)'
