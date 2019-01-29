@@ -3,8 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="7934e857-690a-48c6-9432-6dbff041ce63" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plotTPD_data programs/0 L TPD_output Furfural.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plotTPD_data programs/0.1 L TPD_output Furfural.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plotTPD_data programs/0.13 L TPD_output Furfural.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plotTPD_data programs/0.14 L TPD_output Furfural.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plotTPD_data programs/0.15 L TPD_output Furfural.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plotTPD_data programs/0.16 L TPD_output Furfural.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plotTPD_data programs/0.2 L TPD_output Furfural.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plotTPD_data programs/0.3 L TPD_output Furfural.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plotTPD_data programs/0.4 L TPD_output Furfural.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plotTPD_data programs/0.8 L TPD_output Furfural.xlsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/plotTPD_data programs/Furfural Area_output.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/plotTPD_data programs/Furfural Area_output.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/plotTPD_data programs/init_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/plotTPD_data programs/init_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plotTPD_data programs/polanyi wigner deconv.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/plotTPD_data programs/polanyi wigner deconv.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plotTPD_data programs/polanyiwigner.py" beforeDir="false" afterPath="$PROJECT_DIR$/plotTPD_data programs/polanyiwigner.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +26,8 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/IRAS$HertzKnudsen.coverage" NAME="HertzKnudsen Coverage Results" MODIFIED="1539830805063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/plotTPD_data programs" />
-    <SUITE FILE_PATH="coverage/IRAS$polanyiwigner.coverage" NAME="polanyiwigner Coverage Results" MODIFIED="1539853047163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/plotTPD_data programs" />
-    <SUITE FILE_PATH="coverage/IRAS$plot_TPD_main.coverage" NAME="plot_TPD_main Coverage Results" MODIFIED="1548605245574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/plotTPD_data programs" />
+    <SUITE FILE_PATH="coverage/IRAS$polanyiwigner.coverage" NAME="polanyiwigner Coverage Results" MODIFIED="1548717997209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/plotTPD_data programs" />
+    <SUITE FILE_PATH="coverage/IRAS$plot_TPD_main.coverage" NAME="plot_TPD_main Coverage Results" MODIFIED="1548631352899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/plotTPD_data programs" />
     <SUITE FILE_PATH="coverage/IRAS$remove_wiggle.coverage" NAME="remove_wiggle Coverage Results" MODIFIED="1548293687560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GaP" />
     <SUITE FILE_PATH="coverage/IRAS$IR__plot.coverage" NAME="IR _plot Coverage Results" MODIFIED="1528161110508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/plotTPD_data programs" />
     <SUITE FILE_PATH="coverage/IRAS$untitled.coverage" NAME="untitled Coverage Results" MODIFIED="1526364022087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Type C calibrations" />
@@ -26,11 +38,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plotTPD_data programs/init_info.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-884">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="68">
+              <caret line="64" column="43" selection-start-line="64" selection-start-column="43" selection-end-line="64" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/plotTPD_data programs/polanyiwigner.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="131" column="40" selection-start-line="131" selection-start-column="40" selection-end-line="131" selection-end-column="40" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://I:/Dropbox/Dropbox/Researchers/E Scoullos/Code/LabViewtest/TPD/Eurotherm_Functions.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1683">
+              <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -38,7 +71,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GaP/remove_wiggle.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
+            <state relative-caret-position="238">
               <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
             </state>
           </provider>
@@ -47,10 +80,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plotTPD_data programs/plot_TPD_main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1">
-              <caret line="455" column="12" selection-start-line="455" selection-start-column="6" selection-end-line="455" selection-end-column="12" />
+            <state relative-caret-position="-731">
+              <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="27" />
               <folding>
-                <element signature="e#0#20#0" expanded="true" />
+                <element signature="e#944#1385#0" />
+                <element signature="e#1491#3106#0" />
+                <element signature="e#3210#7401#0" />
+                <element signature="e#9374#10835#0" />
+                <element signature="e#10889#11833#0" />
               </folding>
             </state>
           </provider>
@@ -81,6 +118,7 @@
       <find>slope_subtract</find>
       <find>sat_CO_area_Pt</find>
       <find>export</find>
+      <find>filedialog</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -121,18 +159,18 @@
         <option value="$PROJECT_DIR$/plotTPD_data programs/JCAMP_DX_Reader.py" />
         <option value="$PROJECT_DIR$/plotTPD_data programs/HertzKnudsen.py" />
         <option value="$PROJECT_DIR$/plotTPD_data programs/langmuir.py" />
-        <option value="$PROJECT_DIR$/plotTPD_data programs/polanyiwigner.py" />
         <option value="$PROJECT_DIR$/plotTPD_data programs/plot_TPD_main.py" />
         <option value="$PROJECT_DIR$/GaP/remove_wiggle.py" />
         <option value="$PROJECT_DIR$/plotTPD_data programs/init_info.py" />
+        <option value="$PROJECT_DIR$/plotTPD_data programs/polanyiwigner.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="376" />
-    <option name="y" value="164" />
-    <option name="width" value="1869" />
-    <option name="height" value="1022" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="2551" />
+    <option name="y" value="258" />
+    <option name="width" value="2576" />
+    <option name="height" value="1416" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -162,14 +200,7 @@
             <path>
               <item name="IRAS" type="b2602c69:ProjectViewProjectNode" />
               <item name="IRAS" type="462c0819:PsiDirectoryNode" />
-              <item name="Furfural work" type="462c0819:PsiDirectoryNode" />
-              <item name="Pt(100)" type="462c0819:PsiDirectoryNode" />
-              <item name="Calculations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IRAS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IRAS" type="462c0819:PsiDirectoryNode" />
-              <item name="GaP" type="462c0819:PsiDirectoryNode" />
+              <item name="GUA work" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="IRAS" type="b2602c69:ProjectViewProjectNode" />
@@ -178,7 +209,120 @@
             </path>
             <path>
               <item name="IRAS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IRAS" type="462c0819:PsiDirectoryNode" />
+              <item name="TPD sims with fixes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IRAS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IRAS" type="462c0819:PsiDirectoryNode" />
+              <item name="TPD sims with fixes" type="462c0819:PsiDirectoryNode" />
+              <item name="Archive" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IRAS" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="IRAS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="IRAS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IRAS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Anaconda3_6" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IRAS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Anaconda3_6" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IRAS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Anaconda3_6" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IRAS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Anaconda3_6" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="numpy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IRAS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Anaconda3_6" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="numpy" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IRAS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IRAS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IRAS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="numpy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IRAS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="numpy" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IRAS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IRAS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="numpy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IRAS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="numpy" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -211,7 +355,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.plot_TPD_main">
+  <component name="RunManager" selected="Python.polanyiwigner">
     <configuration name="HertzKnudsen" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="IRAS" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -373,9 +517,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.polanyiwigner" />
         <item itemvalue="Python.plot_TPD_main" />
         <item itemvalue="Python.remove_wiggle" />
-        <item itemvalue="Python.polanyiwigner" />
         <item itemvalue="Python.HertzKnudsen" />
         <item itemvalue="Python.IRASmain" />
       </list>
@@ -397,12 +541,13 @@
       <workItem from="1548065976603" duration="51000" />
       <workItem from="1548066071395" duration="11000" />
       <workItem from="1548278797828" duration="14076000" />
-      <workItem from="1548601207833" duration="3503000" />
+      <workItem from="1548601207833" duration="22348000" />
+      <workItem from="1548710080781" duration="2994000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28159000" />
+    <option name="totallyTimeSpent" value="49998000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -414,21 +559,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
-    <editor active="true" />
+    <frame x="2551" y="258" width="2576" height="1416" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4976672" visible="true" weight="0.19674087" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4976672" visible="true" weight="0.19833069" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5023328" side_tool="true" weight="0.24405092" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32822084" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49841017" visible="true" weight="0.42244738" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978212" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49841017" visible="true" weight="0.42166796" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3990647" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32890624" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49523053" weight="0.31800467" />
-      <window_info anchor="bottom" id="Python Console" order="8" sideWeight="0.49682036" weight="0.54160124" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49523053" weight="0.44193298" />
+      <window_info anchor="bottom" id="Python Console" order="8" sideWeight="0.49682036" weight="0.3593141" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.34749454" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5047695" side_tool="true" weight="0.45078126" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
@@ -536,16 +680,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Furfural work/Pt(100)/notes.adoc">
-      <provider selected="true" editor-type-id="split-provider[text-editor;AsciiDocPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="51">
-            <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Methyl Radicals work/Notes/thoughts.adoc" />
     <entry file="file://$PROJECT_DIR$/myplot.png" />
     <entry file="file://$PROJECT_DIR$/HOAc work/Ni(110)/IRAS chamber/HOAc results on Ni and SnNi in IRAS chamber/IRASmain.py">
@@ -615,25 +749,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plotTPD_data programs/polanyi wigner deconv.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HOAc work/Pt(100)/HOAc Paper Notes.adoc">
       <provider selected="true" editor-type-id="split-provider[text-editor;AsciiDocPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor />
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plotTPD_data programs/polanyiwigner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1156">
-          <caret line="71" column="13" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -652,27 +772,93 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/plotTPD_data programs/polanyi wigner deconv.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Furfural work/Pt(100)/notes.adoc">
+      <provider selected="true" editor-type-id="split-provider[text-editor;AsciiDocPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="51">
+            <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://I:/Dropbox/Dropbox/Researchers/E Scoullos/Code/pdf_merge.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TPD sims with fixes/Archive/TPD.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4607">
+          <caret line="38" column="22" lean-forward="true" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://I:/Anaconda3_6/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="308" selection-start-line="308" selection-end-line="308" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://I:/Anaconda3_6/Lib/site-packages/numpy/lib/function_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="1926" selection-start-line="1926" selection-end-line="1926" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/GaP/remove_wiggle.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
+        <state relative-caret-position="238">
           <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plotTPD_data programs/plot_TPD_main.py">
+    <entry file="file://I:/Dropbox/Dropbox/Researchers/E Scoullos/Code/LabViewtest/TPD/Eurotherm_Functions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
-          <caret line="455" column="12" selection-start-line="455" selection-start-column="6" selection-end-line="455" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-1683">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/plotTPD_data programs/init_info.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-884">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="68">
+          <caret line="64" column="43" selection-start-line="64" selection-start-column="43" selection-end-line="64" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plotTPD_data programs/plot_TPD_main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-731">
+          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="27" />
+          <folding>
+            <element signature="e#944#1385#0" />
+            <element signature="e#1491#3106#0" />
+            <element signature="e#3210#7401#0" />
+            <element signature="e#9374#10835#0" />
+            <element signature="e#10889#11833#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plotTPD_data programs/polanyiwigner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="131" column="40" selection-start-line="131" selection-start-column="40" selection-end-line="131" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
